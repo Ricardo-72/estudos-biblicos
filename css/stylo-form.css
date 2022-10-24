@@ -1,0 +1,163 @@
+@charset "utf-8";
+@import url('http://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@font-face {
+    font-family: 'android';
+    src: url('../fontes/idroid/IDroid.otf') format('opentype');
+    font-weight: normal;
+}
+
+/*
+#c5ebd6
+#83e1ad
+#3ddc84
+#2fa865
+#1a5c37
+#063d1e
+*/
+
+:root {
+    --cor0: #ebe5c5;
+    --cor1: #83e1ad;
+    --cor2: #3ddc84;
+    --cor3: #2fa865;
+    --cor4: #1a5c37;
+    --cor5: #063d1e;
+    --cor7: #0e2b03;
+    --cor9: #022702;
+    --cor6: #F2181F;
+    --cor8: #E9F500;
+
+    --font-cabecalho: Comic, Sans MS;
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque:'Bebas Neue', cursive;
+    --fonte-android: 'Android', cursive; 
+}
+*{
+    margin: 0;
+    padding: 0%;
+  }
+  body{
+    min-width: 300px;
+    max-width: 900ch;
+    margin: auto;
+  }
+  form{
+    margin: auto;
+    display: block;
+    width: 39%;
+    height: 70vh;
+    border: solid 3px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px black;
+
+
+  
+  }
+  h1{
+    color: var(--cor0);
+    font-family: var(--fonte-android);
+    font-weight: bold;
+    font-size: 1.3em;
+    background: linear-gradient(45deg, var(--cor3) 30%, var(--cor9));
+    text-indent: 8px;
+    text-align: center;
+    margin-bottom: 2px;
+    border-radius: 5px;
+    
+  }
+  input{
+    width: 300px;
+    margin-top: 15px;
+    margin-right: 2px;
+    margin-bottom: 2px;
+    margin-left: 2px;
+    height: 18px;
+    float: right;
+    font-size: 15px;
+    text-align: center;
+    background: linear-gradient(45deg, var(--cor3) 30%, var(--cor9));
+    color: var(--cor0);
+    border-radius: 4px;
+    box-shadow: 2px 2px 5px black;
+  }
+  label{
+   
+    width: 200px;
+    height: 22px;
+    margin-top: 15px;
+    margin-right: 2px;
+    margin-left: 2px;
+    margin-bottom: 2px;
+    float: left;
+    color: var(--cor0);
+    background: linear-gradient(45deg, var(--cor3) 30%, var(--cor9));
+    border-radius: 3px;
+    box-shadow: 2px 2px 5px black;
+  }
+  #btn-limpar{
+    margin-top: 10px;
+    height: 30px;
+    
+    background: var(--cor6);
+    border: none;
+    color: var(--cor0);
+    font-weight: bold;
+  }
+  #btn-responder{
+    height: 35;
+    background: var(--cor3);
+    color: var(--cor9);
+    font-weight: bold;
+  }
+  
+  button {
+    display: flex;
+    width: 50vh;
+    height: 25px;
+    margin-top: 15px;
+    margin-left: 80px;
+    margin-bottom: 2px;
+    background-color: var(--cor0);
+    border: none;
+    padding: 5px;
+  }
+  @media ((max-width: 800px)) {
+    form{
+        width: 80%;
+        height: 100vh;
+    }
+    form input{
+        display: block;
+        margin: 1px 5px;
+        width: 97%;
+
+
+    }
+    form label{
+        width: 98%;
+        float: left;
+    }
+
+    #btn-limpar{
+        margin-top: 12px;
+        height: 30px;
+        
+        background: var(--cor6);
+        border: none;
+        color: var(--cor0);
+        font-weight: bold;
+      }
+      #btn-responder{
+        margin-top: 12px;
+        height: 35;
+        background: var(--cor3);
+        color: var(--cor9);
+        font-weight: bold;
+      }
+      #btn{
+        width: 50%;
+        margin-left: 30px;
+     
+
+        }
+    }

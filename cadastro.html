@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/pngwing.com.png">
+    <script type="Text/JavaScript" src=js/script.js></script>
+    <link rel="stylesheet" href="css/stylos.css">
+    <link rel="stylesheet" href="./css/stylo_menu.css">
+    <link rel="stylesheet" href="./css/stylo-form.css">
+    <title>I.A.D - FAMILIA EBD</title>
+  </head>
+<body>
+<a name="topo"></a>
+      <input type="checkbox" id="btn_menu">
+      <label for="btn_menu">&#9776;</label>
+  <nav class="menu">
+      <section id="logo">
+          <img src="img/logo-maringa.jpg" id="logo1" alt="logotipo">
+          <h1 id="titulo-pg">ESCOLA BÍBLICA</h1>
+      </section>
+      <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="estudos.html">Estudos</a>
+              <ul class="sub-menu">
+                  <li><a href="#">Homens</a></li>
+                  <li><a href="#">Mulheres</a></li>
+                  <li><a href="#">Jovens</a></li>
+                  <li><a href="#">Crianças</a></li>
+                  <li><a href="#">Diversos</a></li>
+              </ul>
+          </li>
+          <li><a href="departamentos.html">Ministérios</a>
+              <ul class="sub-menu">  
+                  <li><a href="#">Louvor</a></li>
+                  <li><a href="#">Infantil</a></li>
+                  <li><a href="#">Jovens</a></li>
+                  <li><a href="#">Senhoras</a></li>
+                  <li><a href="#">Varões</a></li>
+              </ul>
+          </li>
+          <li><a href="contato.html">Contatos</a></li>
+          <li><a href="Cadastro.html">Cadastro</a></li>
+      </ul>
+    </nav>
+    <h1>Cadastre-se aqui:</h1>
+      <form action="cadastro.php" method="post" autocomplete="on">
+        <input type="hidden" name="accessKey" value="">
+
+        <div>
+            <label for="inome" class="inputNome">Nome:</label>
+            <input type="text" id="inputNome" name="inome" required maxlength="500" minlength="300" placeholder="Informe seu Nome">
+            <span></span>
+        </div>
+
+        <div>
+          <label for="isobrenome" class="inputSobreNome">Sobre Nome:</label>
+          <input type="text" id="inputSobreNome" name="isobrenome" required maxlength="500" minlength="300" placeholder="Informe seu sobrenome">
+          <span></span>
+        </div>
+
+        <div>
+          <label for="ifone">Fone:</label>
+          <input type="text" id="fone" name="ifone" required maxlength="11" minlength="11" placeholder="Digite o número do seu celular">
+          <span></span>
+        </div>
+        <div>
+          <label for="email">e-mail:</label>
+          <input type="email" id="inputEmail" name="email" required maxlength="300" minlength="200" placeholder="Digite seu e-mail">
+          <span></span>
+      </div>
+        <label for="icargo" class="cargo">Cargo:</label>
+        <input type="text" id="cargo" name="icargo" required maxlength="100" minlength="50" placeholder="Cargo que ocupa na igreja">
+        <span></span>
+        <div>
+          <label for="iigreja" class="igreja">Igreja onde Congrega:</label>
+          <input type="text" id="igreja" name="iigreja" required maxlength="100" minlength="50" placeholder="Nome da igreja que Congrega">
+          <span></span>
+        </div>
+        <div>
+          <label for="isenha" class="senha">Senha:</label>
+          <input type="password" id="senha" name="isenha" placeholder="Mínimo de seis dígitos" required maxlength="8" minlength="6">
+          <span></span>
+        </div>
+        <div>
+          <label for="idia">Data de cadastro</label>
+          <input type="date" name="dia" id="idia" value="2022-09">
+        </div>
+        <div>
+          <label for="inota" class="nota">Nota:</label>
+          <input type="number" id="nota" name="inota" min="0" max="100" step ="0.1" placeholder="0 a 100">
+          <span></span>
+        </div>
+        <button id="btn">
+          <input type="submit" value="Enviar" id="btn-responder">
+          <input type="reset"  value="Limpar" id="btn-limpar">
+        </button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,28 @@
+  .header {
+        text-align: center;
+        font-size: 0.6rem;
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        color: #fff;
+        background-color: #b3b4b4;
+        }
+        #logo {
+        padding: 1.5em 0;
+        width: 14.5em;
+        }
+        .container-menu {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        background-color: #272B3A87;
+        }
+        .container-menu {
+        display: inline-block;
+        }
+        .container-item-menu a {
+        display: inline-block;
+        padding: 1.86em 1.42em;
+        }
+        +
+       
