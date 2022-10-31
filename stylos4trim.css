@@ -1005,7 +1005,7 @@ header {
     margin-top: -81px;
 }
 #detalhe{
-    margin-left: -151px;
+    margin-left: -101px;
     margin-top: -50px;
 }
 #detalhe h1{
@@ -1048,12 +1048,12 @@ header {
         border-radius: 5px;
 
     }
-    #detalhe .titulo-lateral{
+    .titulo-lateral{
         color: var(--cor0);
         font-family: var(--fonte-padrao);
         font-weight: bold;
         width: auto;
-        font-size: 1.1em;
+        font-size: 1.0em;
         background: linear-gradient(45deg, var(--cor3) 10%, var(--cor9));
         text-indent: 8px;
         text-align: center;
