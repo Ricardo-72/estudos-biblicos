@@ -135,7 +135,7 @@ label[for="btn_menu"]{
     right: 10px;
 
 }
-@media(max-width: 1020px ){
+@media(max-width: 800px ){
     label[for="btn_menu"]{
         display: block;
        margin: 5px;

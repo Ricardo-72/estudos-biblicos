@@ -605,6 +605,8 @@ main a{
     margin-top: 15px;
 } 
 .lateral{
+    display: block;
+    width: auto;
     background: none;
     list-style-type: '\2714\00a0\00a0';
     list-style-position: inside;
@@ -612,6 +614,8 @@ main a{
     font-size: 13px;
 }
 .lateral > ul li{
+    width: auto;
+    margin: auto;
     list-style-type: '\2714\00a0\00a0';
     list-style-position: inside;
     padding-top: 0px;
@@ -747,10 +751,6 @@ footer{
     right: 10px;
 
 }
-
-figure{
-    width: 50px;
-}
 footer figure img{
     width: 50px;
     height: 50px;
@@ -766,7 +766,7 @@ footer a{
     color: var(--cor3);
     font-size: 10px;
 }
-/*
+
 #menu-opcoes ul{
     font-family: var(--fonte-novo);
     display: flex;
@@ -801,7 +801,6 @@ footer a{
     box-shadow: 5px 5px 10px var(--cor8);
     transition: transform .5s, border 2s;
 }
-*/
 #rodape img{
     margin-left: 20px;
     width: 40px;
@@ -891,7 +890,6 @@ span
 #btn-responder:hover{
     opacity: 0.8;
 }
-/*
 header {
     box-sizing: border-box;
     display: flex;
@@ -902,7 +900,7 @@ header {
     align-items: center;
     justify-content: space-between;
     background-image: linear-gradient(to bottom, var(--cor5), var(--cor5));
-}*/
+}
 #titulo-pg{
     width: 100%;
     margin: 10px 100px;
@@ -918,12 +916,6 @@ header {
 }
 @media ((max-width: 800px)) {
    
-    .corpo{
-        display: inline-block;
-        position: relative;
-        margin: auto;
-        width: 50%;
-    }
     #cabecalho{
         margin-top: -75px;
     }
@@ -1007,6 +999,17 @@ header {
 #sinopse-1 p{
     text-align: center;
 }
+.corpo{
+    margin-top: -81px;
+}
+#detalhe{
+    margin-left: -191px;
+    margin-top: -50px;
+}
+#detalhe h1{
+    font-size: 15px;
+}
+
      @media (max-width: 640px) {
     header {
         padding: 0 5%;
@@ -1014,10 +1017,6 @@ header {
         justify-content: space-between;
         align-items: center;
     }
- .corpo{
-    display: inline-block;
-    width: auto;
-}
 
  #cultos,#eventos,#localizacao{
     font-size: 12px;
