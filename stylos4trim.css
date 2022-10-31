@@ -1009,6 +1009,9 @@ header {
 #detalhe h1{
     font-size: 15px;
 }
+.tema{
+    width: 172px;
+}
 
      @media (max-width: 640px) {
     header {
@@ -1020,6 +1023,9 @@ header {
 
  #cultos,#eventos,#localizacao{
     font-size: 12px;
+}
+.tema{
+    width: 172px;
 }
 }
 }
