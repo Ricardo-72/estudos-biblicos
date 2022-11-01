@@ -569,20 +569,20 @@ main a{
     width: 100%;
 }
 #detalhe{
-    width: 60%;
+    display: block;
+    width: 100%;
 }
-.lateral > {
+#detalhe.lateral {
     display: block;
     margin:  auto;
     padding: 0;
     float: left;
     font-size: 13px;
-    width: 100%;
+    width: auto;
     margin-top: 0;
     list-style-type: '\2714\00a0\00a0';
     list-style-position: inside;
 }
-
 .lateral ul li{
     margin-left: 5px;
     list-style-type: '\2714\00a0\00a0';
@@ -606,16 +606,8 @@ main a{
     font-weight: bold;
     margin-top: 15px;
 } 
-.lateral{
-    display: block;
-    width: auto;
-    background: none;
-    list-style-type: '\2714\00a0\00a0';
-    list-style-position: inside;
-    top:10px;
-    font-size: 13px;
-}
-.lateral > ul li{
+
+.lateral  ul li{
     width: auto;
     margin: auto;
     list-style-type: '\2714\00a0\00a0';
@@ -1007,12 +999,12 @@ header {
 .tema{
     width: auto;
 }
-#detalhe .titulo-lateral{
+#detalhe .lateral .titulo-lateral{
     color: var(--cor0);
     font-family: var(--fonte-padrao);
     font-weight: bold;
     width: auto;
-    font-size: 15px;
+    font-size: 1.1rem;
     background: linear-gradient(45deg, var(--cor3) 10%, var(--cor9));
     text-indent: 8px;
     text-align: center;
@@ -1056,18 +1048,18 @@ header {
 
     }
     #detalhe{
-        margin-top: 5px;
+        margin-top: -82px;
         width: auto;
     }
-    #detalhe .titulo-lateral{
+    #detalhe .lateral .titulo-lateral{
         color: var(--cor0);
         font-family: var(--fonte-padrao);
+        font-weight: bold;
         width: auto;
-        font-size: 15px;
+        font-size: 1.1rem;
         background: linear-gradient(45deg, var(--cor3) 10%, var(--cor9));
         text-indent: 8px;
         text-align: center;
-        margin-top: -60px;
         margin-left: 15px;
         margin-bottom: 2px;
         border-radius: 5px;
