@@ -1062,14 +1062,10 @@ header {
         background: linear-gradient(45deg, var(--cor3) 10%, var(--cor9));
         text-indent: 8px;
         text-align: center;
-        margin-top: -80px;
+        margin-top: -60px;
         margin-left: 15px;
         margin-bottom: 2px;
         border-radius: 5px;
-    }
-    #detalhe .titulo-lateral ul{
-        margin-left: -50px;
-        width: auto;
     }
  #cultos,#eventos,#localizacao{
     font-size: 12px;
