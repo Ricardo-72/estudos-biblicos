@@ -526,7 +526,7 @@ main a{
 }
 #tpd {
     width: 780px;
-   margin: 0 0 0 0;
+   margin: 0;
 }
 .tema ul li a:hover{
     text-decoration: none;
@@ -564,9 +564,6 @@ main a{
     float: right;
     width: 190px;
     height: 210px;
-}
-#trimestres{
-    width: 100%;
 }
 #detalhe{
     display: block;
