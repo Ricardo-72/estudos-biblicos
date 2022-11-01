@@ -1070,7 +1070,7 @@ header {
         width: auto;
     }
     #detalhe .titulo-lateral ul{
-        margin-left: -50px;
+        margin-left: 0px;
         width: auto;
     }
  #cultos,#eventos,#localizacao{
