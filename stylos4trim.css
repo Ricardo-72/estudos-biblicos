@@ -1033,8 +1033,8 @@ header {
         color: var(--cor0);
         font-family: var(--fonte-padrao);
         font-weight: bold;
-        width: auto;
-        height: 20px;
+        width: 100%;
+        height: 10vh;
         margin-top: 15px;
         font-size: 15px;
         background: linear-gradient(45deg, var(--cor3) 10%, var(--cor9));
@@ -1044,9 +1044,19 @@ header {
         border-radius: 5px;
 
     }
+    .tema{
+        width: 250px;
+    }
+    .tema ul li a{
+            display: flex;
+            width: 96%;
+    }
+    .corpo{
+        width: auto;
+    }
     #detalhe{
         margin-top: -82px;
-        width: auto;
+        width: 100%;
     }
     #detalhe .lateral .titulo-lateral{
         color: var(--cor0);
@@ -1064,13 +1074,17 @@ header {
  #cultos,#eventos,#localizacao{
     font-size: 12px;
 }
+#container {
+    width: 100px;
+}
 #detalhe .lateral{
     width: auto;
     height: auto;
 }
 #container .img{
+    margin-left: 5px;
     float: left;
-    width: 165px;
+    width: 175px;
     height: 110px;
 }
 }
