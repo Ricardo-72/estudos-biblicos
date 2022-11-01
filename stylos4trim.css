@@ -1056,7 +1056,7 @@ header {
         width: auto;
     }
     #detalhe{
-        margin-left: -95px;
+        margin-left: -85px;
         margin-top: -82px;
         width: 100%;
     }
@@ -1087,7 +1087,7 @@ header {
     height: auto;
 }
 #container .img{
-    margin-left: 35px;
+    margin-left: 15px;
     float: left;
     width: 175px;
     height: 110px;
