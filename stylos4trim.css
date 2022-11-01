@@ -1040,8 +1040,8 @@ header {
         font-family: var(--fonte-padrao);
         font-weight: bold;
         width: auto;
-        margin-top: 10px;
-        font-size: 1.0em;
+        margin-top: 15px;
+        font-size: 15px;
         background: linear-gradient(45deg, var(--cor3) 10%, var(--cor9));
         text-indent: 8px;
         text-align: center;
@@ -1069,7 +1069,7 @@ header {
     margin-left: 15px;
 }
 .tema{
-    width: 182px;
+    width: auto;
 }
 #container .img{
     float: left;
