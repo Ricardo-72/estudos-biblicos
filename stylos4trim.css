@@ -1045,6 +1045,7 @@ header {
         font-family: var(--fonte-padrao);
         font-weight: bold;
         width: auto;
+        height: 20px;
         margin-top: 15px;
         font-size: 15px;
         background: linear-gradient(45deg, var(--cor3) 10%, var(--cor9));
@@ -1074,8 +1075,9 @@ header {
  #cultos,#eventos,#localizacao{
     font-size: 12px;
 }
-.tema{
+#detalhe .tema{
     width: auto;
+    height: auto;
 }
 #container .img{
     float: left;
