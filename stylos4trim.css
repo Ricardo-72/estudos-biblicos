@@ -1057,17 +1057,15 @@ header {
     #detalhe .titulo-lateral{
         color: var(--cor0);
         font-family: var(--fonte-padrao);
-        font-weight: bold;
         width: auto;
         font-size: 15px;
         background: linear-gradient(45deg, var(--cor3) 10%, var(--cor9));
         text-indent: 8px;
         text-align: center;
-        margin-top: -90px;
+        margin-top: -80px;
         margin-left: 15px;
         margin-bottom: 2px;
         border-radius: 5px;
-        width: auto;
     }
     #detalhe .titulo-lateral ul{
         margin-left: -50px;
