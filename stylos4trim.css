@@ -1087,13 +1087,13 @@ header {
     height: auto;
 }
 #container .img{
-    margin-left: 5px;
+    margin-left: -5px;
     float: left;
     width: 175px;
     height: 110px;
 }
 #container #img-capa{
-    margin-left: 5px;
+    margin-left: -5px;
     float: left;
     width: 175px;
     height: 190px;
