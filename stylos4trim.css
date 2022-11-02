@@ -1009,6 +1009,27 @@ header {
     margin-bottom: 2px;
     border-radius: 5px;
 }
+#container {
+    width: 100%;
+}
+#detalhe .lateral{
+    width: auto;
+    height: auto;
+}
+#container .tema .img{
+    margin-top: 2px;
+    margin-left: 3px;
+    float: left;
+    width: 175px;
+    height: 110px;
+}
+#container #img-capa{
+    margin-top: 2px;
+    margin-left: 3px;
+    float: left;
+    width: 175px;
+    height: 190px;
+}
      @media (max-width: 640px) {
     header {
         padding: 0 5%;
