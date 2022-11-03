@@ -1145,6 +1145,9 @@ header {
     margin-left: -3px;
     margin-right: 5px ;
 }
+#lc{
+    width: auto;
+}
 #leitura-classe{
     width: 97%;
     margin-top: 2px;
