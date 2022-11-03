@@ -119,13 +119,13 @@ label[for="btn_menu"]{
     text-indent: -9999px;
 }
 .social a[href*="facebook.com"] {
-    background-image: url(../img/facebook.png);
+    background-image: url(./img/facebook.png);
 }
 .social a[href*="twitter.com"] {
-    background-image: url(../img/twitter.png);
+    background-image: url(./img/twitter.png);
 }
 .social a[href*="plus.google.com"] {
-    background-image: url(../img/googleplus.png);
+    background-image: url(./img/googleplus.png);
 }
 #social ul{
     width: auto;
@@ -136,7 +136,7 @@ label[for="btn_menu"]{
 
 }
 @media(max-width: 800px ){
-    label[for="btn_menu"]{
+     label[for="btn_menu"]{
         display: block;
        margin: 5px;
     }
@@ -155,6 +155,7 @@ label[for="btn_menu"]{
 #titulo-pg{
     display: none;
 }
+
   #btn_menu:checked ~ .menu{
         margin-left: 0;
     }
