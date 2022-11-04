@@ -670,7 +670,7 @@ border: 2px solid;
 
 }
 #container .corpo #licoes .tema ul{
-width: 93%;
+width: 98%;
 height: auto;
 }
 #container .corpo #licoes .tema .tt-cl{
@@ -683,9 +683,10 @@ font-family: var(--fonte-texto-novo);
 background-image: linear-gradient(to bottom, var(--cor3), var(--cor9));
 }
 #container .corpo #licoes img{
-margin-left: 15px;
-width: 135px;
-height: 80px;
+    float: left;
+margin: 0;
+width: 175px;
+height: 95px;
 }
 #container .corpo #licoes .tema ul{
 font-size: .8rem;
@@ -698,7 +699,7 @@ font-size: 13px;
 color: var(--cor2);
 }
 #container .corpo #licoes .tema ul li a{
-font-size: .9rem;
+font-size: .8rem;
 color: var(--cor1);
 
 
@@ -926,8 +927,8 @@ font-size: 10px;
     background-image: linear-gradient(to bottom, var(--cor3), var(--cor9));
 }
 #container .corpo #licoes img{
-    margin-left: 15px;
-   width: 135px;
+    float: left;
+   width: 120px;
    height: 80px;
 }
 #container .corpo #licoes .tema ul{
@@ -941,7 +942,7 @@ font-size: 10px;
     color: var(--cor2);
 }
 #container .corpo #licoes .tema ul li a{
-    font-size: .9rem;
+    font-size: .8rem;
     color: var(--cor1);
     
 
