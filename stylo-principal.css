@@ -924,7 +924,7 @@ font-size: 10px;
 }
 #container .corpo #licoes img{
     float: left;
-   width: 120px;
+   width: 160px;
    height: 80px;
 }
 #container .corpo #licoes .tema ul{
@@ -961,12 +961,12 @@ font-size: 10px;
 
 #estudos ul li a{
     background-color: var(--cor5);
-    margin: auto;
-    top: 2px;
+    margin: 2px;
     list-style: none;
     list-style-type: '\2714\00a0\00a0';
     list-style-position: inside;
     color: var(--cor0);
+    font-size: 0.7rem;
 }
 
 #estudos #biblioteca ul{
