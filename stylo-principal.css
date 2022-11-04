@@ -609,7 +609,7 @@ footer a{
 #rodape{
     font-size: 10px;
 }}
-     @media (max-width: 640px) {
+     @media (max-width: 320px) {
         body{
             margin: auto;
             width: 98%;
