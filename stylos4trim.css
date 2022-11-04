@@ -1051,7 +1051,6 @@ header {
         border-radius: 5px;
 
     }
-
     #tpd{
         color: var(--cor0);
         font-family: var(--fonte-padrao);
@@ -1067,24 +1066,12 @@ header {
         border-radius: 5px;
 
     }
-    .tema{
-        width: 65%;
-        height: auto;
-    }
     .tema ul li a{
-            display: flex;
-            width: 86%;
-    }
-    .corpo{
-        width: auto;
-    }
-    #detalhe{
-        margin-left: -85px;
-        margin-top: -90px;
-        width: 100%;
+        display: flex;
+        width: 50%;
     }
     #detalhe .titulo-lateral{
-        margin-top: 12px;
+        margin-top: 702px;
         width: 100%;
     }
     #detalhe .lateral .titulo-lateral{
@@ -1103,7 +1090,7 @@ header {
     font-size: 12px;
 }
 #container {
-    width: 100%;
+    width: auto;
 }
 #detalhe .lateral{
     width: auto;
