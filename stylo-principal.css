@@ -96,13 +96,7 @@ body{
     font-size: 12px;
     font-style: var(--font-cabecalho);
 }
-.tema .itens a:hover{
-    background-color: var(--cor1);
-    color: var(--cor9);
-    translate: 100px 20px;
-    transition-duration: 1s;
-    animation-duration: 1s;
-}
+
 .tema #img-capa{
     width: 250px;
     height: 190px;
@@ -120,8 +114,9 @@ body{
 }
 .tema ul li a:hover{
     text-decoration: none;
-    color: var(--cor0);
+    color: var(--cor9);
    background: var(--cor5);
+   font-weight: bold;
 }
 #biblioteca ul li{
     width: 100%;
@@ -685,8 +680,8 @@ footer a{
 }
 #container .corpo #licoes img{
     margin: 5px;
-   width: 200px;
-   height: 105px;
+   width: 150px;
+   height: 75px;
 }
 #container .corpo #licoes .tema ul{
     font-size: .8rem;
@@ -802,7 +797,7 @@ footer{
     box-sizing: border-box;
     display: flex;
     margin: auto;
-    width: 100%;
+    width: 50%;
     height: 10vh;
     padding: 1rem;
     align-items: center;
