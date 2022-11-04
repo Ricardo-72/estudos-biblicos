@@ -34,6 +34,7 @@
     --fonte-texto: 'Calibri', Light Italic;
     --fonte-texto-novo: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
 *{
     margin: 0px;
     padding: 0px;
@@ -47,99 +48,6 @@ body{
     max-width: 900ch;
     margin: auto;
 }
-    a.externo::after{
-        content: '\00a0\1F517';
-    }
-main{
-       width: 95%;
-        margin: 0;
-        margin-bottom: 20px;
-        padding: 10px;
-        background-color: var(--cor0);
-        border-bottom-right-radius: 10;
-        
-    }
-main h1{
-        color: var(--cor0);
-        font-family: var(--fonte-padrao);
-        font-weight: bold;
-        font-size: 1.5em;
-        background: linear-gradient(45deg, var(--cor3) 10%, var(--cor9));
-        text-indent: 8px;
-        text-align: center;
-        margin-bottom: 2px;
-        border-radius: 5px;
-
-    }
-    main h2 {
-        color: var(--cor0);
-        font-family: var(--fonte-Android);
-        font-size: 1.1em;
-        background: linear-gradient(45deg, var(--cor3) 10%, var(--cor9));
-        text-indent: 8px;
-        font-weight: normal;
-        margin-bottom: 2px;
-        border-radius: 5px;
-        text-align: center;
-    }
-main h3{
-    color: var(--cor0);
-    font-family: var(--fonte-texto-novo);
-    font-size: 1.1em;
-    text-indent: 8px;
-    font-weight: bold;
-    border-radius: 5px;
-    text-align: center;
-}main h4{
-    color: var(--cor0);
-    font-family: var(--fonte-texto-novo);
-    background: linear-gradient(45deg, var(--cor3) 10%, var(--cor9));
-    font-size: .8em;
-    text-indent: 8px;
-    font-weight: bold;
-    border-radius: 2px;
-    text-align: right;
-    margin-top: 1px;
-    height: auto;
-}
-#plano-aula{
-    float: left;
-    width: 30%;
-    margin-left: 0px;
-}
-main strong{
-   font-weight: bold;
-    color: var(--cor9);
-    font-size: larger;
-}
-main a{
-    text-decoration: none;
-    font-weight: bold;
-    color: var(--cor4);
-    background-color: var(--cor2);
-    padding: var(--cor4);
-}
-main  a:hover{
-    text-decoration: underline;
-    color: var(--cor5);
-}
-main abbr{
-    font-weight: bold;
-    color: var(--cor5);
-}
-#container{
-    width: 95%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    background: var(--cor0);
-    font-family: var(--fonte-texto-novo);
-}
-#container p{
-    margin: 5px 0px;
-    text-align: justify;
-    text-indent: 30px;
-}
 .corpo{
     margin: 0 5px;
     width: 100%;
@@ -151,382 +59,64 @@ main abbr{
     font-size: 13px;
 }
 
-#curiosidade{
-    display: block;
-    border: .1em solid var(--cor5);
-    margin: 0 15px 0;
-    padding: 0px;
-    float: left;
-    width: 100%;
-    height: auto;
-    box-shadow: 2px 2px 5px black;
-    z-index: -5px;
-}
-#curiosidade li{
-    font-size: 15px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-#curiosidade p{
-    font-size: 15px;
-    font-family: var(--fonte-texto-novo);
-}
-#licoes-4{
-    display: block;
-    margin: 5px;
-    padding: 2px;
-    float: left;
-    font-size: 12px;
-    border: .2em solid var(--cor5);
-    box-shadow: 2px 2px 5px black;
-    width: 100%;
-    list-style-type: '\2714\00a0\00a0';
-    list-style-position: inside;
-}
-#licoes-4 h2{
-    font-size: 1.7em;
-}
-
-#capa-lic{
-    margin-left: 2px;
-    margin-right: 2px;
-    float:right;
-    width: 230px;
-    height: 150px;
-}
-#texto-aureo{
-    color: var(--cor1);
-    font-size: 15px;
-    margin-top: 5px;
-    margin-left: 2px;
-    padding: 5px;
-    width: 60%;
-    height: auto;
-    text-align: center;
-    border-bottom-right-radius: 30px;
-    border-top-left-radius: 30px;
-    background: var(--cor7);
-}
-#texto-aureo a{
-    color: var(--cor2);
-}
-#vdd-pratica{
-    color: var(--cor2);
-    font-size: 15px;
-    margin-top: 5px;
-    margin-left: 0px;
-    padding: 5px;
-    padding-bottom: 5px;
-    width: 65%;
-    height: auto;
-    text-align: center;
-    border-radius: 50px;
-    background: var(--cor7);
-}
-#ta-vdd-prt {
-    width: auto;
-    display: flex;
-    padding-right: 5px;
-    padding-left: 5px;
-}
-#leitura-diaria{
-    color: var(--cor0);
-    font-size: 15px;
-    margin-top: 5px;
-    margin-left: 2px;
-    margin-bottom: 2px;
-    padding-top: 2px;
-    padding-left: 15px;
-    padding-right: 10px;
-    padding-bottom: 2px;
-    width: 97%;
-    height: auto;
-    border-radius: 10px 40px 10px 40px;
-    background: var(--cor7);
-}
-#leitura-diaria ul{
-    padding: 0;
-    margin-top: 5px;
-}
-#leitura-diaria ul li{
-    margin: 0;
-    padding: 0;
-    list-style-type: '\2714\00a0\00a0';
-    list-style-position: inside;
-}
-#leitura-diaria ul li strong{
-    color: var(--cor0);
-    font-size: 15px;
-   
-}
-#ld {
-    display: block;
-    background: linear-gradient(45deg, var(--cor3) 10%, var(--cor9));
-    color: #E9F500;
-    margin-left: -15px;
-    margin-top: 0px;
-    margin-bottom: 0;
-    width: 99%;
-    height: 25px;
-    padding: 0px;
-    font-size: 20px;
-    font-weight: bolder;
-}
-#img-ld{
-    margin-top: 25px;
-    padding-top: 5px;
-    float: right;
-    width: 170px;
-    height: auto;
-}
-#leitura-classe{
-    display: felx;
-    color: var(--cor0);
-    font-size: 15px;
-    margin-top: 5px;
-    margin-left: 2px;
-    margin-bottom: 2px;
-    padding-top: 5px;
-    padding-left: 2px;
-    padding-right: 10px;
-    padding-bottom: 5px;
-    width: 98%;
-    height: auto;
-    border-radius: 10px 20px 10px 20px;
-    background: var(--cor7);
-}
-#leitura-classe #lcc p{
-    display: block;
-    margin-top: 15px ;
-}
-#lc{
-    display: block;
-    background: linear-gradient(45deg, var(--cor3) 10%, var(--cor9));
-    color: #E9F500;
-    margin-left: -1px;
-    margin-top: -4px;
-    width: 98%;
-    height: 28px;
-    font-size: 20px;
-    padding-right: 3px;
-    font-weight: bolder;
-    border-radius: 6px 5px 2px 5px;
-}
-#hino{
-  border-radius: 10px 5px 10px;
-  background: var(--cor9);
-  padding: 5px 0px;
-  width: 50%;
-  margin-bottom: 5px;
-  font-family: var(--fonte-texto-novo);
-
-}
-#hino p strong{
-    color: var(--cor0);
-
-}
-#hino p{
-    font-size: 15px;
-    text-align: center;
-
-}
-#hino a{
-    color: var(--cor1);
-}
-#img-lc{
-    margin-top: 5px;
-    padding-bottom: 5px;
-    float:right;
-    width: 190px;
-    height: auto;
-
-}
-#objetivos{
-    padding-top: 5px;
-    margin-top: 2px;
-    margin-left: 0px;
-    display: block;
-    width: auto;
-    height: auto;
-    padding-top: 0px;
-}
-#objetivos ol{
-    color: var(--cor0);
-    font-size: 15px;
-    margin-top: 15px;
-    margin-left: 2px;
-    margin-bottom: 25px;
-    padding-top: 5px;
-    padding-left: 15px;
-    padding-right: 10px;
-    padding-bottom: 15px;
-    width: 80%;
-    height: auto;
-    border-radius: 10px 10px;
-    background: var(--cor7);
-}
-#objetivos h2{
-    border-radius: 2px 2px;
-    width: auto;
-    height: auto;
-    margin-top: 5px;
-    padding-left: 5;
-    margin-left: 2px;
-}
-main a{
-    background: none;
-}
-#leitura-diaria a{
-    background: none;
-    color: var(--cor1);
-}
-#leitura-classe a{
-    color: var(--cor2);
-}
-#introducao{
-    font-size: 15px;
-    font-family: var(--fonte-texto-novo);
-    width: auto;
-    display: block;
-
-}
-
-#plv-chave{
-    border-radius: 5px 25px;
-    background: var(--cor9);
-    color: var(--cor0);
-    margin-top: 10px;
-    margin-bottom: 10px;
-    height: auto;
-    width: 50%;
-    padding-left: 2px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    font-size: 15px;
-
-}
-#plv-chave h2 {
-    text-align: center;
-    color: var(--cor0);
-    background: none;
-}
-#plv-chave p {
-    text-align: center;
-    font-size: 15px;
-    margin: auto;
-    color: var(--cor0);
-    background: none;
-}
-#topico-1{
-    font-size: 15px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    width: auto;
-    display: block;
-}
-#topico-2{
-    font-size: 15px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    width: auto;
-    display: block;
-}
-#topico-3{
-    font-size: 15px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    width: auto;
-    display: block;
-}
-#topico-4{
-    font-size: 15px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    width: auto;
-    display: block;
-}
-#conclusao{
-    font-size: 15px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    width: auto;
-
-}
-#vocab {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    width: 99%;
-    height: auto;
-    padding-left: 10px;
-    border-radius: 10px 10px;
-    background: var(--cor9);
-    color: var(--cor0);
-    list-style-type: '\2714\00a0\00a0';
-    list-style-position: inside;
-
-}
-#vocab strong{
-    color: var(--cor0);
-}
-#revis-conteudo{
-    font-size: 15px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    width: auto;
-}
-#sinopse-1 {
-    border-radius: 5px 25px;
-    background: var(--cor9);
-    color: var(--cor0);
-    margin-top: 10px;
-    margin-bottom: 10px;
-    height: auto;
-    width: 50%;
-    padding-left: 2px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    font-size: 13px;
- 
-
-}
-#sinopse-1 h2 {
-    background: none;
-}
-#sinopse-1 li{
-    padding-left: 15px;
-    list-style-type: '\2714\00a0\00a0';
-    list-style-position: inside;
-}
-#sinopse-1 strong{
-    color: var(--cor0);
-}
 .tema{
+    background-color: var(--cor5);
     font-style: italic;
     display: block;
     border: .1em solid var(--cor5);
-    margin: .1em;
+    margin: .4em;
     margin-bottom: 5px;
     padding-top: 2px;
     float: left;
     width: 250px;
     height: 40vh;
-    box-shadow: 2px 2px 5px black;
+    box-shadow: 2px 2px 5px var(--cor2);
     
 }
-.tema  h4{
-    margin-top: 0px;
-    margin-right: 1px;
-    padding-right: 15px;
+.tema .tt-cl{
+    width: auto;
+    height: auto;
+    background-color: var(--cor5);
+    color: var(--cor0);
+    border-radius: 3px;
+    margin-top: -2px;
+    margin-right: 0px;
+    font-size: 0.8rem;
+    text-indent: 10px;
 }
 .tema ul li{
+    color: var(--cor0);
     margin-top: 2px;
     margin-left: 15px;
     list-style-type: '\2714\00a0\00a0';
     font-size: 12px;
 }
 .tema ul li a{
+    color: var(--cor0);
     font-size: 12px;
     font-style: var(--font-cabecalho);
+}
+.tema .itens a:hover{
+    background-color: var(--cor1);
+    color: var(--cor9);
+    translate: 100px 20px;
+    transition-duration: 1s;
+    animation-duration: 1s;
 }
 .tema #img-capa{
     width: 250px;
     height: 190px;
 }
 #tpd {
-    width: 780px;
-   margin: 0;
+    background-color: var(--cor4);
+    color: var(--cor0);
+    width: 99%;
+    margin-top: 2px;
+    border-radius: 3px;
+    font-style: var(--font-cabecalho);
+    text-align: center;
+    font-style: italic;
+
 }
 .tema ul li a:hover{
     text-decoration: none;
@@ -541,110 +131,84 @@ main a{
     top:10px;
     font-size: 13px;
 }
-#biblioteca > ul li{
-    font-size: 15px;
-    list-style-type: '\2714\00a0\00a0';
-    list-style-position: inside;
-    padding-top: 0px;
-    margin-top: 3px;
-}
-#biblioteca ul li{
-    background: none;
-    list-style-type: '\2714\00a0\00a0';
-    list-style-position: inside;
-    top:10px;
-    font-size: 13px;
-}
+
 #container .img{
     float: right;
     width: 250px;
     height: 150px;
 }
-#capa{
-    float: right;
-    width: 190px;
-    height: 210px;
-}
-#detalhe{
-    display: block;
-    width: 100%;
-}
-#detalhe.lateral {
-    display: block;
-    margin:  auto;
-    padding: 0;
-    float: left;
-    font-size: 13px;
+#estudos{
     width: auto;
-    margin-top: 0;
+    display: block;
     list-style-type: '\2714\00a0\00a0';
     list-style-position: inside;
+    top:10px;
+
 }
-.lateral ul li{
-    margin-left: 5px;
+#estudos .titulo-lateral{
+    margin-top: 5px;
+    background-color: var(--cor5);
+    color: var(--cor0);
+    width: auto;
+    display: block;
     list-style-type: '\2714\00a0\00a0';
     list-style-position: inside;
-}
-.lateral ul li a{
-    background: none;
-    font-style: italic;
-    padding-bottom: 0px;
-    
-}
-
-.lateral ul li a:hover{
-    color: var(--cor5);
-    background: var(--cor0);
-}
-
-.lateral h3{
     text-align: center;
     font-style: italic;
-    font-weight: bold;
-    margin-top: 15px;
-} 
-
-.lateral  ul li{
-    width: auto;
-    margin: auto;
-    list-style-type: '\2714\00a0\00a0';
-    list-style-position: inside;
-    padding-top: 0px;
-    margin-top: 0px;
-}
-.lateral figure ul{
-    width: auto;
-    float: left;
-    text-decoration: none;
-    background: none;
-    margin-top: 10px;
-    color: var(--cor5);
-} 
-#estudos ul li {
-    background: none;
-    list-style-type: '\2714\00a0\00a0';
-    list-style-position: inside;
-    top:10px;
-    font-size: 13px;
+   
 
 }
-#cultos h3{
-    top: 15px;
-}
-#cultos ul, #eventos ul{
+#estudos ul{
+    font-size: 1.1rem;
+    width: auto;
+    list-style-type: '\2714\00a0\00a0';
+    list-style-position: inside;
     font-style: italic;
-    background: none;
+    
+}
+#estudos .titulo-lateral ul li a{
+    width: auto;
     list-style-type: '\2714\00a0\00a0';
     list-style-position: inside;
-    top:10px;
-    font-size: 15px;
+   
+    
+}
+#noticias{
+    padding: 5px;
+    width: 100%;
+    margin: 5px;
+    display: flex;
+    justify-content: right;
+}
+.tt-not{
+    text-align: left;
+    margin: 5px;
+    width: 101%;
+    color: var(--cor2);
+    border-radius: 2px;
+    text-align: right;
+    font-size: 1.1rem;
+    font-family: var(--fonte-texto-novo);
+    background-image: linear-gradient(to bottom, var(--cor3), var(--cor9));
 }
 #cultos ul li{
-    text-justify: distribute;
+    width: 99%;
+    margin: 5px;
+    text-justify:newspaper;
     color: var(--cor9);
 
 }
-#localizacao{
+#localizacao ul li{
+    width: auto;
+    margin: 5px;
+    text-justify:newspaper;
+    color: var(--cor9);
+
+}
+#eventos{
+
+    width: auto;
+    margin: 5px;
     font-style: italic;
     background: none;
     color: var(--cor5);
@@ -653,19 +217,33 @@ main a{
     top:10px;
     font-size: 15px;
 }
-#localizacao ul p a{
-    margin-left: 2px;
-
+#cultos{
+    width: auto;
+    margin: 5px;
+    font-style: italic;
+    background: none;
+    color: var(--cor5);
+    list-style-type: '\2714\00a0\00a0';
+    list-style-position: inside;
+    top:10px;
+    font-size: 15px;
+}
+#localizacao{
+    width: auto;
+    margin: 5px;
+    font-style: italic;
+    background: none;
+    color: var(--cor5);
+    list-style-type: '\2714\00a0\00a0';
+    list-style-position: inside;
+    top:10px;
+    font-size: 15px;
 }
 a.externo {
     text-decoration: underline;
     color: var(--cor5);
 }
 
-main li a{
-    font-size: 14px;
-    background-color: var(--cor0);
-}
 article > ul li{
     list-style-type: '\2714\00a0\00a0';
     list-style-position: inside;
@@ -698,7 +276,6 @@ aside > h3{
     border-radius: 10px 10px 0px 0px;
     font-weight: bold;
 }
-
 .topicos{
     margin-left: 10px;
     width: auto;
@@ -808,78 +385,6 @@ footer a{
     padding: 0;
     display: inline-flex;
     align-items: center;
-}
-form #cabecalho-questinario{
-    width: auto;
-    display: inline-flex;
-    height: auto;
-    min-width: 290px;
-    margin: 10px 10px;
-}
-form #cabecalho-questinario input{
-    display: block;
-    width: 30%;
-    height: 30px;
-    min-width: 250px;
-    margin: 5px auto;
-    border-radius: 5px;
-    border: 0.2em solid var(--cor5);
-}
-form #dados input{
-    display: inline-flex;
-    height: auto;
-    width: auto;
-    margin: auto;
-}
-form #dados img{
-    margin: 2px;
-    display: none;
-}
- #dados input, textarea{
-    color: var(--cor6);
-    text-align: center;
-    width: 35rem;
-    border-radius: 5px;
-    border: 1px solid var(--cor5);
-    margin-left: 30px;
-    height: 30px;
-    padding-left: 10px;
-}
-#dados .pergunta{
-    width: auto;
-    border-left: 0px;
-    padding-left: 0px;
-    margin-left: 0px;
-
-}
-
-label.resposta {
-    float: left;
-    margin-left: 10px;
-    text-align: center;
-    font-weight: bold;
-    color: var(--cor7);
-}
-span
-.valid{
-    display: none;
-    color: var(--cor6);
-    font-size: bolder;
-}
-#btn-responder{
-    display: block;
-    margin: 10px auto;
-    height: 30px;
-    min-width: 100px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    background-color: var(--cor5);
-    color: var(--cor1);
-    font-size: 15px;
-}
-#btn-responder:hover{
-    opacity: 0.8;
 }
 header {
     box-sizing: border-box;
@@ -1250,7 +755,12 @@ footer a{
     font-family: var(--fonte-texto-novo);
     background-image: linear-gradient(to bottom, var(--cor3), var(--cor9));
 }
-
+#noticias{
+    display: block;
+    margin-left: 10px;
+    color: var(--cor5);
+    font-size: 14px;
+}
 #noticias .tt-not{
     margin-top: 5px;
     width: 100%;
@@ -1261,11 +771,7 @@ footer a{
     font-family: var(--fonte-texto-novo);
     background-image: linear-gradient(to bottom, var(--cor3), var(--cor9));
 }
-#noticias{
-    margin-left: 10px;
-    color: var(--cor5);
-    font-size: 14px;
-}
+
 footer{
     box-sizing: border-box;
     display: flex;
