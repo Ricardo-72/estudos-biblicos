@@ -41,8 +41,203 @@
         justify-content: space-between;
         align-items: center;
     }
+    #titulo-pg1{
+        margin-left: 10px;
+        width: 430PX;
+        color: var(--cor2);
+        border-radius: 3px;
+        justify-items: center;
+        padding-left: 15px;
+    }
+    #container{
+        background-color:  var(--cor0);
+        margin-top: -75px;
+        width: 94%;
+
+    }
+    .corpo{
+        margin-left: 5px;
+        width: 99%;
+        height: 105vh;
+        display: block;
+        justify-content: center;
+}
+#container .corpo #tpd{
+    width: auto;
+    display: block;
+    margin-left: 8px;
+    color: var(--cor1);
+    font-size: 1.1rem;
+    border-radius: 3px;
+    text-align: center;
+    background-image: linear-gradient(to bottom, var(--cor3), var(--cor9));
+}
+#container .corpo #licoes{
+    margin: 5px;
+    width: auto;
+    display: block;
+}
+#container .corpo #licoes .tema{
+    float: left;
+    margin: 2px;
+    width: auto;
+    display: block;
+    border: 1px solid;
+    border-radius: 3px;
+    border: 2px solid;
+
+    
+}
+#container .corpo #licoes .tema .tt-cl{
+    width: 100%;
+    color: var(--cor2);
+    border-radius: 2px;
+    text-align: right;
+    font-size: 0.9rem;
+    font-family: var(--fonte-texto-novo);
+    background-image: linear-gradient(to bottom, var(--cor3), var(--cor9));
+}
+#container .corpo #licoes img{
+    margin: 5px;
+   width: 200px;
+   height: 105px;
+}
+#container .corpo #licoes .tema ul{
+    font-size: .8rem;
+    background-color: var(--cor0);
+    background-image: linear-gradient(to bottom, var(--cor4), var(--cor5));
+    list-style: none;
+    list-style-type: '\2714\00a0\00a0';
+    list-style-position: inside;
+    top:10px;
+    font-size: 13px;
+    color: var(--cor2);
+}
+#container .corpo #licoes .tema ul li a{
+    font-size: .9rem;
+    color: var(--cor1);
+    
+
+}
+#container .corpo #licoes .tema ul li a:hover{
+    background-color: var(--cor2);
+    color: var(--cor9);
+    translate: 100px 20px;
+    transition-duration: 3s;
+
+}
+#estudos{
+    top: 15px;
+    margin-left: 10px;
+    width: 99%;
+    display: block;
+    justify-content: center;
+}
+#estudos #biblioteca{
+    margin: auto;
+    top: 2px;
+    list-style: none;
+    list-style-type: '\2714\00a0\00a0';
+    list-style-position: inside;
+    top:10px;
+    font-size: 13px;
+    color: var(--cor2);
+    border-radius: 3px;
+}
+
+#estudos ul li a{
+    margin: auto;
+    top: 2px;
+    list-style: none;
+    background-color: var(--cor0);
+    list-style-type: '\2714\00a0\00a0';
+    list-style-position: inside;
+    color: var(--cor0);
    
 }
+#estudos ul{
+    list-style-type: '\2714\00a0\00a0';
+    list-style-position: inside;
+}
+#estudos ul li a{
+    color: var(--cor5);
+    font-size: 14px;
+    
+
+}
+#estudos .titulo-lateral {
+    margin-top: 5px;
+    width: 100%;
+    color: var(--cor2);
+    border-radius: 2px;
+    text-align: right;
+    font-size: 0.9rem;
+    font-family: var(--fonte-texto-novo);
+    background-image: linear-gradient(to bottom, var(--cor3), var(--cor9));
+}
+
+#noticias .tt-not{
+    margin-top: 5px;
+    width: 100%;
+    color: var(--cor2);
+    border-radius: 2px;
+    text-align: right;
+    font-size: 0.9rem;
+    font-family: var(--fonte-texto-novo);
+    background-image: linear-gradient(to bottom, var(--cor3), var(--cor9));
+}
+#noticias{
+    margin-left: 10px;
+    color: var(--cor5);
+    font-size: 14px;
+}
+footer{
+    box-sizing: border-box;
+    display: flex;
+    margin: auto;
+    width: 100%;
+    height: 10vh;
+    padding: 1rem;
+    align-items: center;
+    justify-content: space-between;
+    background-image: linear-gradient(to bottom, var(--cor4), var(--cor5));
+    overflow: hidden;
+
+}
+footer figure img{
+    width: 50px;
+    height: 50px;
+}
+footer  ul{
+    font-family: var(--fonte-novo);
+    display: flex;
+    list-style: none;
+    gap: .5rem;
+}
+
+footer a{
+    color: var(--cor3);
+    font-size: 10px;
+}
+.social li a {
+    border-radius: 50%;
+    height: 32px;
+    width: 32px;
+    display: flex;
+    text-indent: -9999px;
+}
+.social a[href*="facebook.com"] {
+    background-image: url(img/facebook.png);
+}
+.social a[href*="twitter.com"] {
+    background-image: url(img/twitter.png);
+}
+.social a[href*="plus.google.com"] {
+    background-image: url(img/googleplus.png);
+}
+#rodape{
+    font-size: 10px;
+}}
      @media (max-width: 640px) {
     header {
         padding: 0 5%;
