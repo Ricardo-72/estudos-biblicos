@@ -683,7 +683,7 @@ footer a{
     background-image: linear-gradient(to bottom, var(--cor3), var(--cor9));
 }
 #container .corpo #licoes img{
-    margin: 15px;
+    margin-left: 15px;
    width: 140px;
    height: 80px;
 }
