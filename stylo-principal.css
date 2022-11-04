@@ -898,8 +898,7 @@ font-size: 10px;
     display: block;
 }
 #container .corpo #licoes .tema{
-    margin: 4px;
-    margin-left: 7px;
+    margin: 2px;
     width: 45%;
     height: auto;
     display: block;
@@ -910,9 +909,6 @@ font-size: 10px;
 #container .corpo #licoes .tema .itens li{
     margin: 0;
 }
-
-
-
 #container .corpo #licoes ul{
     width: 93%;
     height: auto;
@@ -942,7 +938,7 @@ font-size: 10px;
     color: var(--cor2);
 }
 #container .corpo #licoes .tema ul li a{
-    font-size: .8rem;
+    font-size: .7rem;
     color: var(--cor1);
     
 
@@ -979,7 +975,7 @@ font-size: 10px;
     list-style: none;
     list-style-type: '\2714\00a0\00a0';
     list-style-position: inside;
-    top:10px;
+    margin: 5px;
     font-size: 13px;
     color: var(--cor2);
     border-radius: 3px;
@@ -995,7 +991,7 @@ font-size: 10px;
     color: var(--cor2);
     border-radius: 2px;
     text-align: right;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     font-family: var(--fonte-texto-novo);
     background-image: linear-gradient(to bottom, var(--cor3), var(--cor9));
 }
