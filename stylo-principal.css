@@ -40,13 +40,19 @@
     padding: 0px;
 }
 body {
-    background-color: var(--cor0);
+    background-color: var(--cor4);
     font-family: var(--fonte-padrao);
-}
-body{
+    color: var(--cor0);
     min-width: 300px;
     max-width: 900ch;
     margin: auto;
+}
+nav{
+    box-shadow: 2px 2px 5px var(--cor2);
+}
+.btn{
+    margin: 5px;
+    box-shadow: 2px 2px 5px var(--cor2);
 }
 .corpo{
     margin: 0 5px;
@@ -76,13 +82,14 @@ body{
 .tema .tt-cl{
     width: auto;
     height: auto;
-    background-color: var(--cor5);
+    background-color: var(--cor4);
     color: var(--cor0);
     border-radius: 3px;
     margin-top: -2px;
     margin-right: 0px;
     font-size: 0.8rem;
     text-indent: 10px;
+    box-shadow: 2px 2px 5px var(--cor1);
 }
 .tema ul li{
     color: var(--cor0);
@@ -90,6 +97,7 @@ body{
     margin-left: 5px;
     list-style-type: '\2714\00a0\00a0';
     font-size: 12px;
+  
 }
 .tema ul li a{
     color: var(--cor0);
@@ -105,11 +113,12 @@ body{
     background-color: var(--cor4);
     color: var(--cor0);
     width: 99%;
-    margin-top: 2px;
+    margin: 3px;
     border-radius: 3px;
     font-style: var(--font-cabecalho);
     text-align: center;
     font-style: italic;
+    box-shadow: 2px 2px 5px var(--cor2);
 
 }
 .tema ul li a:hover{
@@ -125,6 +134,7 @@ body{
     list-style-position: inside;
     top:10px;
     font-size: 13px;
+    box-shadow: 2px 2px 5px var(--cor2);
 }
 
 #container .img{
@@ -133,15 +143,24 @@ body{
     height: 150px;
 }
 #estudos{
-    width: auto;
+    float: right;
+    width: 61%;
     display: block;
     list-style-type: '\2714\00a0\00a0';
     list-style-position: inside;
     top:10px;
-
+    box-shadow: 2px 2px 5px var(--cor2);
+}
+#estudos #tt-est{
+    text-align: center;
+    background-color: var(--cor5);
+    box-shadow: 2px 2px 5px var(--cor2);
+    border-radius: 2px;
+    width: 99%;
+    font-style: italic;
 }
 #estudos .titulo-lateral{
-    margin-top: 5px;
+    margin: 5px;
     background-color: var(--cor5);
     color: var(--cor0);
     width: auto;
@@ -150,11 +169,10 @@ body{
     list-style-position: inside;
     text-align: center;
     font-style: italic;
-   
-
+    box-shadow: 2px 2px 5px var(--cor2);
 }
 #estudos ul{
-    font-size: 1.1rem;
+    margin: 10px;
     width: auto;
     list-style-type: '\2714\00a0\00a0';
     list-style-position: inside;
@@ -165,52 +183,40 @@ body{
     width: auto;
     list-style-type: '\2714\00a0\00a0';
     list-style-position: inside;
-   
+    
+}
+#estudos ul li a{
+    width: auto;
+    font-size: 0.9rem;
+    list-style-type: '\2714\00a0\00a0';
+    list-style-position: inside;
+    color: var(--cor1);
     
 }
 #noticias{
+    float: right;
     padding: 5px;
-    width: 100%;
-    margin: 5px;
+    width: auto;
+    margin: 10px;
     display: flex;
     justify-content: right;
+    box-shadow: 2px 2px 5px var(--cor2);
+}
+#eventos ul{
+  margin: 5px;
+  list-style-type: '\2714\00a0\00a0';
+
 }
 .tt-not{
     text-align: left;
-    margin: 5px;
+    margin: -3px;
     width: 101%;
-    color: var(--cor2);
+    color: var(--cor1);
     border-radius: 2px;
     text-align: right;
     font-size: 1.1rem;
     font-family: var(--fonte-texto-novo);
     background-image: linear-gradient(to bottom, var(--cor3), var(--cor9));
-}
-#cultos ul li{
-    width: 99%;
-    margin: 5px;
-    text-justify:newspaper;
-    color: var(--cor9);
-
-}
-#localizacao ul li{
-    width: auto;
-    margin: 5px;
-    text-justify:newspaper;
-    color: var(--cor9);
-
-}
-#eventos{
-
-    width: auto;
-    margin: 5px;
-    font-style: italic;
-    background: none;
-    color: var(--cor5);
-    list-style-type: '\2714\00a0\00a0';
-    list-style-position: inside;
-    top:10px;
-    font-size: 15px;
 }
 #cultos{
     width: auto;
@@ -218,22 +224,61 @@ body{
     font-style: italic;
     background: none;
     color: var(--cor5);
-    list-style-type: '\2714\00a0\00a0';
     list-style-position: inside;
     top:10px;
     font-size: 15px;
+    box-shadow: 2px 2px 5px var(--cor2);
+}
+#cultos ul{
+    margin: 10px;
+    list-style-type: '\2714\00a0\00a0';
+}
+#cultos ul li{
+    width: 99%;
+    margin: 5px;
+    text-justify:newspaper;
+    color: var(--cor1);
+
 }
 #localizacao{
     width: auto;
     margin: 5px;
     font-style: italic;
     background: none;
-    color: var(--cor5);
+    color: var(--cor1);
     list-style-type: '\2714\00a0\00a0';
     list-style-position: inside;
     top:10px;
     font-size: 15px;
+    box-shadow: 2px 2px 5px var(--cor2);
 }
+#localizacao p a{
+    float: left;
+    width: auto;
+    margin: 5px;
+    text-justify:newspaper;
+    color: var(--cor1);
+}
+#localizacao p {
+    width: auto;
+    margin: 5px;
+    text-justify:newspaper;
+    color: var(--cor1);
+
+}
+#eventos{
+    width: auto;
+    margin: 5px;
+    font-style: italic;
+    background: none;
+    color: var(--cor1);
+    list-style-type: '\2714\00a0\00a0';
+    list-style-position: inside;
+    top:10px;
+    font-size: 15px;
+    box-shadow: 2px 2px 5px var(--cor2);
+}
+
 a.externo {
     text-decoration: underline;
     color: var(--cor5);
