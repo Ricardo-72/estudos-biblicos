@@ -930,25 +930,19 @@ font-size: 10px;
 #container .corpo #licoes .tema ul li a{
     font-size: .7rem;
     color: var(--cor1);
-    
-
 }
 #container .corpo #licoes .tema ul li a:hover{
     background-color: var(--cor2);
     color: var(--cor9);
-    translate: 100px 20px;
     transition-duration: 3s;
 
 }
 #estudos{
-    top: 15px;
-    margin-top: 60px;
-    margin-left: 10px;
+   margin: 5;
     width: 99%;
     display: block;
     justify-content: center;
 }
-
 #estudos ul li a{
     background-color: var(--cor5);
     margin: 2px;
@@ -958,10 +952,7 @@ font-size: 10px;
     color: var(--cor0);
     font-size: 0.7rem;
 }
-
 #estudos #biblioteca ul{
-    margin: auto;
-    top: 2px;
     list-style: none;
     list-style-type: '\2714\00a0\00a0';
     list-style-position: inside;
@@ -976,7 +967,7 @@ font-size: 10px;
     list-style-position: inside;
 }
 #estudos .titulo-lateral {
-    margin-top: 5px;
+    margin: 2px;
     width: 95%;
     color: var(--cor2);
     border-radius: 2px;
@@ -988,7 +979,6 @@ font-size: 10px;
 #estudos ul li a:hover{
     background-color: var(--cor2);
     color: var(--cor9);
-    translate: 100px 20px;
     transition-duration: 3s;
 
 }
