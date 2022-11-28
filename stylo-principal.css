@@ -335,7 +335,7 @@ aside > h3{
 #videos iframe{
     margin: 0.3rem;
     display: block;
-    width: 100%;
+    width: 90%;
     height: 30%;
     box-shadow: 2px 2px 5px var(--cor2);
 
