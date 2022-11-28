@@ -17,12 +17,12 @@ var questionBank = [
     },
     {
         question: 'Quais são os dois aspectos do divórcio que envolvem a prática pastoral?',
-        option: ['A pessoa divorciada e o divorciado como cristão.', '', '',''],
+        option: ['A pessoa divorciada e o divorciado como cristão.', 'A família do divorciado', 'Somente o pai e a mãe da divorciada','somente os pais dos casal'],
         answer: 'A pessoa divorciada e o divorciado como cristão.'
     },
     {
         question: 'O que as Escrituras contêm a respeito dos relacionamentos?',
-        option: ['As Escrituras contêm princípios e preceitos que moldam os relacionamentos humanos.', '', '',''],
+        option: ['As Escrituras contêm princípios e preceitos que moldam os relacionamentos humanos.', 'Contem as regras que definem o casamento', 'As condições do dote da noiva','A organização da festa do casamento'],
         answer: 'As Escrituras contêm princípios e preceitos que moldam os relacionamentos humanos.'
     },
 ]
