@@ -197,7 +197,7 @@ nav{
 #noticias{
     float: right;
     padding: 5px;
-    width: auto;
+    width: 60%;
     margin: 10px;
     display: flex;
     justify-content: right;
@@ -323,6 +323,36 @@ aside > h3{
     display: flex;
     align-items: center;
   }
+  #videos{
+    float: left;
+    width: 37%;
+    height: 130vh;
+  }
+  #videos h1{
+   text-align: center;
+    width: auto;
+  }
+#videos iframe{
+    margin: 0.3rem;
+    display: block;
+    width: 100%;
+    height: 30%;
+    box-shadow: 2px 2px 5px var(--cor2);
+
+}
+#videos p{
+    width: 70%;
+
+}
+#videos a{
+    width: 50%;
+    color: var(--cor0);
+    font-size: 1.30rem;
+    text-decoration: none;
+    text-align: var(--cor0);
+
+
+}
 footer{
     box-sizing: border-box;
     display: flex;
