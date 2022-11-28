@@ -74,7 +74,7 @@ nav{
     margin-bottom: 5px;
     padding-top: 2px;
     float: left;
-    width: 250px;
+    width: 200px;
     height: 40vh;
     box-shadow: 2px 2px 5px var(--cor2);
     
@@ -94,9 +94,10 @@ nav{
 .tema ul li{
     color: var(--cor0);
     margin-top: 2px;
-    margin-left: 5px;
+    margin-left: 15px;
     list-style-type: '\2714\00a0\00a0';
     font-size: 12px;
+
   
 }
 .tema ul li a{
@@ -107,7 +108,7 @@ nav{
 
 .tema #img-capa{
     width: 250px;
-    height: 190px;
+    height: 180px;
 }
 #tpd {
     background-color: var(--cor4);
@@ -139,8 +140,8 @@ nav{
 
 #container .img{
     float: right;
-    width: 250px;
-    height: 150px;
+    width: 200px;
+    height: 120px;
 }
 #estudos{
     float: right;
@@ -438,9 +439,9 @@ header {
     background-image: linear-gradient(to bottom, var(--cor5), var(--cor5));
 }
 #titulo-pg{
-    width: 100%;
+    width: 50%;
     margin: 10px 100px;
-    font-size: 2.7rem;
+    font-size: 2.5rem;
     color: var(--cor0);
     font-family: var(--font-cabecalho);
     text-shadow: 2px 2px 0px hsl(108, 68%, 54%);

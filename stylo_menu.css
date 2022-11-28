@@ -111,6 +111,13 @@ label[for="btn_menu"]{
 #titulo-pg1{
     display: none;
 }
+section #titulo-pg{
+    font-size: 2.3rem;
+    display: flex;
+    width: auto;
+    padding: 0;
+    margin-left: 2.5rem;
+}
 .social li a {
     border-radius: 50%;
     height: 32px;

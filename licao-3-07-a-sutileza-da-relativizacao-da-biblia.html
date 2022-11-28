@@ -6,8 +6,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="shortcut icon" href="img/pngwing.com.png">
         <script type="Text/JavaScript" src=js/script.js></script>
-        <link rel="stylesheet" href="stylos4trim.css">
         <link rel="stylesheet" href="stylo_menu.css">
+        <link rel="stylesheet" href="stylos4trim.css">
+        <link rel="stylesheet" href="quiz.js">
+        <link rel="stylesheet" href="quiz-qst.css">
         <title>I.A.D - FAMILIA EBD</title>
     </head>
     <body>
@@ -187,87 +189,68 @@
 	</section>
 </article>
 </main>
-<aside id="questions">
-			<h3>QUESTINÁRIO:</h3>
-			<form action="https://api.staticforms.xyz/submit" method="post">
-                <input type="hidden" name="accessKey" value="ab9a3f3f-148b-43df-a189-43ab70c9131a">
-
-			<section id="cabecalho-questinario">
-                <div>
-                    <label for="inputName">Nome:</label>
-                    <input type="text" id="inputNome" name="name" required maxlength="500" minlength="2">
-                    <span></span>  
-                </div>
-                <div id="email">
-                    <label for="inputEmail">Email:</label>
-                    <input type="email" id="inputEmail" name="email"required maxlength="100">
-                    <span></span>
-                </div>
-                <div>
-                    <label for="texto">Assunto:</label>
-                    <input type="text" id="inputnome" name="subject"required maxlength="100">
-                    <span></span>
-                </div>
-            </section>
-
-			<section id="dados">
-				<p class="pergunta">1. Quais expressões referem-se ao fenômeno cultural pós-moderno?</p>
-				<label for="textAreaMensagem" class="resposta">Respost-1:</label>
-				<textarea name="message" id="textAreaMensagem" required maxlength="500"></textarea>
-				<span id="resp1"><p class="valid">“A era do vazio”; “pós-verdade’, “o fim das certezas”, “cultura líquida” ou ainda “desconstrução”.</p></span>
-				<img src="img/acerto.ico.png" alt=""><img src="img/erro.ico.png" alt="">
-
-				<p class="pergunta">2.0 que caracteriza o relativismo?</p>
-				<label for="textAreaMensagem" class="resposta">Resposta-2:</label>
-				<textarea name="message" id="textAreaMensagem" required maxlength="500"></textarea>
-				<span id="resp1"><p class="valid">Não há valores perenes ou absolutos. Tudo é relativo.</p></span>
-				<img src="img/acerto.ico.png" alt=""><img src="img/erro.ico.png" alt="">
-
-				<p class="pergunta">3.0 que não há espaço na narrativa do politicamente correto?.</p>
-				<label for="textAreaMensagem" class="resposta">Resposta-3:</label>
-				<textarea name="message" id="textAreaMensagem" required maxlength="500"></textarea>
-				<span id="resp1"><p class="valid">Dentro dessa narrativa do politicamente correto não há espaço para a Bíblia.</p></span>
-				<img src="img/acerto.ico.png" alt=""><img src="img/erro.ico.png" alt="">
-
-				<p class="pergunta">4.0 que a Bíblia é para o cristão?</p>
-				<label for="textAreaMensagem" class="resposta">Resposta-4:</label>
-				<textarea name="message" id="textAreaMensagem" required maxlength="500"></textarea>
-				<span id="resp1"><p class="valid">Para o cristão, a Bíblia é um texto antigo com uma mensagem atual.</p></span>
-				<img src="img/acerto.ico.png" alt=""><img src="img/erro.ico.png" alt="">
-
-				<p class="pergunta">5.0 que distingue a Bíblia de outras obras literárias?</p>
-				<label for="textAreaMensagem" class="resposta">Resposta-5:</label>
-				<textarea name="message" id="textAreaMensagem" required maxlength="500"></textarea>
-				<span id="resp1"><p class="valid">A inspiração divina. Enquanto as outras obras são de inspiração humana, a Bíblia é de inspiração divina.</p></span>
-				<img src="img/acerto.ico.png" alt=""><img src="img/erro.ico.png" alt="">
-			</section>
-			<button id="btn-responder">Responder</button>
-			</form>
-		</aside>
-	<footer>
-		<figure id="logo-rodape"><img src="img/logo-maringa.jpg" alt="logo"></figure>
-		<nav id="menu-opcoes">
-			<ul>
-				<li><a href="index.html">Home</a></li>
-				<li><a href="estudos.html">Estudos</a></li>
-				<li><a href="departamentos.html">Ministérios</a></li>
-				<li><a href="culto.html">Cultos</a></li>
-				<li><a href="contato.html">Contatos</a></li>
-				<li><a href="Cadastro.html">Cadastro</a></li>
-			</ul>
-		</nav>
-			<div class="social">
-			<ul id="social">
-				<li><a href="http://facebook.com/#">Facebook</a></li>
-				<li><a href="http://twitter.com/#">Twitter</a></li>
-				<li><a href="http://plus.google.com/#">Google+</a></li>
-			</ul>
-			</div>
-			<a href="#topo">Voltar ao Topo</a>	
-	</footer>
-<div id="rodape">
-	<img src="img/logo-maringa.jpg" alt="ADM - FAMÍLIA">
-	&copy; I.A.D. MINISTÉRIO FAMÍLIA - MARINGÁ.
+<img src="img/logo.png" alt="img" id="img-quest" class="img-quest">
+<h1 id="title">Questionário</h1>
+<div id="quiz-container">
+    <div class="questions">
+        <h2 id="question"></h2>
+        <ol type="A">
+            <li class="option"><span id="option0" onclick="calcScore(this)"></span></li>
+            <li class="option"><span id="option1" onclick="calcScore(this)"></span></li>
+            <li class="option"><span id="option2" onclick="calcScore(this)"></span></li>
+            <li class="option"><span id="option3" onclick="calcScore(this)"></span></li>
+        </ol>
+        <h4 id="stat"></h4>
+    </div>
+    <div class="buttons">
+        <button type="button" class="next">Próxima Pergunta</button>
+    </div>
 </div>
+
+<div id="scoreboard">
+    <img src="img/logo.png" id="img-quest" alt="">
+    <h2 id="score-title">Seu Resultado</h2>
+    <h2 id="score"></h2>
+    <button type="button" id="score-btn" onclick="backToQuiz()">Reiniciar o Quiz</button>
+    <button type="button" id="check-answer" onclick="checkAnswer()">Conferir Resposta:</button>
+</div>
+
+<div id="answerBank">
+    <h2 id="respostas">Respostas:</h2>
+    <ol type="1" id="answers">
+        
+    </ol>
+    <button type="button" id="score-btn" onclick="backToQuiz()">Reiniciar o Quiz</button>
+
+    <button type="button" id="proxQuiz"><a href="/quiz-2.html" rel="prev" id="proximo">Próximo Quiz</a>
+    </button>
+</div>
+<footer>
+            <figure id="logo-rodape"><img src="img/logo.png" alt="logo"></figure>
+            <nav id="menu-opcoes">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="estudos.html">Estudos</a></li>
+                    <li><a href="departamentos.html">Ministérios</a></li>
+                    <li><a href="culto.html">Cultos</a></li>
+                    <li><a href="contato.html">Contatos</a></li>
+                    <li><a href="Cadastro.html">Cadastro</a></li>
+                </ul>
+            </nav>
+                <div class="social">
+                <ul id="social">
+                    <li><a href="http://facebook.com/#">Facebook</a></li>
+                    <li><a href="http://twitter.com/#">Twitter</a></li>
+                    <li><a href="http://plus.google.com/#">Google+</a></li>
+                </ul>
+                </div>
+                <a href="#topo">Voltar ao Topo</a>	
+                <script src="/js/quiz-3-7.js"></script>
+</footer>
+    <div id="rodape">
+        <img src="img/logo.png" alt="ADM - FAMÍLIA">
+        &copy; I.A.D. MINISTÉRIO FAMÍLIA - MARINGÁ.
+    </div>
+    
 </body>
 </html>
