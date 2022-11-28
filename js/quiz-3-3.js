@@ -3,7 +3,7 @@ var questionBank = [
     {
         question: 'A partir de que ano o movimento de contestação da moral cristã ganha mais visibilidade?',
         option: ['1960', '1690', '1906','1966'],
-        answer: '1960.'
+        answer: '1960'
     },
     {
         question: 'Qual é 0 sentido mais amplo da palavra grega porneia?',
@@ -12,11 +12,11 @@ var questionBank = [
     },
     {
         question: 'Cite pelo menos uma base bíblica que reprova o adultério.',
-        option: ['Quando Salomão se casou com a rainha de Etíope', 'Quando o segundo filho de Judá casou com a viuva de seu irmão', 'Quando 0 rei Davi adulterou com Bate-seba, 0 profeta Natã, a mando de Deus, condenou de forma dura seu ato pecaminoso (2 Sm 11.1-5; 12.9,10).','Quando Sansão se casou com Dalila'],
-        answer: 'Quando 0 rei Davi adulterou com Bate-seba, 0 profeta Natã, a mando de Deus, condenou de forma dura seu ato pecaminoso (2 Sm 11.1-5; 12.9,10).'
+        option: ['Quando Salomão se casou com a rainha de Etíope (1 Rs 10:13)', 'Quando o segundo filho de Judá casou com a viuva de seu irmão', 'Quando o rei Davi adulterou com Bate-seba, o profeta Natã, a mando de Deus, condenou de forma dura seu ato pecaminoso (2 Sm 11.1-5; 12.9,10).','Quando Sansão se casou com Dalila (Jz 16:4'],
+        answer: 'Quando o rei Davi adulterou com Bate-seba, 0 profeta Natã, a mando de Deus, condenou de forma dura seu ato pecaminoso (2 Sm 11.1-5; 12.9,10).'
     },
     {
-        question: 'Como 0 cristão compreende a homossexualidade?',
+        question: 'Como o cristão compreende a homossexualidade?',
         option: ['compreende como sendo um ato biologicmente correto.', 'Compreende como um comportamento que Deus criou.', 'Copreendem como sendo algo natural.','Os cristãos conservadores, que têm na Bíblia sua única regra de fé, compreendem a homossexualidade como um comportamento adquirido e não como um determinismo biológico.'],
         answer: 'Os cristãos conservadores, que têm na Bíblia sua única regra de fé, compreendem a homossexualidade como um comportamento adquirido e não como um determinismo biológico.'
     },
