@@ -935,6 +935,13 @@ font-size: 10px;
         text-align: center;
         padding-left: 15px;
     }
+    #titulo-pg{
+        display: none;
+    }
+    #videos{
+        width: auto;
+        height: auto;
+    }
     #container{
         background-color:  var(--cor5);
         color: var(--cor1);
