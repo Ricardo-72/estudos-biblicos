@@ -13,9 +13,8 @@ let a = document.querySelector('#a')
 let b = document.querySelector('#b')
 let c = document.querySelector('#c')
 let d = document.querySelector('#d')
-//AARTICLE COM A CLASS QUESTOES
+//ARTICLE COM A CLASS QUESTOES
 let articleQuestoes = document.querySelector('.questoes')
-//AARTICLE COM A CLASS QUESTOES
 let alternativas = document.querySelector('#alternativas')
 
 const q0 = {
