@@ -33,7 +33,7 @@
     --fonte-android: 'Cavolini', cursive; 
     --fonte-texto: 'Calibri', Light Italic;
     --fonte-texto-novo: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
+}/*
 *{
     margin: 0px;
     padding: 0px;
@@ -128,32 +128,42 @@ main abbr{
     color: var(--cor5);
 }
 #container{
-    width: 95%;
+    margin-left: 0px;
+    width: 99%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background: var(--cor0);
+    background: var(--cor5);
+    color: var(--cor0);
     font-family: var(--fonte-texto-novo);
 }
 #container p{
+    color: var(--cor0);
     margin: 5px 0px;
     text-align: justify;
     text-indent: 30px;
 }
-.corpo{
-    margin: 0 5px;
+#container .corpo{
+    margin: 0 1px;
+    margin-left: -5px;
     width: 100%;
     display: block;
+}
+#container .corpo .tema{
+    margin-left: -5px;
 }
 .corpo ul{
     width: 100%;
     margin: 5px;
     font-size: 13px;
 }
-
+iframe{
+    width: 250px;
+}
 #curiosidade{
     display: block;
     border: .1em solid var(--cor5);
+    color: var(--cor0);
     margin: 0 15px 0;
     padding: 0px;
     float: left;
@@ -492,69 +502,11 @@ main a{
 #sinopse-1 strong{
     color: var(--cor0);
 }
-.tema{
-    font-style: italic;
-    display: block;
-    border: .1em solid var(--cor5);
-    margin: .1em;
-    margin-bottom: 5px;
-    padding-top: 2px;
-    float: left;
-    width: 250px;
-    height: 40vh;
-    box-shadow: 2px 2px 5px black;
-    
-}
-.tema  h4{
-    margin-top: 0px;
-    margin-right: 1px;
-    padding-right: 15px;
-}
-.tema ul li{
-    margin-top: 2px;
-    margin-left: 15px;
-    list-style-type: '\2714\00a0\00a0';
-    font-size: 12px;
-}
-.tema ul li a{
-    font-size: 12px;
-    font-style: var(--font-cabecalho);
-}
-.tema #img-capa{
-    width: 250px;
-    height: 190px;
-}
 #tpd {
     width: 780px;
    margin: 0;
 }
-.tema ul li a:hover{
-    text-decoration: none;
-    color: var(--cor0);
-   background: var(--cor5);
-}
-#biblioteca ul li{
-    width: 100%;
-    background: none;
-    list-style-type: '\2714\00a0\00a0';
-    list-style-position: inside;
-    top:10px;
-    font-size: 13px;
-}
-#biblioteca > ul li{
-    font-size: 15px;
-    list-style-type: '\2714\00a0\00a0';
-    list-style-position: inside;
-    padding-top: 0px;
-    margin-top: 3px;
-}
-#biblioteca ul li{
-    background: none;
-    list-style-type: '\2714\00a0\00a0';
-    list-style-position: inside;
-    top:10px;
-    font-size: 13px;
-}
+
 #container .img{
     float: right;
     width: 250px;
@@ -564,98 +516,6 @@ main a{
     float: right;
     width: 190px;
     height: 210px;
-}
-#detalhe{
-    display: block;
-    width: 100%;
-}
-#detalhe.lateral {
-    display: block;
-    margin:  auto;
-    padding: 0;
-    float: left;
-    font-size: 13px;
-    width: auto;
-    margin-top: 0;
-    list-style-type: '\2714\00a0\00a0';
-    list-style-position: inside;
-}
-.lateral ul li{
-    margin-left: 5px;
-    list-style-type: '\2714\00a0\00a0';
-    list-style-position: inside;
-}
-.lateral ul li a{
-    background: none;
-    font-style: italic;
-    padding-bottom: 0px;
-    
-}
-
-.lateral ul li a:hover{
-    color: var(--cor5);
-    background: var(--cor0);
-}
-
-.lateral h3{
-    text-align: center;
-    font-style: italic;
-    font-weight: bold;
-    margin-top: 15px;
-} 
-
-.lateral  ul li{
-    width: auto;
-    margin: auto;
-    list-style-type: '\2714\00a0\00a0';
-    list-style-position: inside;
-    padding-top: 0px;
-    margin-top: 0px;
-}
-.lateral figure ul{
-    width: auto;
-    float: left;
-    text-decoration: none;
-    background: none;
-    margin-top: 10px;
-    color: var(--cor5);
-} 
-#estudos ul li {
-    background: none;
-    list-style-type: '\2714\00a0\00a0';
-    list-style-position: inside;
-    top:10px;
-    font-size: 13px;
-
-}
-#cultos h3{
-    top: 15px;
-}
-#cultos ul, #eventos ul{
-    font-style: italic;
-    background: none;
-    list-style-type: '\2714\00a0\00a0';
-    list-style-position: inside;
-    top:10px;
-    font-size: 15px;
-}
-#cultos ul li{
-    text-justify: distribute;
-    color: var(--cor9);
-
-}
-#localizacao{
-    font-style: italic;
-    background: none;
-    color: var(--cor5);
-    list-style-type: '\2714\00a0\00a0';
-    list-style-position: inside;
-    top:10px;
-    font-size: 15px;
-}
-#localizacao ul p a{
-    margin-left: 2px;
-
 }
 a.externo {
     text-decoration: underline;
@@ -674,9 +534,6 @@ article > ul li{
 }
 article ul{
     margin-bottom: 10px;
-}
-article .tema{
-    color: var(--cor7);
 }
 article > ul li{
     list-style-type: '\2714\00a0\00a0';
@@ -861,7 +718,7 @@ footer a{
 
 #menu-opcoes ul{
     font-family: var(--fonte-novo);
-    display: flex;
+    display: inline;
     list-style: none;
     gap: .5rem;
 }
@@ -997,7 +854,7 @@ header {
     width: 100%;
     margin: 10px 100px;
     font-size: 2.7rem;
-    color: var(--cor0);
+    color: var(--cor5);
     font-family: var(--font-cabecalho);
     text-shadow: 2px 2px 0px hsl(108, 68%, 54%);
     font-weight: bolder;
@@ -1010,6 +867,16 @@ header {
    
     #cabecalho{
         margin-top: -75px;
+    }
+    #titulo-pg{
+        width: 100%;
+        margin: 10px 100px;
+        font-size: 1.7rem;
+        color: var(--cor5);
+        font-family: var(--font-cabecalho);
+        text-shadow: 2px 2px 0px hsl(108, 68%, 54%);
+        font-weight: bolder;
+        text-align: center;
     }
     #cultos,#eventos,#localizacao{
         font-size: 12px;
@@ -1092,24 +959,12 @@ header {
     text-align: center;
 }
 .corpo{
-    margin-top: -95px;
+    margin-top: -97px;
 }
-.tema{
+.corpo .tema{
     width: auto;
 }
-#detalhe .lateral .titulo-lateral{
-    color: var(--cor0);
-    font-family: var(--fonte-padrao);
-    font-weight: bold;
-    width: auto;
-    font-size: 1.0rem;
-    background: linear-gradient(45deg, var(--cor3) 10%, var(--cor9));
-    text-indent: 8px;
-    text-align: center;
-    margin-left: 15px;
-    margin-bottom: 2px;
-    border-radius: 5px;
-}
+
 #container {
     width: 100%;
 }
@@ -1138,19 +993,28 @@ header {
         justify-content: space-between;
         align-items: center;
     }
-    #titulo-pg1{
-        color: var(--cor0);
-        font-family: var(--fonte-padrao);
-        font-weight: bold;
-        width: auto;
-        font-size: 1.1em;
-        background: linear-gradient(45deg, var(--cor3) 10%, var(--cor9));
-        text-indent: 8px;
+    #btn_menu{
+    
+        min-width: 130px;
+    }
+    #titulo{
+        display: flex;
+        width: 100%;
+        margin: auto ;
+    }
+    #titulo img{
+        margin-top: 5px;
+        height: 50px;
+    }
+    #titulo-pg{
+        width: 100%;
+        margin: 0.8rem;
+        font-size: 1.7rem;
+        color: var(--cor5);
+        font-family: var(--font-cabecalho);
+        text-shadow: 2px 2px 0px hsl(108, 68%, 54%);
+        font-weight: bolder;
         text-align: center;
-        margin-bottom: 2px;
-        margin-top: -50px;
-        border-radius: 5px;
-
     }
     #tpd{
         color: var(--cor0);
@@ -1166,10 +1030,6 @@ header {
         margin-bottom: 2px;
         border-radius: 5px;
 
-    }
-    .tema ul li a{
-        display: flex;
-        width: 50%;
     }
     #detalhe .titulo-lateral{
         margin-top: 702px;
@@ -1187,9 +1047,6 @@ header {
         margin-bottom: 2px;
         border-radius: 5px;
     }
- #cultos,#eventos,#localizacao{
-    font-size: 12px;
-}
 #container {
     width: auto;
 }
@@ -1262,6 +1119,12 @@ header {
     margin-top: -99px;
     margin-left: 5px;
     width: auto;
+}
+#question{
+    color: var(--cor1);
+}
+.option{
+    color: var(--cor8);
 }
 #pergunta {
     font-size: 0.80rem;
