@@ -60,14 +60,37 @@ body {
     font-family: var(--fonte-texto-novo);
     justify-content: center;
 }
-.corpo{
+#licoes  #tpd{
+    font-size: 1.2rem;
+    margin: 1px;
+    text-align: center;
+    background-color: var(--cor2);
+    padding: 1px;
+    border-radius: 0.2rem;
+    width: 78%;
+    font-style: italic;
+    background: linear-gradient(90deg, var(--cor5) 0%, var(--cor2) 35%, var(--cor7) 100%);
+    text-shadow: 1px 1px 3px var(--cor9), 0 0 25px var(--cor1), 0 0 5px var(--cor8);
+}
+#licoes{
     margin: 3px;
     width: 60%;
     height: 50%;
     display: block;
     justify-content: center;
 }
-.corpo ul li a:hover{
+#licoes .tema{
+    display: inline-table;
+    margin: 0.1rem;
+    border-radius: 2px;
+    width: 25%;
+    height: 16rem;
+    padding: 0px;
+    text-indent: 5px;
+    border: solid 2px var(--cor1);
+
+}
+#container #licoes .tema ul li a:hover{
     font-size: 15px;
     cursor: pointer;
     background: var(--cor1);
@@ -75,36 +98,8 @@ body {
     border-radius: 3px;
     transition: all 1s;
 }
-#licoes{
-    display: flex;
-    margin: 5px;
-    width: 45.5%;
 
-}
-
-.corpo  #tpd{
-    font-size: 1.9rem;
-    margin: auto;
-    text-align: center;
-    background-color: var(--cor2);
-    padding: 1px;
-    border-radius: 0.2rem;
-    width: 166%;
-    font-style: italic;
-    background: linear-gradient(90deg, var(--cor5) 0%, var(--cor2) 35%, var(--cor7) 100%);
-    text-shadow: 1px 1px 3px var(--cor9), 0 0 25px var(--cor1), 0 0 5px var(--cor8);
-}
-.tema{
-   display: block;
-   margin: 0.1rem;
-   border-radius: 2px;
-   width: auto;
-   height: 17rem;
-   padding: 0px;
-   text-indent: 5px;
-   border: solid 2px var(--cor1);
-}
-.tema h4{
+#licoes .tema h4{
     background: linear-gradient(90deg, var(--cor5) 0%, var(--cor2) 35%, var(--cor7) 100%);
     width: 99%;
     height: 1.5rem;
@@ -113,46 +108,47 @@ body {
     border-radius: 2px;
     margin-left: 1px; 
 }
-.tema img{
-    margin: 3px;
+#licoes .tema img{
+    margin: auto;
     width: 195px;
     height: 115px;
 }
-.tema ul li {
+#licoes .tema ul li {
     list-style-type: '\2714\00a0\00a0';
     list-style-position: inside;
 }
-.tema ul li a{
-    font-size: 12px;
+#licoes .tema ul li a{
+    font-size: 10px;
     color: var(--cor0);
     margin: 0;
     text-decoration: none;
 }
 
 #videos{
-    display: block;
-    border-radius: 2px;
     width: 17.5%;
-    height: 16rem;
+    height: 20rem;
     text-indent: 5px;
-    margin-top: 2px;
+    margin-top: 1rem;
     margin-left: 15px;
  }
-#videos #video1{
-    margin-left: -1px;
+ #videos #iframe{
+    display: block;
+    width: 20%;
+    margin-top: -17rem;
+    margin-left: 12rem;
  }
  .tt-cl{
     padding-top: 5px;
     background: linear-gradient(90deg, var(--cor5) 0%, var(--cor2) 35%, var(--cor7) 100%);
     width: auto;
  }
- #videos #tituloOn{
-    padding-top: 5px;
+ #iframe h4{
     background: linear-gradient(90deg, var(--cor5) 0%, var(--cor2) 35%, var(--cor7) 100%);
-    width: 160.9%;
     font-style: italic;
-    font-size: 20px;
-    margin-left: 5px;
+    font-size: 16px;
+    margin-left: 2px;
+    margin-top: 0.1rem;
+    width: 30vw;
  }
 
  #videos ul li a{
@@ -173,109 +169,147 @@ body {
     transition: all 1s;
 }
 #videos  iframe{
-    width: 27vw;
-    height: 33.8vh;
-    margin: 2px 5px;
+    width: 30vw;
+    height: 35.8vh;
+    margin: 2px 2px;
     border: solid 2px var(--cor1);
  }
- #videos #vd-edit{
-    width: 164.5%;
- }
-/*estudos*/
 
-#estudos{
-    float: right;
-    margin-top: -255px;
-    margin-right: 17px;
-    width: 68%;
-    height: 85vh;
+/*detalhe*/
+main{
+    width: 100%;
+    height: auto;
+}
+#detalhe{
+    float: left;
+    margin-top: -99.9vw;
+    margin-right: 3px;
+    margin-left: 39rem;
+    width: 50%;
+    height: 78.5rem;
     
 }
-#estudos ul{
+#detalhe ul{
     border: solid 2px var(--cor1);
 }
-#estudos ul li{
+#detalhe ul li{
     list-style-type: '\2714\00a0\00a0';
     list-style-position: inside;
 }
-#estudos ul li a{
+#detalhe ul li a{
     color: var(--cor0);
     text-decoration: none;
     font-size: 13px;
+}
+#detalhe .lateral ul li a:hover{
+    font-size: 1.1rem;
+    background-color: var(--cor9);
+    transition-duration: .10s;
+    transition-delay: .10s;
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px var(--cor8);
+    transition: transform .5s, border 2s;
+    transition: all 1s;
+}
+#detalhe #biblioteca ul li a:hover{
+    font-size: 1.1rem;
+    background-color: var(--cor9);
+    transition-duration: .10s;
+    transition-delay: .10s;
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px var(--cor8);
+    transition: transform .5s, border 2s;
+    transition: all 1s;
+}
+#lateral-est ul li a:hover{
+    font-size: 1.1rem;
+    background-color: var(--cor9);
+    transition-duration: .10s;
+    transition-delay: .10s;
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px var(--cor8);
+    transition: transform .5s, border 2s;
+    transition: all 1s;
 }
 .est-lat {
     width: 99%;
     height: auto;
     margin-bottom: 3px;
 }
-
 .titulo-lateral{
     margin: 3px 0px;
     width: auto;
-    background: linear-gradient(90deg, var(--cor5) 0%, var(--cor2) 35%, var(--cor7) 99%);
     text-align: center;
     font-style: italic;
+    background: linear-gradient(90deg, var(--cor5) 0%, var(--cor2) 35%, var(--cor7) 100%);
+    text-shadow: 1px 1px 3px var(--cor9), 0 0 25px var(--cor1), 0 0 5px var(--cor8);
 }
 #tt-est{
     margin-bottom: 5px;
-    background: linear-gradient(90deg, var(--cor5) 0%, var(--cor2) 35%, var(--cor7) 95%);
     text-align: center;
     font-style: italic;
+    background: linear-gradient(90deg, var(--cor5) 0%, var(--cor2) 35%, var(--cor7) 100%);
+    text-shadow: 1px 1px 3px var(--cor9), 0 0 25px var(--cor1), 0 0 5px var(--cor8);
 }
-
+.tema1{
+    font-size: 20px;
+    margin: 4px 1px;
+    width: auto;
+    text-align: center;
+    font-style: italic;
+    background: linear-gradient(90deg, var(--cor5) 0%, var(--cor2) 35%, var(--cor7) 100%);
+    text-shadow: 1px 1px 3px var(--cor9), 0 0 25px var(--cor1), 0 0 5px var(--cor8);
+}
 
 /*Lateral*/
 
 #noticias{
-    float: right;
     display: flex;
-    margin-top: 17px;
+    margin-left: 39rem;
+    margin-top: -7.7rem;
     margin-right: 20.2px;
-    width: 67.4%;
-    height: auto;
-    border: solid 2px var(--cor1);
+    width: 50%;
+    height: 17vh;
+   
 }
 #noticias #cultos {
-    margin: 5px;
+    margin: 1px;
     width: 100%;
-    height: 20vh;
-    font-size: 13px; 
-    border: solid 2px var(--cor2);
+    height: 15vh;
+    font-size: 12px; 
     border-radius: 3px; 
+    border: solid 2px var(--cor1);
+
 }
 #noticias #cultos ul li {
     list-style-type: '\2714\00a0\00a0';
     list-style-position: inside;
 }
 #noticias #eventos{
-    margin: 5px;
-    width: 100%;
-    height: 20vh;
-    font-size: 13px;   
-    border: solid 2px var(--cor2);
-    border-radius: 3px;      
+    margin: 1px;
+    width: 50rem;
+    height: 15vh;
+    font-size: 12px;   
+    border-radius: 3px;  
+    border: solid 2px var(--cor1);    
 }
 #noticias #localizacao{
-    margin: 5px;
-    width: 100%;
-    height: 20vh;
-    font-size: 13px;
-    border: solid 2px var(--cor2);
+    margin: 1px;
+    width: 30rem;
+    height: 15vh;
+    font-size: 12px;
     border-radius: 3px; 
+    border: solid 2px var(--cor1);
 
-}
-#noticias #localizacao p{
-    margin-left: 15px;
-    color: var(--cor0);
-}
-#noticias #localizacao p a{
-    margin-left: 2px;
-    color: var(--cor0);
-    font-size: 15px;
 }
 #noticias #eventos ul li{
     list-style-type: '\2714\00a0\00a0';
     list-style-position: inside;
+}
+#noticias #localizacao p a{
+    margin-left: 2px;
+    color: var(--cor0);
+    font-size: 12px;
 }
 .tt-not{
     font-size: 1rem;
@@ -288,7 +322,7 @@ body {
     #tpd{
         width: 95%;
     }
-    #container .corpo{
+    #container #licoes{
         display: block;
         width: auto;
         height: auto;
@@ -304,7 +338,7 @@ body {
         width: 123px;
         height: 90px;
     }
-  .corpo #licoes .tema{
+  #licoes .tema{
     width: 100%;
     height: auto;
     margin: 2PX;
@@ -324,7 +358,7 @@ body {
 #videos #tt-edit{
     display: block;
 }
-#estudos{
+#detalhe{
     width: auto;
     margin-top: 3.7rem;
     margin-left: -4rem;
@@ -333,7 +367,7 @@ body {
     body{
         width: 100px;
     }
-    .corpo #tpd{
+    #licoes #tpd{
         font-size: 15px;
         width: 100%;
         list-style: none;
@@ -356,13 +390,13 @@ body {
         margin: 0.1rem;
         display: block;
     }
-    #container .corpo #licoes{
+    #container #licoes{
         margin: auto;
         width: 100%;
         height: auto;
         display: block;
     }
-  .corpo #licoes .tema{
+  #licoes .tema{
         display: inline-block;
         padding: 0px;
         width: 45%;
@@ -370,7 +404,7 @@ body {
         height: auto;
 
     }
-    .corpo #licoes .img{
+     #licoes .img{
         margin-top: 2px;
         margin-left: -2px;
         width: 49px;
@@ -401,23 +435,23 @@ body {
         margin-left: 7px;
      }
 
-    #estudos{
-        width: 100%;
+    #detalhe{
+        width: 50%;
         height: auto;
         margin-top: -4rem;
         margin-left: 3px;
         font-size: 12px;
     }
-    #estudos h2{
+    #detalhe h2{
         font-size: 15px;
         width: 99%;
         list-style: none;
     }
-    #estudos .est-lat{
+    #detalhe .est-lat{
         width: 95%;
         margin-left: 25px;
     }
-    #estudos .titulo-lateral{
+    #detalhe .titulo-lateral{
         color: var(--cor0);
         font-family: var(--fonte-padrao);
         font-weight: bold;
@@ -431,11 +465,11 @@ body {
         margin-bottom: 2px;
         border-radius: 2px;
     }
-    #estudos ul li a{
+    #detalhe ul li a{
         font-size: 10px;
         margin-left: 5px;
     }
-    #estudos #biblioteca{
+    #detalhe #biblioteca{
         width: 99%;
     }
     #noticias{
@@ -464,15 +498,6 @@ body {
         margin-top: 2px;
         width: 96%;
         height: auto;
-    }/*
-    #menu-opcoes{
-        display: none;
     }
-    .social ul{
-        display: flex;
-        width: auto;
-        margin: 2rem;
-        padding: -2px;
-    }*/
 }
 }
