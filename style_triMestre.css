@@ -60,50 +60,50 @@ main{
         margin-left: 15px;
         padding: 1px;
         border-bottom-right-radius: 10px;
-        border: solid 1px var(--cor8);
         
     }
-main h1{
+main article h1{
         color: var(--cor0);
         font-family: var(--fonte-padrao);
-        font-weight: bold;
-        font-size: 1.5em;
+        font-weight: normal;
+        font-size: 0.9em;
         background: linear-gradient(45deg, var(--cor3) 10%, var(--cor9));
-        text-indent: 8px;
+        text-indent: 1px;
         text-align: center;
-        margin-bottom: 2px;
+        margin-bottom: 1px;
         border-radius: 5px;
 
     }
-    main h2 {
+    main article h2 {
         color: var(--cor0);
         font-family: var(--fonte-Android);
-        font-size: 1.1em;
+        font-size: 0.9em;
         background: linear-gradient(45deg, var(--cor3) 10%, var(--cor9));
-        text-indent: 8px;
+        text-indent: 1px;
         font-weight: normal;
-        margin-bottom: 2px;
+        margin-bottom: 1px;
         border-radius: 5px;
         text-align: center;
     }
-main h3{
+main article h3{
     color: var(--cor0);
     font-family: var(--fonte-texto-novo);
     font-size: 1.1em;
-    text-indent: 8px;
-    font-weight: bold;
+    text-indent: 1px;
+    font-weight: normal;
     border-radius: 5px;
     text-align: center;
-}main h4{
+}
+main article h4{
     color: var(--cor0);
     font-family: var(--fonte-texto-novo);
     background: linear-gradient(45deg, var(--cor3) 10%, var(--cor9));
-    font-size: .8em;
-    text-indent: 8px;
-    font-weight: bold;
+    font-size: 0.9em;
+    text-indent: 1px;
+    font-weight: normal;
     border-radius: 2px;
     text-align: right;
-    margin-top: 1px;
+    margin-top: 2px;
     height: auto;
 }
 #plano-aula{
@@ -189,7 +189,6 @@ main abbr{
     text-align: center;
     border-bottom-right-radius: 30px;
     border-top-left-radius: 30px;
-    background: var(--cor5);
     border: solid 2px var(--cor8);
 }
 #texto-aureo a{
@@ -206,7 +205,6 @@ main abbr{
     height: auto;
     text-align: center;
     border-radius: 50px;
-    background: var(--cor5);
     border: solid 2px var(--cor8);
 }
 #ta-vdd-prt {
@@ -214,8 +212,7 @@ main abbr{
     display: flex;
     padding-right: 5px;
     padding-left: 5px;
-    background: linear-gradient(90deg, var(--cor5) 0%, var(--cor2) 35%, var(--cor7) 100%);
-    text-shadow: 1px 1px 3px var(--cor9), 0 0 25px var(--cor1), 0 0 5px var(--cor8);
+
 }
 #leitura-diaria{
     color: var(--cor0);
@@ -230,7 +227,6 @@ main abbr{
     width: 97%;
     height: auto;
     border-radius: 10px 40px 10px 40px;
-    background: var(--cor5);
 }
 #leitura-diaria ul{
     padding: 0;
@@ -266,6 +262,8 @@ main abbr{
     text-shadow: 1px 1px 3px var(--cor9), 0 0 25px var(--cor1), 0 0 5px var(--cor8);
     font-size: 1.rem;
     color: var(--cor8);
+    width: 98%;
+    margin-left: 0.7rem;
 }
 
 #img-ld{
@@ -290,7 +288,7 @@ main abbr{
     border-radius: 10px 20px 10px 20px;
     background: var(--cor5);
 }
-#leitura-classe #lcc p{
+#leitura-classe #lc p{
     display: block;
     margin-top: 15px ;
 }
@@ -301,12 +299,12 @@ main abbr{
     margin-left: -1px;
     margin-top: -4px;
     width: 98%;
-    height: 28px;
+    height: auto;
     font-size: 20px;
     padding-right: 3px;
     font-weight: bolder;
-    border-radius: 6px 5px 2px 5px;
-}
+    border-radius: 6px 5px 2px 5px;    
+    }
 #hino{
   border-radius: 10px 5px 10px;
   background: var(--cor5);
@@ -861,7 +859,6 @@ header {
         height: auto;
         text-align: left;
         border-radius: 30px;
-        background: var(--cor7);
     }
     #ta-vdd-prt {
         display: block;
@@ -1035,11 +1032,7 @@ header {
     margin-left: -3px;
     margin-right: 5px ;
 }
-#lc{
-    width: 100%;
-    height: auto;
 
-}
 #leitura-classe{
     width: 97%;
     margin-top: 2px;
@@ -1057,6 +1050,12 @@ header {
     width: 99%;
     margin-left: 5px;
     margin-right: 10px;
+}
+#plv-chave #plv-chave-txt {
+    background: var(--cor2);
+    color: var(--cor5);
+    border-radius: 5px;
+    width: 90%;
 }
 #numQuestao{
     display: block;
@@ -1108,14 +1107,15 @@ header {
         width: auto;
     }
     main h1{
-        font-size: 0.9rem;
-        width: 70%;
-        margin-top: 2rem;
+        font-size: 0.8rem;
+        width: 98%;
+        margin-top: 1.7rem;
     }
     main h2{
         font-size: 0.8rem;
-        width: 70%;
-        margin-top: 0.11rem;
+        width: 99%;
+        margin-top: 0.15rem;
+        margin-bottom: 10px;
         text-align: center;
     }
     main h4{
@@ -1130,16 +1130,125 @@ header {
         margin-top: 2rem;
     }
     #capa{
+        float: right;
         width: 100px;
         width: 150px;
     }
     #licoes{
-        width: 70%;
-        font-size: 0.7rem;
+        width: 100%;
+        font-size: 0.4rem;
         font-style: italic;
     }
+    #licoes ul li a {
+        width: 100%;
+        font-size: 0.8rem;
+        font-style: italic;
+    }
+    #titulo-licao{
+        margin: auto;
+        width: 99%;
+    }
     #texto-aureo{
+        width: 18rem;
+    }
+    .tt-topico{
+        margin: 3px;
+        width: 96%;
+    }
+    #ta-vdd-prt{
+        display: block;
+        margin: 0.3rem;
+    }
+    #vdd-pratica{
+        margin: -0.4rem;
+    }
+    #ta-vdd-prt #capa-lic{
+       margin: 3px;
+    }
+    #ld{
+        margin-top: 0.1rem;
+    }
+    #leitura-diaria{
+        width: 100%;
+        
+    }
+    #img-ld{
+        margin-top: 0.2rem;
+        margin-left: -2px;
+    }
+    #leitura-diaria ul li{
+        font-size: 0.8rem;
+    }
+    #leitura-diaria ul li strong{
+        font-size: 0.8rem;
+    }
+    .externo{
+        font-size: 0.8rem;
+    }
+    #lc{
+        font-size: 0.9rem;
+        width: 100%;
+    }
+    #leitura-classe p{
+        font-size: 0.8rem;
+
+    }
+    #hino{
+        width: 96%;
+    }
+    #hino p{
+        font-size: 0.8rem;
+    }
+    #topico-1 p{
+        font: 0.5rem;
+    }
+    #topico-1 p strong{
+        font-size: 0.8rem;
+    }
+    #sinopse-1{
+        font-size: 0.8rem;
+    }
+    #quiz-container{
+        margin-top: -2rem;
+    }
+    .buttons{
+        padding: 1px;
+       font-size: 0.8rem;
+    }
+    .next{
+        font-size: 0.8rem;
+        border: solid 1px var(--cor8);
+    }
+    #quiz-container .questions{
+        font-size: 0.6rem;
         width: auto;
+        border: solid 1px var(--cor8);
+        height: 55vh;
+    }
+    #quiz-container .option{
+        margin-left: -2rem;
+        font-size: 1rem;
+        width: 138%;
+    }
+    #quiz-container #stat{
+        color: var(--cor5);
+        margin-top: 10px;
+        font-size: 1.8rem;
+        background: var(--cor1);
+        border-radius: 2px 5px;
+        text-shadow: 1px 1px 3px var(--cor9), 0 0 25px var(--cor1), 0 0 5px var
+        
+    }
+    #plv-chave #plv-chave-txt {
+        background: var(--cor2);
+        color: var(--cor5);
+        border-radius: 5px;
+        width: 90%;
+    }
+    #rodape img{
+        display: none;
+        {
+        
     }
 }
 }
