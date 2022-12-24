@@ -89,6 +89,7 @@ main article h1{
         text-indent: 1px;
         text-align: center;
         margin-bottom: 1px;
+        
 
     }
     main article h2 {
@@ -101,6 +102,7 @@ main article h1{
         margin-bottom: 2px;
         border-radius: 5px;
         text-align: center;
+        
     }
 main article h3{
     color: var(--cor0);
@@ -111,6 +113,7 @@ main article h3{
     border-radius: 5px;
     text-align: center;
     background: linear-gradient(45deg, var(--cor3) 10%, var(--cor9));
+    
 }
 main article h4{
     color: var(--cor0);
@@ -495,10 +498,11 @@ main a{
     color: var(--cor5);
 }
 #sinopse-1 p{
-    padding-left: 15px;
+    width: 95%;
+    padding-left: 5px;
     list-style-type: '\2714\00a0\00a0';
     list-style-position: inside;
-    color: var(--cor5);
+    color: var(--cor9);
 }
 #sinopse-1 strong{
     color: var(--cor0);
@@ -983,6 +987,7 @@ header {
         text-align: center;
         margin-bottom: 2px;
         border-radius: 5px;
+        
 
     }
     #detalhe .titulo-lateral{
@@ -1119,13 +1124,13 @@ header {
         width: auto;
     }
     #container{
-        margin-top: -37px;
+        margin-top: 2rem;
         background: var(--cor5);
     }
     #container #cabecalho h1{
         font-size: 0.9rem;
         width: 99%;
-        margin-top: 4.9rem;
+        margin-top: 0.2rem;
     }
     #container #cabecalho h2{
         font-size: 0.8rem;

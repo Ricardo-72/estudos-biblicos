@@ -358,6 +358,7 @@ footer a{
     #btn_menu:checked ~ .menu{
      margin-left: 0;
  }
+ 
  #titulo .social-menu ul{
      float: right;
      margin-top: -57px;
@@ -469,7 +470,11 @@ footer a{
               margin: 3px;
            }
            #btn_menu:checked ~ .menu{
-            margin-left: 0;
+            margin-left: 2px;
+        }
+        #btn_menu:checked ~ .menu ul{
+            margin-left: 2px;
+            display: block;
         }
         #titulo{
             display: flex;
@@ -515,6 +520,7 @@ footer a{
             font-style: italic;
         }
         .menu ul li ul li{
+            display: block;
             font-style: italic;
             font-style: normal;
             width: 100%;
