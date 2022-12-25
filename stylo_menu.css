@@ -231,16 +231,16 @@ label[for="btn_menu"]{
 footer{
     box-sizing: border-box;
     display: flex;
-    margin-top: 0.2vw;
+    margin-top: 0.5vw;
     width: 99%;
-    height: 1vh;
+    height: 1.5vh;
     padding: 1rem;
     align-items: center;
     justify-content: space-between;
-    border: solid 2px var(--cor2);
+    border: solid 2px var(--cor1);
     border-radius: 3px;
     background-image: linear-gradient(to bottom, var(--cor9), var(--cor4));
-    overflow: hidden;
+
 
 }
 .social li a {
@@ -332,8 +332,8 @@ footer a{
 }
 #rodape img{
     margin-left: 20px;
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
 }
 #rodape {
     margin-top: 3px;

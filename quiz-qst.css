@@ -376,6 +376,23 @@ footer{
     #title{
         font-size: 9rem;
     }
+    #cabecalho-questinario{
+        display: block;
+        font-size: 0.8rem;
+        width: 99%;
+        margin-left: 2px;
+    }
+    #cabecalho-questinario #inputNome, #inputEmail{
+        width: 200px;
+        margin-left: 15px;
+    }
+    #cabecalho-questionario #inputAssunto{
+        width: 200px;
+        margin-left: 2px;
+    }
+    #dados #titulo-corpo{
+        font-size: 1rem;
+    }
     .img-quest{
         width: 2.3rem;
         height: 2.3rem;
@@ -413,7 +430,44 @@ footer{
         background: var(--cor3);
         border-radius: 1rem;
     }
+    #dados{
+        border: solid 2px var(--cor2);
+        border-radius: 3px;
+        margin: auto;
+        margin-top: -0.9rem;
+        width: 99%;
+        height: 70%;
+    }
+    #dados .pergunta{
+        font-size: 0.9rem;
+        width: auto;
+        margin-top: -25px;
+    }
     #dados .perguntas{
         font-size: 0.9rem;
+    }
+    #dados label{
+        font-size: 1rem;
+    }
+    #dados textarea {
+        margin: auto;
+        margin-left: 2px;
+        width: 270px;
+        height: 1.8rem;
+    }
+    #dados .resposta{
+        font-size: 0.9rem;
+        margin-left: 2px;
+    }
+    #dados section .respostaCerta{
+        font-size: 0.8rem;
+        width: 99%;
+        margin-top: 1rem;
+        margin-left: 2px;
+    }
+    #dados .perguntas section  .containerResp{
+        margin-top: -2px;
+        font-size: 0.9rem;
+        width: 99%;
     }
 }
