@@ -1,0 +1,540 @@
+@charset "utf-8";
+@import url('http://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@font-face {
+    font-family: 'android';
+    src: url('../fontes/idroid/IDroid.otf') format('opentype');
+    font-weight: normal;
+}
+
+/*
+#c5ebd6
+#83e1ad
+#3ddc84
+#2fa865
+#1a5c37
+#063d1e
+*/
+
+:root {
+    --cor0: #ebe5c5;
+    --cor1: #913d05;
+    --cor2: #fc9d50;
+    --cor3: #552306;
+    --cor4: #c5815a;
+    --cor5: #975408;
+    --cor6: #030964;
+    --cor7: #f5f4d0;
+    --cor8: #411f29;
+    --cor9: #412d16;
+
+    --font-cabecalho: Comic, Sans MS;
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque:'Bebas Neue', cursive;
+    --fonte-android: 'Android', cursive; 
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: var(--cor0);
+    font-family: var(--fonte-padrao);
+    min-width: 300px;
+    max-width: 900ch;
+    margin: auto;
+}
+#logo2{
+    width: 5rem;
+    padding-left: 10px;
+    color: var(--cor5);
+}
+#titulo {
+    display: flex;
+    margin: .3rem;
+    width: auto;
+    font-size: 2.7rem;
+    color: var(--cor9);
+    font-family: var(--font-cabecalho);
+    text-shadow: 2px 2px 0px hsl(108, 68%, 54%);
+    font-weight: bolder;
+    text-align: center;
+
+}
+.menu{
+    margin: auto;
+    display: flex;
+    width: 98%;
+    height: 50px;
+    background-color: var(--cor9);
+    font-family: var(--fonte-cabecalho);
+    text-shadow: 1px 2px 0px var(--cor9);
+    font-weight: bold;
+    border-radius: 5px;
+ 
+
+}
+.menu ul{
+    margin: auto;
+    margin-left: 350px;
+    display: flex;
+    width: 100%;
+    position: relative;
+    list-style: none;
+    
+}
+menu ul li{
+    margin: auto;
+    width: 100%;
+    padding: 1px;
+    text-align: center;
+}
+.menu ul li a{
+    width: 100%;
+    font-size: 1.2rem;
+    padding: 1px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    background-color: var(--cor4);
+    color: var(--cor0);
+    font-style: italic;
+}
+.menu ul ul{
+    margin-left: -330px;
+    width: 95%;
+    display: block;
+    position: absolute;
+    visibility: hidden;
+}
+.menu ul li:hover ul{
+    visibility: visible;
+    color: var(--cor7);
+}
+.menu a:hover{
+    width: 100%;
+    background-color: var(--cor2);
+    color: var(--cor0);
+
+    border-radius: 3px;
+    transition: all 1s;
+}
+.menu ul li ul{
+    float: none;
+    border-bottom: solid 1px var(--cor1);
+    color: var(--cor9);
+    
+}
+.menu ul li ul li:hover{
+    width: 100%;
+    border: solid 1px var(--cor0);
+    border-radius: 5px;
+    font-size: 25px;
+    color: var();
+}
+.menu ul ul li a{
+    color: var(--cor9);
+    border: solid 1px var(--cor4);
+    font-size: 1.1rem;
+    width: 80%;
+    margin: 2px;
+    background: var(--cor3);
+    
+}
+.social-menu ul{
+    float: right;
+    margin-top: 20px;
+    list-style-type: none;
+    display: flex;
+    font-size: 0.8rem;
+    width: 15%;
+    position: absolute;
+    right: 25px;
+
+}
+.social-menu li a {
+    border-radius: 20%;
+    height: 25px;
+    width: 25px;
+    display: flex;
+    text-indent: 19px;
+    color:  var(--cor5);
+}
+.social-menu a[href*="facebook.com"] {
+    background-image: url(./img/facebook.png);
+    }
+    .social-menu a[href*="twitter.com"] {
+    background-image: url(./img/twitter.png);
+    }
+    .social-menu a[href*="www.instagram.com"] {
+    background-image: url(./img/instagram.png);
+    }
+    .social-menu a[href*="web.whatsapp.com"] {
+        background-image: url(./img/whasApp.png);
+    }
+
+figure img{
+    width: 50px;
+    height: 50px;
+}
+nav{
+    box-shadow: 2px 2px 5px var(--cor2);
+}
+.btn{
+    margin: 5px;
+    box-shadow: 2px 2px 5px var(--cor2);
+}
+label[for="btn_menu"]{
+    display: none;
+}
+#btn_menu{
+    display: none;
+}
+label[for="btn_menu"]{
+    padding: 5px;
+    background-color: var(--cor5);
+    color: var(--cor0);
+    font-family: "Arial";
+    text-align: center;
+    font-size: 30px;
+    cursor: pointer;
+    width: 70px;
+    height: 50px;
+}
+#btn_menu{
+    display: none;
+}
+label[for="btn_menu"]{
+    display: none;
+}
+
+#menu-opcoes ul{
+    font-family: var(--fonte-novo);
+    display: flex;
+    list-style: none;
+    gap: .2rem;
+    column-gap: .2rem;
+}
+#menu-opcoes li a{
+    width: auto;
+    text-align: center;
+    margin-left: auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    color: var(--cor0);
+    padding: 5px;
+    border-radius: 3px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-shadow: 2px 1px 0px var(--cor3);
+
+}
+footer{
+    box-sizing: border-box;
+    display: flex;
+    margin-top: 0.5vw;
+    width: 99%;
+    height: 1.5vh;
+    padding: 1rem;
+    align-items: center;
+    justify-content: space-between;
+    border: solid 2px var(--cor1);
+    border-radius: 3px;
+    background-image: linear-gradient(to bottom, var(--cor9), var(--cor4));
+
+
+}
+.social li a {
+    border-radius: 20%;
+    height: 25px;
+    width: 25px;
+    display: flex;
+    text-indent: -9999px;
+    color:  var(--cor5);
+}
+    .social a[href*="facebook.com"] {
+    background-image: url(./img/facebook.png);
+    }
+    .social a[href*="twitter.com"] {
+    background-image: url(./img/twitter.png);
+    }
+    .social a[href*="www.instagram.com"] {
+    background-image: url(./img/instagram.png);
+    }
+    .social a[href*="web.whatsapp.com"] {
+        background-image: url(./img/whasApp.png);
+    }
+.social ul{
+    width: 10%;
+    float: right;
+    position: relative;
+    margin-top: 2px;
+    right: 5px;
+
+}
+footer  ul{
+    font-family: var(--fonte-novo);
+    display: flex;
+    list-style: none;
+    gap: .5rem;
+}
+footer a{
+    color: var(--cor3);
+    font-size: 10px;
+}
+
+#menu-opcoes ul{
+    font-family: var(--fonte-novo);
+    display: flex;
+    list-style: none;
+    gap: .5rem;
+    text-shadow: 2px 1px 0px var(--cor5);
+}
+#menu-opcoes li a{
+    width: auto;
+    text-align: center;
+    margin-left: auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    color: var(--cor0);
+    padding: 5px;
+    border-radius: 3px;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-shadow: 2px 1px 0px var(--cor5);
+
+}
+#menu-opcoes li a:hover{
+    color: var(--cor0);
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: bold;
+    background-color: var(--cor1);
+    transition-duration: .10s;
+    transition-delay: .10s;
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px var(--cor8);
+    transition: transform .5s, border 2s;
+}
+#menu-opcoes li a:hover{
+    color: var(--cor0);
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: bold;
+    background-color: var(--cor1);
+    transition-duration: .10s;
+    transition-delay: .10s;
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px var(--cor8);
+    transition: transform .5s, border 2s;
+}
+#rodape img{
+    margin-left: 20px;
+    width: 30px;
+    height: 30px;
+}
+#rodape {
+    margin-top: 3px;
+    font-size: 10px;
+
+}
+#rodape{
+    font-display: center;
+    color: #777;
+    padding: 0;
+    display: inline-flex;
+    align-items: center;
+}
+#retornar{
+    color: var(--cor0);
+}
+@media(max-width: 800px ){
+    label[for="btn_menu"]{
+        display: block;
+       margin: 5px;
+    }
+    #btn_menu:checked ~ .menu{
+     margin-left: 0;
+ }
+ 
+ #titulo .social-menu ul{
+     float: right;
+     margin-top: -57px;
+     width: 50%;
+     padding: 1px;
+     margin-left: 5px;
+     display: flex;
+ }
+ #titulo .social-menu li{
+    margin-top: -2px;
+    margin-left: 2px;
+ }
+    #titulo{
+        display: flex;
+        margin-left: 1px;
+        width: auto;
+        color: var(--cor2);
+        border-radius: 3px;
+        justify-items: center;
+        text-align: center;
+        padding-left: 15px;
+
+    }
+    #titulo #logo2{
+        width: 5rem;
+        height: 5rem;
+    }
+    #titulo-pg{
+        color: var(--cor9);
+        font-size:  2rem;
+    }
+    .menu{
+        width: 100%;
+        margin-top: 1px;
+        margin-left: -180%;
+        height: 75px;
+        padding: 0;
+        transition: all .4s;
+        position: relative;
+        border-bottom: solid 1px var(--cor1);
+    }
+    .menu ul{
+        width: 100%;
+        margin-left: -155%;
+        display: block;
+        position: relative;
+        padding: 0;
+        margin-left: 0px;
+        float: left;
+    }
+    .menu ul li{
+        width: 100%;
+        float: none;
+    }
+    .menu ul ul {
+        display: block;
+        width: 100%;
+        position:   static;
+        overflow: hidden;
+        max-height: 0px;
+        transition: all .4s;
+
+    }
+    .menu ul li:hover ul{
+        height: auto;
+        max-height: 200px;
+    }
+        .menu{
+            width: 100%;
+            margin-top: 1px;
+            margin-left: -180%;
+            height: 75px;
+            padding: 0;
+            transition: all .4s;
+            position: relative;
+            border-bottom: solid 1px var(--cor1);
+        }
+        .menu ul{
+            width: 100%;
+            margin-left: -155%;
+            display: block;
+            position: relative;
+            padding: 0;
+            margin-left: 0px;
+            float: left;
+        }
+        .menu ul li{
+            width: 100%;
+            float: none;
+        }
+        .menu ul ul {
+            display: block;
+            width: 100%;
+            position:   static;
+            overflow: hidden;
+            max-height: 0px;
+            transition: all .4s;
+        
+        }
+        .menu ul li:hover ul{
+            height: auto;
+            max-height: 200px;
+        
+        }
+}
+        @media(max-width: 640px ){
+            label[for="btn_menu"]{
+               display: block;
+              margin: 3px;
+           }
+           #btn_menu:checked ~ .menu{
+            margin-left: 2px;
+        }
+        #btn_menu:checked ~ .menu ul{
+            margin-left: 2px;
+            display: block;
+        }
+        #titulo{
+            display: flex;
+            margin-left: 1px;
+            margin-bottom: -35px;
+            width: 100%;
+            height: 1rem;
+            color: var(--cor2);
+            border-radius: 2px;
+            justify-items: center;
+            text-align: center;
+            padding-left: 5px;
+    
+        }
+        #titulo .social-menu ul{
+            float: right;
+            margin-top: -55px;
+            width: 50%;
+            padding: 0px;
+            margin-left: -5px;
+            display: flex;
+        }
+    
+        #titulo #logo2{
+            top: 0;
+            margin-left: -10px;
+            bottom: 0px;
+            width: 3rem;
+            height: 3rem;
+        }
+        #titulo-pg{
+            width: auto;
+            height: 6vh;
+            margin-top: 12px;
+            margin-left: 2px;
+            font-size: 1.5rem;
+    
+        }
+        .menu{
+            display: flex;
+        }
+        .menu ul li{
+            font-style: italic;
+        }
+        .menu ul li ul li{
+            display: block;
+            font-style: italic;
+            font-style: normal;
+            width: 100%;
+            text-decoration: none;
+        }
+        #menu-opcoes{
+            display: none;
+        }
+        .social ul{
+            display: flex;
+            width: auto;
+            margin: 2rem;
+            padding: -2px;
+    }
+}

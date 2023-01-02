@@ -17,15 +17,15 @@
 
 :root {
     --cor0: #ebe5c5;
-    --cor1: #83e1ad;
-    --cor2: #3ddc84;
-    --cor3: #2fa865;
-    --cor4: #1a5c37;
-    --cor5: #063d1e;
-    --cor7: #0e2b03;
-    --cor9: #022702;
-    --cor6: #F2181F;
-    --cor8: #E9F500;
+    --cor1: #913d05;
+    --cor2: #fc9d50;
+    --cor3: #552306;
+    --cor4: #c5815a;
+    --cor5: #975408;
+    --cor9: #412d16;
+    --cor8: #411f29;
+    --cor6: #030964;
+    --cor7: #f5f4d0;
 
     --font-cabecalho: Comic, Sans MS;
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
@@ -91,9 +91,10 @@ body {
     padding: 1px;
     border-radius: 0.2rem;
     width: 166%;
+    color:  var(--cor3);
     font-style: italic;
     background: linear-gradient(90deg, var(--cor5) 0%, var(--cor2) 35%, var(--cor7) 100%);
-    text-shadow: 1px 1px 3px var(--cor9), 0 0 25px var(--cor1), 0 0 5px var(--cor8);
+    text-shadow: 1px 1px 3px var(--cor0), 0 0 25px var(--cor1), 0 0 5px var(--cor0);
 }
 .tema{
    display: block;
@@ -142,7 +143,9 @@ body {
  .tt-cl{
     padding-top: 5px;
     background: linear-gradient(90deg, var(--cor5) 0%, var(--cor2) 35%, var(--cor7) 100%);
+    text-shadow: 1px 1px 3px var(--cor0), 0 0 25px var(--cor1), 0 0 5px var(--cor0);
     width: auto;
+    color: var(--cor9);
  }
  #tituloOn{
     padding-top: 5px;
@@ -152,7 +155,12 @@ body {
     font-style: italic;
     font-size: 18px;
     margin-left: 5px;
- }/*
+ }
+
+ #videos ul li a{
+   text-decoration: none;
+    color: var(--cor0);
+}
 #videos ul li {
     list-style-type: '\2714\00a0\00a0';
     list-style-position: inside;
@@ -165,10 +173,11 @@ body {
     color: var(--cor9);
     border-radius: 3px;
     transition: all 1s;
-}*/
+}
 #videos  iframe{
     width: 26.5vw;
     height: 37.8vh;
+    border: solid 2px var(--cor1);
     padding: 9px;
     margin: auto;
  }
@@ -204,7 +213,7 @@ body {
     font-size: 15px;
     cursor: pointer;
     background: var(--cor1);
-    color: var(--cor9);
+    color: var(--cor0);
     border-radius: 3px;
     transition: all 1s;
 }
@@ -240,8 +249,10 @@ body {
     margin: 3px 0px;
     width: auto;
     background: linear-gradient(90deg, var(--cor5) 0%, var(--cor2) 35%, var(--cor7) 99%);
+    text-shadow: 1px 1px 3px var(--cor0), 0 0 25px var(--cor1), 0 0 5px var(--cor0);
     text-align: center;
     font-style: italic;
+    color: var(--cor3);
 }
 #tt-est{
     margin-top: -51px;
@@ -251,6 +262,7 @@ body {
     font-style: italic;
     border-radius: 3px;
     width: 99%;
+    color: var(--cor8);
 }
 
 
@@ -312,6 +324,8 @@ body {
     width: 99%;
     text-align: right;
     background: linear-gradient(90deg, var(--cor5) 0%, var(--cor2) 35%, var(--cor7) 100%);
+    color: var(--cor8);
+    font-style: italic;
 }
 
 @media ((max-width: 800px)) {
@@ -359,177 +373,6 @@ body {
     margin-top: 3.7rem;
     margin-left: -4rem;
 }
-@media ((max-width: 700px)) {
-    body{
-        width: 95%;
-        margin-left: 1rem;
-    }
-    #titulo {
-        padding-left: 2rem;
-        margin-left: -35px;
-        font-size: 3rem;
-    }
-
-    #titulo .social-menu #social li {
-        padding: 0.3rem;
-        width: 25px;
-        height: 25px;
-    }
-    .corpo #tpd{
-        font-size: 15px;
-        width: 95%;
-        list-style: none;
-    }
-    .tema .tt-cl{
-        font-size: 0.8rem;
-        float: left;
-        text-align: left;
-        width: 95%;
-        margin-left: 5px;
-    }
-    #lateral #tituloOn{
-        font-size: 15px;
-        width: 99%;
-        list-style: none;
-    }
-    #container{
-        width: 99%;
-        height: auto;
-        margin: auto;
-        margin-left: -5px;
-        display: block;
-    }
-    #container .corpo #licoes{
-        margin: auto;
-        margin-left: -2px;
-        width: 100%;
-        height: auto;
-        display: block;
-        border: solid 2px var(--cor8);
-    }
-  .corpo #licoes .tema{
-        display: inline-block;
-        padding: 0px;
-        width: 47.5%;
-        margin: 2px 0PX;
-        height: auto;
-
-    }
-    .img{
-        margin-top: 2px;
-        margin-left: 2px;
-        width: 15rem;
-        height: 30px;
-    }
-    #videos{
-        margin-top: 0.1rem;
-        margin-left: 1px;
-        width: 17rem;
-        height: 90vh;
-    }
-    #videos h4{
-        margin-top: 5px;
-        margin-left: 10px;
-        width: 48%;
-    }
-     #videos iframe{
-        margin-top: 5px;
-        margin-left: 5px;
-        display: block;
-        width: 85vw;
-        height: 33.2vh;
-
-     }
-    }
-    #temas-video-aulas{
-        margin: auto;
-        margin-top: -20rem;
-        margin-left: 5px;
-        width: 97%;
-    }
-    #temas-video-aulas ol{
-        font-size: 12px;
-        margin-left: 10px;
-    
-    }
-    #temas-video-aulas ol li a{
-        font-size: 12px;
-    }
- 
-    #estudos{
-        width: 95%;
-        height: auto;
-        margin-top: 0.2rem;
-        margin-left: -15px;
-        font-size: 12px;
-    }
-    #estudos h2{
-        font-size: 15px;
-        margin: auto;
-        width: 95%;
-    }
-    #estudos .est-lat{
-        width: auto%;
-        margin-left: 5px;
-    }
-    #estudos .titulo-lateral{
-        color: var(--cor0);
-        font-family: var(--fonte-padrao);
-        font-weight: bold;
-        font-size: 15px;
-        width: 98%;
-        list-style: none;
-        background: linear-gradient(45deg, var(--cor3) 10%, var(--cor9));
-        text-indent: 8px;
-        text-align: center;
-        margin-left: 5px;
-        margin-bottom: 2px;
-        border-radius: 2px;
-    }
-    #estudos ul li a{
-        font-size: 10px;
-        margin-left: 5px;
-    }
-    #estudos #biblioteca{
-        width: 99%;
-    }
-    #noticias{
-        display: block;
-        float: left;
-        margin-left: 3px;
-        margin-top: 3px;
-        width: 97%;
-        height: auto;
-        border: none;
-    }
-    #noticias #cultos{
-        margin-top: 2px;
-        width: 96%;
-        height: auto;
-    }
-    #noticias #eventos{
-        margin-top: 2px;
-        width: 96%;
-        height: auto;
-    }
-    #noticias ul li{
-        font-size: 12px;
-        width: 96%;
-    }
-    #noticias #localizacao{
-        margin-top: 2px;
-        width: 96%;
-        height: auto;
-    }
-    #menu-opcoes{
-        display: none;
-    }
-    .social ul{
-        display: flex;
-        width: auto;
-        margin: 2rem;
-        padding: -2px;
-    }
 @media ((max-width: 320px)) {
     body{
         width: 100px;
@@ -578,39 +421,30 @@ body {
         height: 30px;
     }
     #videos{
-        margin-top: 0.1rem;
+        margin-top: 0.8rem;
         margin-left: 1px;
+        border-bottom: 2px;
         width: 17rem;
-        height: 90vh;
+        height: 98vh;
+    }
+    #videos ul li {
+        font-size: 12px;
     }
     #videos h4{
-        margin-top: 5px;
-        margin-left: 10px;
-        width: 48%;
+        margin-top: 13px;
     }
      #videos iframe{
         margin-top: 5px;
         margin-left: 5px;
         display: block;
         width: 88vw;
-        height: 38.2vh;
+        height: 21.2vh;
 
      }
-    #temas-video-aulas{
-        margin: auto;
-        margin-top: -15rem;
-        margin-left: 8px;
-        width: 97%;
-    }
-    #temas-video-aulas ol{
-        font-size: 12px;
-        margin-left: 10px;
-    
-    }
-    #temas-video-aulas ol li a{
-        font-size: 12px;
-    }
- 
+     #videos #video1{
+        margin-left: 7px;
+     }
+
     #estudos{
         width: 100%;
         height: auto;
@@ -676,6 +510,19 @@ body {
         width: 96%;
         height: auto;
     }
+    #temas-video-aulas{
+        margin: auto;
+        margin-top: -24rem;
+        width: auto;
+    }
+}
+#temas-video-aulas ol li a{
+    font-size: 12px;
+}
+#temas-video-aulas ol{
+    font-size: 12px;
+    margin-left: 10px;
+}
     #menu-opcoes{
         display: none;
     }

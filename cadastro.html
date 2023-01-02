@@ -4,98 +4,125 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="img/pngwing.com.png">
+    <link rel="shortcut icon" href="/img/pngwing.com.png">
     <script type="Text/JavaScript" src=js/script.js></script>
-    <link rel="stylesheet" href="css/stylos.css">
-    <link rel="stylesheet" href="/stylo_menu.css">
-    <link rel="stylesheet" href="./css/stylo-form.css">
+    <link rel="stylesheet" href="stylo_menu.css">
+    <link rel="stylesheet" href="stylo-cad.css">
     <title>I.A.D - FAMILIA EBD</title>
-  </head>
+</head>
 <body>
-<a name="topo"></a>
-      <input type="checkbox" id="btn_menu">
-      <label for="btn_menu">&#9776;</label>
-  <nav class="menu">
-      <section id="logo">
-          <img src="img/logo-maringa.jpg" id="logo1" alt="logotipo">
-          <h1 id="titulo-pg">ESCOLA BÍBLICA</h1>
+<main>
+  <a name="topo"></a>
+  
+                  <input type="checkbox" id="btn_menu">
+                  <label for="btn_menu">&#9776;</label>
+      <section id="titulo">
+              <img src="logo.png" id="logo2" alt="logotipo">
+              <h1 id="titulo-pg">ESCOLA BÍBLICA</h1>
+          <div class="social-menu">
+              <ul id="social">
+                  <li><a href="http://facebook.com/"></a></li>
+                  <li><a href="http://twitter.com/"></a></li>
+                  <li><a href="https://www.instagram.com/"></a></li>
+                  <li><a href="https://web.whatsapp.com/"></a></li>
+              </ul>
+          </div>
       </section>
-      <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="estudos.html">Estudos</a>
-              <ul class="sub-menu">
-                  <li><a href="#">Homens</a></li>
-                  <li><a href="#">Mulheres</a></li>
-                  <li><a href="#">Jovens</a></li>
-                  <li><a href="#">Crianças</a></li>
-                  <li><a href="#">Diversos</a></li>
-              </ul>
-          </li>
-          <li><a href="departamentos.html">Ministérios</a>
-              <ul class="sub-menu">  
-                  <li><a href="#">Louvor</a></li>
-                  <li><a href="#">Infantil</a></li>
-                  <li><a href="#">Jovens</a></li>
-                  <li><a href="#">Senhoras</a></li>
-                  <li><a href="#">Varões</a></li>
-              </ul>
-          </li>
-          <li><a href="contato.html">Contatos</a></li>
-          <li><a href="Cadastro.html">Cadastro</a></li>
-      </ul>
+      <nav class="menu">
+        <ul id="menu_cabe">
+            <li class="btn"><a href="index.html">Home</a></li>
+            <li class="btn"><a href="estudos.html">Estudos</a>
+                <ul class="sub-menu">
+                    <li><a href="quiz_obreiros.html">Obreiros</a></li>
+                    <li><a href="#">Jovens</a></li>
+                    <li><a href="quiz-infantil/index.html">Infantil</a></li>
+                    <li><a href="quiz_adulto.html">Quiz</a></li>
+                </ul>
+            </li>
+            <li class="btn"><a href="departamentos.html">Departamentos</a>
+                <ul class="sub-menu">
+                    <li><a href="#">Louvor</a></li>
+                    <li><a href="#">Missões</a></li>
+                    <li><a href="#">Secretaria</a></li>
+                    <li><a href="#">Financeiro</a></li>
+                </ul>
+            </li>
+            <li class="btn"><a href="sala-do-professor.html">Sala do Professor</a></li>
+            <li class="btn"><a href="contato.html">Contatos</a></li>
+            <li class="btn"><a href="cadastro.html">Cadastro</a></li>
+        </ul>
     </nav>
-    <h1>Cadastre-se aqui:</h1>
-      <form action="cadastro.php" method="post" autocomplete="on">
-        <input type="hidden" name="accessKey" value="">
+  </main>
 
-        <div>
-            <label for="inome" class="inputNome">Nome:</label>
-            <input type="text" id="inputNome" name="inome" required maxlength="500" minlength="300" placeholder="Informe seu Nome">
+      <article>
+        <h1>Cadastre-se aqui:</h1>
+          <form action="processa.php" method="POST" autocomplete="on">
+
+            <div>
+                <label for="us_nome" class="inputNome">Nome:</label>
+                <input type="text" id="inputNome" name="us_nome" required maxlength="500" placeholder="Informe seu Nome">
+                <span></span>
+            </div>
+            <div>
+              <label for="us_sobrenome" class="inputSobreNome">Sobre Nome:</label>
+              <input type="text" id="inputSobreNome" name="us_sobrenome" required maxlength="500" placeholder="Informe seu sobrenome">
+              <span></span>
+            </div>
+            <div>
+              <label for="us_fone">Fone:</label>
+              <input type="text" id="fone" name="us_fone" required maxlength="16" placeholder="Digite o número do seu celular">
+              <span></span>
+            </div>
+            <div>
+              <label for="us_email">e-mail:</label>
+              <input type="email" id="inputEmail" name="us_email" required maxlength="150" placeholder="Digite seu e-mail">
+              <span></span>
+          </div>
+            <label for="us_cargo" class="cargo">Cargo:</label>
+            <input type="text" id="cargo" name="us_cargo" required maxlength="50" placeholder="Cargo que ocupa na igreja">
             <span></span>
-        </div>
-
-        <div>
-          <label for="isobrenome" class="inputSobreNome">Sobre Nome:</label>
-          <input type="text" id="inputSobreNome" name="isobrenome" required maxlength="500" minlength="300" placeholder="Informe seu sobrenome">
-          <span></span>
-        </div>
-
-        <div>
-          <label for="ifone">Fone:</label>
-          <input type="text" id="fone" name="ifone" required maxlength="11" minlength="11" placeholder="Digite o número do seu celular">
-          <span></span>
-        </div>
-        <div>
-          <label for="email">e-mail:</label>
-          <input type="email" id="inputEmail" name="email" required maxlength="300" minlength="200" placeholder="Digite seu e-mail">
-          <span></span>
-      </div>
-        <label for="icargo" class="cargo">Cargo:</label>
-        <input type="text" id="cargo" name="icargo" required maxlength="100" minlength="50" placeholder="Cargo que ocupa na igreja">
-        <span></span>
-        <div>
-          <label for="iigreja" class="igreja">Igreja onde Congrega:</label>
-          <input type="text" id="igreja" name="iigreja" required maxlength="100" minlength="50" placeholder="Nome da igreja que Congrega">
-          <span></span>
-        </div>
-        <div>
-          <label for="isenha" class="senha">Senha:</label>
-          <input type="password" id="senha" name="isenha" placeholder="Mínimo de seis dígitos" required maxlength="8" minlength="6">
-          <span></span>
-        </div>
-        <div>
-          <label for="idia">Data de cadastro</label>
-          <input type="date" name="dia" id="idia" value="2022-09">
-        </div>
-        <div>
-          <label for="inota" class="nota">Nota:</label>
-          <input type="number" id="nota" name="inota" min="0" max="100" step ="0.1" placeholder="0 a 100">
-          <span></span>
-        </div>
-        <button id="btn">
-          <input type="submit" value="Enviar" id="btn-responder">
-          <input type="reset"  value="Limpar" id="btn-limpar">
-        </button>
-    </form>
+            <div>
+              <label for="us_igreja" class="igreja">Igreja:</label>
+              <input type="text" id="igreja" name="us_igreja" required maxlength="100" placeholder="Nome da igreja que Congrega">
+              <span></span>
+            </div>
+            <div>
+              <label for="us_senha" class="senha">Senha:</label>
+              <input type="password" id="senha" name="us_senha" placeholder="Mínimo de seis dígitos" required maxlength="8" minlength="6">
+              <span></span>
+            </div>
+            <button id="btn">
+              <input type="submit" value="Enviar" id="btn-responder">
+              <input type="reset"  value="Limpar" id="btn-limpar">
+            </button>
+        </form>
+      </article>
+  
+    <footer>
+      <figure id="logo-rodape"><img src="logo.png" alt="logo"></figure>
+      <nav id="menu-opcoes">
+          <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="estudos.html">Estudos</a></li>
+              <li><a href="departamentos.html">Ministérios</a></li>
+              <li><a href="culto.html">Cultos</a></li>
+              <li><a href="contato.html">Contatos</a></li>
+              <li><a href="Cadastro.html">Cadastro</a></li>
+          </ul>
+      </nav>
+          <div class="social">
+          <ul id="social">
+              <li><a href="http://facebook.com/">Facebook</a></li>
+              <li><a href="http://twitter.com/">Twitter</a></li>
+              <li><a href="https://www.instagram.com/">Instagram</a></li>
+               <li><a href="https://web.whatsapp.com/">whatsapp</a></li>
+          </ul>
+          </div>
+          <a href="#topo" id="retornar">Voltar ao Topo</a>	
+  </footer>
+  <div id="rodape">
+      <figure<img src="logo.png" alt="ADM - FAMÍLIA"></figure> 
+      &copy; I.A.D. MINISTÉRIO FAMÍLIA - MARINGÁ.
+  </div>
 </body>
 </html>
