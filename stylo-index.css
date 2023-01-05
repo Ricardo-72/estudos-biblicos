@@ -27,6 +27,13 @@
     --cor6: #F2181F;
     --cor8: #E9F500;
 
+
+    --cor19: #b34100;
+    --cor10: #fd8e4e;
+    --cor11: #723410;
+    --cor12: #090807;
+   
+
     --font-cabecalho: Comic, Sans MS;
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
     --fonte-destaque:'Bebas Neue', cursive;
@@ -44,30 +51,27 @@ body {
     font-family: var(--fonte-padrao);
     color: var(--cor0);
     min-width: 300px;
-    max-width: 800ch;
-    margin: auto;
+    max-width: 790vh;
+   
 }
-#container{
-   margin: auto;
+body #container{
     margin-top: 5px;
+    margin-left: 20px;
     width: 97%;
     height: auto;
-    padding-left: 1px;
     display: block;
-    justify-content: space-between;
-    background: var(--cor5);
     color: var(--cor0);
     font-family: var(--fonte-texto-novo);
-    justify-content: center;
+    border: solid 3px var(--cor2);
+    border-radius: 5px;
 }
-.corpo{
+.corpo2022{
     margin: 3px;
     width: 60%;
     height: 50%;
     display: block;
-    justify-content: center;
 }
-.corpo ul li a:hover{
+.corpo2022 ul li a:hover{
     font-size: 15px;
     cursor: pointer;
     background: var(--cor1);
@@ -75,37 +79,37 @@ body {
     border-radius: 3px;
     transition: all 1s;
 }
-#licoes{
+#licoes2022{
     display: flex;
     margin: auto;
-    margin-left: 25px;
-    width: 100%;
+    width: 165%;
+    border: solid var(--cor8);
 
 }
 
-.corpo  #tpd{
-    font-size: 1.9rem;
-    margin: auto;
+.corpo2022  #tpd2022{
+    font-size: 1.8rem;
+    margin: 3px 3px;
     text-align: center;
     background-color: var(--cor2);
     padding: 1px;
-    border-radius: 0.2rem;
-    width: 166%;
+    border-radius: 0.3rem;
+    width: 165.2%;
     font-style: italic;
     background: linear-gradient(90deg, var(--cor5) 0%, var(--cor2) 35%, var(--cor7) 100%);
     text-shadow: 1px 1px 3px var(--cor9), 0 0 25px var(--cor1), 0 0 5px var(--cor8);
 }
-.tema{
+.tema2022{
    display: block;
    margin: 0.1rem;
    border-radius: 2px;
-   width: auto;
-   height: 17rem;
+   width: 35%;
+   height: 15rem;
    padding: 0px;
    text-indent: 5px;
    border: solid 2px var(--cor1);
 }
-.tema h4{
+.tema2022 h4{
     background: linear-gradient(90deg, var(--cor5) 0%, var(--cor2) 35%, var(--cor7) 100%);
     width: 99%;
     height: 1.5rem;
@@ -114,85 +118,157 @@ body {
     border-radius: 2px;
     margin-left: 1px; 
 }
-.tema img{
-    margin: 3px;
-    width: 195px;
+.tema2022 img{
+    margin: 3px 5px;
+    width: 190px;
     height: 115px;
 }
-.tema ul li {
+.tema2022 ul li {
     list-style-type: '\2714\00a0\00a0';
     list-style-position: inside;
 }
-.tema ul li a{
+.tema2022 ul li a{
     font-size: 12px;
     color: var(--cor0);
     margin: 0;
     text-decoration: none;
 }
-
-#videos{
-    display: block;
-    border-radius: 2px;
-    width: 14%;
-    height: 19vw;
-    text-indent: 5px;
-    margin-top: 2px;
-    margin-left: 22px;
- }
- .tt-cl{
+.tt-cl{
     padding-top: 5px;
     background: linear-gradient(90deg, var(--cor5) 0%, var(--cor2) 35%, var(--cor7) 100%);
     width: auto;
  }
- #tituloOn{
-    padding-top: 5px;
-    background: linear-gradient(90deg, var(--cor5) 0%, var(--cor2) 35%, var(--cor7) 100%);
-    text-shadow: 1px 1px 3px var(--cor9), 0 0 25px var(--cor1), 0 0 5px var(--cor8);
-    width: 199%;
-    font-style: italic;
-    font-size: 18px;
-    margin-left: 5px;
- }/*
-#videos ul li {
-    list-style-type: '\2714\00a0\00a0';
-    list-style-position: inside;
-    font-size: 15px;
+/*--------------temas 2023--------------------------------*/
+
+body #container2023{
+    margin-top: 5px;
+    margin-left: 20px;
+    width: 97%;
+    height: auto;
+    display: block;
+    color: var(--cor0);
+    font-family: var(--fonte-texto-novo);
+    border: solid 3px var(--cor2);
+    border-radius: 5px;
+    background: var(--cor19);
 }
-#videos ul li a:hover{
-    font-size: 19px;
+#container2023 .corpo2023{
+    margin: 3px;
+    width: 60%;
+    height: 50%;
+    display: block;
+    background: var(--cor19);
+}
+.corpo2023 ul li a:hover{
+    font-size: 15px;
     cursor: pointer;
-    background: var(--cor1);
+    background: var(--cor10);
     color: var(--cor9);
     border-radius: 3px;
     transition: all 1s;
-}*/
-#videos  iframe{
-    width: 26.5vw;
-    height: 37.8vh;
-    padding: 9px;
+}
+#container2023 #licoes2023{
+    display: flex;
     margin: auto;
+    width: 165%;
+    border: solid var(--cor8);
+
+}
+
+#tpd2023{
+    font-size: 1.8rem;
+    margin: 3px 3px;
+    text-align: center;
+    background-color: var(--cor10);
+    padding: 1px;
+    border-radius: 0.3rem;
+    width: 165.2%;      
+    font-style: italic;
+    background: linear-gradient(90deg, var(--cor11) 0%, var(--cor10) 35%, var(--cor11) 100%);
+    text-shadow: 1px 1px 3px var(--cor12), 0 0 25px var(--cor12), 0 0 5px var(--cor12);
+}
+.tema2023{
+   display: block;
+   margin: 0.1rem;
+   border-radius: 2px;
+   width: 35%;  
+   height: 15rem;
+   padding: 0px;
+   text-indent: 5px;
+   border: solid 2px var(--cor1);
+}
+.corpo2023 .tema2023 .img{
+    margin: 3px 5px;
+    width: 190px;
+    height: 115px;
+}
+.tema2023 ul li {
+    list-style-type: '\2714\00a0\00a0';
+    list-style-position: inside;
+}
+.tema2023 ul li a{
+    font-size: 12px;
+    color: var(--cor0);
+    margin: 0;
+    text-decoration: none;
+}
+.tema2023 .tt-cl2023{
+    padding-top: 5px;
+    background: linear-gradient(90deg, var(--cor10) 0%, var(--cor11) 35%, var(--cor10) 100%);
+    width: auto;
+ }
+/*-----------------------------------video----------------------------------------------------*/
+
+#lateral #videos{
+    display: block;
+    border-radius: 2px;
+    width: 29%;
+    height: 40vh;
+    text-indent: 5px;
+    margin-top: 2px;
+    margin-left: 22px;
+ }
+ #videos #tituloOn{
+    background: linear-gradient(90deg, var(--cor5) 0%, var(--cor2) 35%, var(--cor7) 100%);
+    text-shadow: 1px 1px 3px var(--cor9), 0 0 25px var(--cor1), 0 0 5px var(--cor8);
+    width: 29.8%;
+    height: 20px;
+    font-style: italic;
+    margin-top: 5px;
+    margin-left: 12px;
+    border-radius: 5px;
+ }
+#videos  iframe{
+    width: 29vw;
+    height: 37vh;
+    margin: auto;
+    margin-left: 10px;
  }
 
 
- #temas-video-aulas #titulo-tematicos{
+#temas-video-aulas{
+    margin-top: 0.1em;
+    margin-left: 2px;
+    width: 25em;
+    height: 18em;
+    font-style: italic;
+    border-radius: 3px;
+}
+
+#titulo-tematicos{
     padding-top: 5px;
     background: linear-gradient(90deg, var(--cor5) 0%, var(--cor2) 35%, var(--cor7) 100%);
     text-shadow: 1px 1px 3px var(--cor9), 0 0 25px var(--cor1), 0 0 5px var(--cor8);
-    width: 98.5%;
+    width: 99%;
     font-style: italic;
     font-size: 1rem;
-    margin-left: 1px;
     text-align: center;
- }
- #temas-video-aulas{
-    margin-top: 2.8rem;
-    margin-left: 1.7rem;
-    width: 380px;
-    font-style: italic;
     border: solid 2px var(--cor2);
-}
+ }
 #temas-video-aulas ol li{
     list-style-position: inside;
+    margin: 3px 2px;
+    border: solid 2px var(--cor2);
 }
 #temas-video-aulas ol li a {
     color: var(--cor0);
@@ -208,66 +284,66 @@ body {
     border-radius: 3px;
     transition: all 1s;
 }
-/*estudos*/
 
-#estudos{
+/*------------------------estudos--------------------------------*/
+#lateral #estudos #tt-est{
+    margin-top: 190px;
+    margin-left: 5px;
+    margin-bottom: 2px;
+    background: linear-gradient(90deg, var(--cor5) 0%, var(--cor2) 35%, var(--cor7) 95%);
+    text-align: center;
+    font-style: italic;
+    border-radius: 3px;
+    width: 98%;
+}
+#lateral #estudos{
     float: right;
-    margin-top: -460px;
-    margin-right: 17px;
-    width: 68%;
-    height: 85vh;
+    margin-top: -183px;
+    margin-right: 0px;
+    width: 69%;
+    height: 47vh;
     
 }
-#estudos ul{
+#lateral #estudos ul{
     border: solid 2px var(--cor1);
 }
-#estudos ul li{
+#lateral #estudos ul li{
     list-style-type: '\2714\00a0\00a0';
     list-style-position: inside;
 }
-#estudos ul li a{
+#lateral #estudos ul li a{
     color: var(--cor0);
     text-decoration: none;
-    font-size: 13px;
+    font-size: 0.8rem;
 }
-.est-lat {
+#lateral .est-lat {
     width: 99%;
     height: auto;
     margin-bottom: 3px;
 }
 
-.titulo-lateral{
+#lateral .titulo-lateral{
     margin: 3px 0px;
-    width: auto;
+    width: 99%;
     background: linear-gradient(90deg, var(--cor5) 0%, var(--cor2) 35%, var(--cor7) 99%);
     text-align: center;
     font-style: italic;
 }
-#tt-est{
-    margin-top: -51px;
-    margin-bottom: 5px;
-    background: linear-gradient(90deg, var(--cor5) 0%, var(--cor2) 35%, var(--cor7) 95%);
-    text-align: center;
-    font-style: italic;
-    border-radius: 3px;
-    width: 99%;
-}
 
-
-/*Lateral*/
+/*----------------------------Lateral-------------------------------------*/
 
 #noticias{
-    float: right;
     display: flex;
-    margin-top: -35px;
-    margin-right: 20.2px;
-    width: 67.4%;
-    height: auto;
+    margin-top: 0.8em;
+    margin-right: 0.2em;
+    float: right;
+    width: 68.4%;
     border: solid 2px var(--cor1);
+
 }
 #noticias #cultos {
     margin: 5px;
-    width: 100%;
+    width: 99%;
     height: 20vh;
     font-size: 13px; 
     border: solid 2px var(--cor2);
@@ -279,7 +355,7 @@ body {
 }
 #noticias #eventos{
     margin: 5px;
-    width: 100%;
+    width: 99%;
     height: 20vh;
     font-size: 13px;   
     border: solid 2px var(--cor2);
@@ -287,7 +363,7 @@ body {
 }
 #noticias #localizacao{
     margin: 5px;
-    width: 100%;
+    width: 99%;
     height: 20vh;
     font-size: 13px;
     border: solid 2px var(--cor2);
@@ -295,7 +371,7 @@ body {
 
 }
 #noticias #localizacao p{
-    margin-left: 15px;
+    margin-left: 1px;
     color: var(--cor0);
 }
 #noticias #localizacao p a{
@@ -314,376 +390,3 @@ body {
     background: linear-gradient(90deg, var(--cor5) 0%, var(--cor2) 35%, var(--cor7) 100%);
 }
 
-@media ((max-width: 800px)) {
-    #tpd{
-        width: 95%;
-    }
-    #container .corpo{
-        display: block;
-        width: auto;
-        height: auto;
-        margin-top: 0.2rem;
-
-    }    
-    #container {
-        width: auto;
-    }
-    #container #licoes .tema .img{
-        margin-top: 2px;
-        margin-left: 2px;
-        width: 123px;
-        height: 90px;
-    }
-  .corpo #licoes .tema{
-    width: 100%;
-    height: auto;
-    margin: 2PX;
-    }
-    #detalhe .lateral .titulo-lateral{
-        color: var(--cor0);
-        font-family: var(--fonte-padrao);
-        font-weight: bold;
-        width: 95%;
-        background: linear-gradient(45deg, var(--cor3) 10%, var(--cor9));
-        text-indent: 8px;
-        text-align: center;
-        margin-left: 3px;
-        margin-bottom: 2px;
-        border-radius: 5px;
-}
-#videos #tt-edit{
-    display: block;
-}
-#estudos{
-    width: auto;
-    margin-top: 3.7rem;
-    margin-left: -4rem;
-}
-@media ((max-width: 700px)) {
-    body{
-        width: 95%;
-        margin-left: 1rem;
-    }
-    #titulo {
-        padding-left: 2rem;
-        margin-left: -35px;
-        font-size: 3rem;
-    }
-
-    #titulo .social-menu #social li {
-        padding: 0.3rem;
-        width: 25px;
-        height: 25px;
-    }
-    .corpo #tpd{
-        font-size: 15px;
-        width: 95%;
-        list-style: none;
-    }
-    .tema .tt-cl{
-        font-size: 0.8rem;
-        float: left;
-        text-align: left;
-        width: 95%;
-        margin-left: 5px;
-    }
-    #lateral #tituloOn{
-        font-size: 15px;
-        width: 99%;
-        list-style: none;
-    }
-    #container{
-        width: 99%;
-        height: auto;
-        margin: auto;
-        margin-left: -5px;
-        display: block;
-    }
-    #container .corpo #licoes{
-        margin: auto;
-        margin-left: -2px;
-        width: 100%;
-        height: auto;
-        display: block;
-        border: solid 2px var(--cor8);
-    }
-  .corpo #licoes .tema{
-        display: inline-block;
-        padding: 0px;
-        width: 47.5%;
-        margin: 2px 0PX;
-        height: auto;
-
-    }
-    .img{
-        margin-top: 2px;
-        margin-left: 2px;
-        width: 15rem;
-        height: 30px;
-    }
-    #videos{
-        margin-top: 0.1rem;
-        margin-left: 1px;
-        width: 17rem;
-        height: 90vh;
-    }
-    #videos h4{
-        margin-top: 5px;
-        margin-left: 10px;
-        width: 48%;
-    }
-     #videos iframe{
-        margin-top: 5px;
-        margin-left: 5px;
-        display: block;
-        width: 85vw;
-        height: 33.2vh;
-
-     }
-    }
-    #temas-video-aulas{
-        margin: auto;
-        margin-top: -20rem;
-        margin-left: 5px;
-        width: 97%;
-    }
-    #temas-video-aulas ol{
-        font-size: 12px;
-        margin-left: 10px;
-    
-    }
-    #temas-video-aulas ol li a{
-        font-size: 12px;
-    }
- 
-    #estudos{
-        width: 95%;
-        height: auto;
-        margin-top: 0.2rem;
-        margin-left: -15px;
-        font-size: 12px;
-    }
-    #estudos h2{
-        font-size: 15px;
-        margin: auto;
-        width: 95%;
-    }
-    #estudos .est-lat{
-        width: auto%;
-        margin-left: 5px;
-    }
-    #estudos .titulo-lateral{
-        color: var(--cor0);
-        font-family: var(--fonte-padrao);
-        font-weight: bold;
-        font-size: 15px;
-        width: 98%;
-        list-style: none;
-        background: linear-gradient(45deg, var(--cor3) 10%, var(--cor9));
-        text-indent: 8px;
-        text-align: center;
-        margin-left: 5px;
-        margin-bottom: 2px;
-        border-radius: 2px;
-    }
-    #estudos ul li a{
-        font-size: 10px;
-        margin-left: 5px;
-    }
-    #estudos #biblioteca{
-        width: 99%;
-    }
-    #noticias{
-        display: block;
-        float: left;
-        margin-left: 3px;
-        margin-top: 3px;
-        width: 97%;
-        height: auto;
-        border: none;
-    }
-    #noticias #cultos{
-        margin-top: 2px;
-        width: 96%;
-        height: auto;
-    }
-    #noticias #eventos{
-        margin-top: 2px;
-        width: 96%;
-        height: auto;
-    }
-    #noticias ul li{
-        font-size: 12px;
-        width: 96%;
-    }
-    #noticias #localizacao{
-        margin-top: 2px;
-        width: 96%;
-        height: auto;
-    }
-    #menu-opcoes{
-        display: none;
-    }
-    .social ul{
-        display: flex;
-        width: auto;
-        margin: 2rem;
-        padding: -2px;
-    }
-@media ((max-width: 320px)) {
-    body{
-        width: 100px;
-    }
-    .corpo #tpd{
-        font-size: 15px;
-        width: 100%;
-        list-style: none;
-    }
-    .tema .tt-cl{
-        font-size: 0.8rem;
-        float: left;
-        text-align: left;
-        width: 95%;
-        margin-left: 5px;
-    }
-    #lateral #tituloOn{
-        font-size: 15px;
-        width: 100%;
-        list-style: none;
-    }
-    #container{
-        width: 100%;
-        height: auto;
-        margin: 0.1rem;
-        display: block;
-    }
-    #container .corpo #licoes{
-        margin: auto;
-        width: 100%;
-        height: auto;
-        display: block;
-    }
-  .corpo #licoes .tema{
-        display: inline-block;
-        padding: 0px;
-        width: 45%;
-        margin: 2px 0PX;
-        height: auto;
-
-    }
-    .corpo #licoes .img{
-        margin-top: 2px;
-        margin-left: -2px;
-        width: 49px;
-        height: 30px;
-    }
-    #videos{
-        margin-top: 0.1rem;
-        margin-left: 1px;
-        width: 17rem;
-        height: 90vh;
-    }
-    #videos h4{
-        margin-top: 5px;
-        margin-left: 10px;
-        width: 48%;
-    }
-     #videos iframe{
-        margin-top: 5px;
-        margin-left: 5px;
-        display: block;
-        width: 88vw;
-        height: 38.2vh;
-
-     }
-    #temas-video-aulas{
-        margin: auto;
-        margin-top: -15rem;
-        margin-left: 8px;
-        width: 97%;
-    }
-    #temas-video-aulas ol{
-        font-size: 12px;
-        margin-left: 10px;
-    
-    }
-    #temas-video-aulas ol li a{
-        font-size: 12px;
-    }
- 
-    #estudos{
-        width: 100%;
-        height: auto;
-        margin-top: 3.9rem;
-        margin-left: 3px;
-        font-size: 12px;
-    }
-    #estudos h2{
-        font-size: 15px;
-        width: 99%;
-        list-style: none;
-    }
-    #estudos .est-lat{
-        width: 95%;
-        margin-left: 25px;
-    }
-    #estudos .titulo-lateral{
-        color: var(--cor0);
-        font-family: var(--fonte-padrao);
-        font-weight: bold;
-        font-size: 15px;
-        width: 98%;
-        list-style: none;
-        background: linear-gradient(45deg, var(--cor3) 10%, var(--cor9));
-        text-indent: 8px;
-        text-align: center;
-        margin-left: 5px;
-        margin-bottom: 2px;
-        border-radius: 2px;
-    }
-    #estudos ul li a{
-        font-size: 10px;
-        margin-left: 5px;
-    }
-    #estudos #biblioteca{
-        width: 99%;
-    }
-    #noticias{
-        display: block;
-        float: left;
-        margin-left: 3px;
-        margin-top: 3px;
-        width: 97%;
-        height: auto;
-        border: none;
-    }
-    #noticias #cultos{
-        margin-top: 2px;
-        width: 96%;
-        height: auto;
-    }
-    #noticias #eventos{
-        margin-top: 2px;
-        width: 96%;
-        height: auto;
-    }
-    #noticias ul li{
-        font-size: 12px;
-        width: 96%;
-    }
-    #noticias #localizacao{
-        margin-top: 2px;
-        width: 96%;
-        height: auto;
-    }
-    #menu-opcoes{
-        display: none;
-    }
-    .social ul{
-        display: flex;
-        width: auto;
-        margin: 2rem;
-        padding: -2px;
-    }
-}
-}
