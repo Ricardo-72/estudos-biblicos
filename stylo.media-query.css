@@ -491,7 +491,7 @@ Grandes telas: acima d 1200px
         width: 30em;
         height: auto;
         margin-top: 0.2em;
-        margin-left: 0.1em;
+        margin-left: 2px;
         font-size: 12px;
     }
     #lateral #estudos #tt-est{
@@ -531,6 +531,13 @@ Grandes telas: acima d 1200px
         font-style: italic;
     }
     /*-------------------videos--------------------*/
+    
+    #videos{
+        margin-top: 25.9em;
+        margin-left: 1px;
+        width: 19rem;
+        height: 90vh;
+    }
     #videos #tituloOn{
         font-size: 15px;
         width: 23em;
@@ -538,12 +545,6 @@ Grandes telas: acima d 1200px
         margin-top: 1px;
         margin-left: 5px;
         border-radius: 3px;
-    }
-    #videos{
-        margin-top: 25.9em;
-        margin-left: 1px;
-        width: 19rem;
-        height: 90vh;
     }
      #videos iframe{
         margin-top: 5px;
@@ -570,9 +571,9 @@ Grandes telas: acima d 1200px
     /*----------------noticias-----------------*/
     #noticias{
         display: block;
-        margin-left: 4.9em;
-        margin-top: 4.5em;
-        width: 22em;
+        margin-left: 1px;
+        margin-top: 5em;
+        width: 21em;
         height: auto;
         border: none;
     }
