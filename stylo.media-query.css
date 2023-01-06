@@ -389,7 +389,7 @@ Grandes telas: acima d 1200px
         }
     body #container{
         margin-left: 1px;
-        width: 21.5em;
+        width: 20.5em;
         
     }
     #container .corpo2022{
@@ -426,14 +426,14 @@ Grandes telas: acima d 1200px
     #container .corpo2022 #licoes2022 .tema2022{
         margin: auto;
         margin-bottom: 2px;
-        width: 10.2em;
+        width: 9.7em;
         height: auto;
         display: inline-block;
     }
     #container .corpo2022 #licoes2022 .img{
         margin-top: 2px;
         margin-left: 2px;
-        width: 9.8em;
+        width: 9.4em;
         height: 5em;
        
     }
@@ -443,11 +443,11 @@ Grandes telas: acima d 1200px
 /*--------------2023----------------------*/
     body #container2023{
         margin-left: 1px;
-        width: 21.5em;
+        width: 20.5em;
     }
 
     #container2023 .corpo2023{
-        width: 21em;
+        width: 20em;
         border: none;
         display: inline-block;
         margin-left: 8px;
@@ -461,7 +461,7 @@ Grandes telas: acima d 1200px
     }
     #container2023 .corpo2023 #licoes2023{
         margin: 1px;
-        width: 21em;
+        width: 20em;
         height: auto;
         border: none;
         display: inline-block;
@@ -472,13 +472,13 @@ Grandes telas: acima d 1200px
     }
     #container2023 .corpo2023 #licoes2023 .tema2023 .tt-cl2023{
         font-size: 0.8em;
-        width: 12.3em;
+        width: 11em;
         height: 3vh;
         padding-top: 1px;
     }
     #container2023 .corpo2023 #licoes2023 .tema2023{
        padding: 1px;
-        width: 9.8em;
+        width: 9.3em;
         height: auto;
         margin: auto;
         margin-bottom: 2px;
@@ -488,7 +488,7 @@ Grandes telas: acima d 1200px
     #container2023 .corpo2023 #licoes2023 .img{
         margin-top: 2px;
         margin-left: 2px;
-        width: 9.7em;
+        width: 9em;
         height: 6em;
        
     }
@@ -497,16 +497,17 @@ Grandes telas: acima d 1200px
     }
     /*--------------------estudos---------------*/
     #lateral #estudos{
-        width: 30em;
+        width: 28.5em;
         height: auto;
         margin-top: 0.2em;
-        margin-left: 2px;
+        margin-right: 10px;
+        margin-left: 0px;
         font-size: 12px;
-    }
+        }
     #lateral #estudos #tt-est{
         margin-top: 0;
         font-size: 15px;
-        width: 95%;
+        width: 90%;
     }
     #lateral #estudos .est-lat{
         width: 95%;
@@ -549,7 +550,7 @@ Grandes telas: acima d 1200px
     }
     #videos #tituloOn{
         font-size: 15px;
-        width: 23em;
+        width: 22em;
         list-style: none;
         margin-top: 1px;
         margin-left: 5px;
@@ -567,7 +568,7 @@ Grandes telas: acima d 1200px
         margin-top: 0.1em;
         margin-bottom: 5px;
         margin-left: 1px;
-        width: 22.2em;
+        width: 20.2em;
     }
     #temas-video-aulas ol{
         font-size: 12px;
@@ -580,9 +581,10 @@ Grandes telas: acima d 1200px
     /*----------------noticias-----------------*/
     #noticias{
         display: block;
-        margin-left: 10px;
-        margin-top: 85px;
-        width: 22em;
+        margin-top: 95px;
+        margin-right: 27px;
+        margin-left: 1px;
+        width: 20em;
         height: auto;
         border: none;
     }
