@@ -99,210 +99,10 @@ Grandes telas: acima d 1200px
     margin-left: -4rem;
     }  
 }
-
-@media screen and (min-width: 768px) and (max-width: 992px){
-    header {
-        max-width: 50%;
-    }
-    body{
-        width: 99%;
-    }
-    #titulo .social-menu #social li {
-        padding: 0.3rem;
-        width: 99%;
-        height: 25px;
-    }
-    #container .corpo #tpd{
-        font-size: 1.2rem;
-        width: 90%;
-        list-style: none;
-    }
-    #container {
-        padding: 0px;
-        margin-left: 0.2rem;
-        margin-right: -25px;
-        width: 150%;
-    }
-    .corpo2022{
-        display: block;
-        width: 100%;
-        height: auto;
-        margin-left: 43px;
-        background-color: var(--cor4);
-        padding-left: 5px;
-       
-
-    } 
-    #container .corpo2022 #licoes2022{
-        margin-top: 1px;
-        margin-left: 1px;
-        padding-left: 7px;
-        width: 100%;
-        height: 90px;
-        border: solid 1px var(--cor8);
-    }
-
-   #container .corpo #licoes .tema{
-    width: 45%;
-    height: auto;
-    margin: 2PX;
-    }
-    #container .corpo #licoes .tema .img{
-        width: 30%;
-        height: auto;
-        margin: 1PX 0px;
-        padding: 1px 1px;
-        }
-        #container .corpo #licoes .tema ul li{
-            width: 99%;
-            height: auto;
-            margin: 2PX;
-            font-size: 0.7rem;
-            }
-    #container .corpo #licoes .tema .tt-cl{
-        font-size: 0.7rem;
-        float: left;
-        text-align: left;
-        width: 95%;
-        margin-left: 5px;
-    }
- 
-    #lateral #tituloOn{
-        font-size: 15px;
-        width: 99%;
-        list-style: none;
-    }
-    #videos{
-        margin-top: 0.1rem;
-        margin-left: 1px;
-        width: 17rem;
-        height: 90vh;
-    }
-    #videos h4{
-        margin-top: 5px;
-        margin-left: 10px;
-        width: 48%;
-    }
-     #videos iframe{
-        margin-top: 5px;
-        margin-left: 5px;
-        display: block;
-        width: 85vw;
-        height: 33.2vh;
-
-     }
-
-     #temas-video-aulas{
-
-        margin-left: 1px;
-        width: 100%;
-        height: auto;
-        border:  solid 1px var(--cor8);
-    }
-
-     #titulo-tematicos{
-        background: linear-gradient(90deg, var(--cor5) 0%, var(--cor2) 35%, var(--cor7) 100%);
-        text-shadow: 1px 1px 3px var(--cor9), 0 0 25px var(--cor1), 0 0 5px var(--cor8);
-        width: 98%;
-        font-style: italic;
-        font-size: 1rem;
-        margin-left: 1px;
-        text-align: center;
-     }
-  
-    #temas-video-aulas ol{
-        font-size: 10px;
-        margin: auto;
-        margin-top: 1rem;
-
-    
-    }
-
-    #temas-video-aulas ol li{
-        margin: auto;
-        margin-top: 5px;
-        float: left;
-    }
- 
-    #estudos{
-        width: 95%;
-        height: auto;
-        margin-top: 0.2rem;
-        margin-left: -15px;
-        font-size: 12px;
-    }
-    #estudos h2{
-        font-size: 15px;
-        margin: auto;
-        width: 95%;
-    }
-    #estudos .est-lat{
-        width: auto;
-        margin-left: 5px;
-    }
-    #estudos .titulo-lateral{
-        color: var(--cor0);
-        font-family: var(--fonte-padrao);
-        font-weight: bold;
-        font-size: 15px;
-        width: 98%;
-        list-style: none;
-        background: linear-gradient(45deg, var(--cor3) 10%, var(--cor9));
-        text-indent: 8px;
-        text-align: center;
-        margin-left: 5px;
-        margin-bottom: 2px;
-        border-radius: 2px;
-    }
-    #estudos ul li a{
-        font-size: 10px;
-        margin-left: 5px;
-    }
-    #estudos #biblioteca{
-        width: 99%;
-    }
-    #noticias{
-        display: block;
-        float: left;
-        margin-left: 3px;
-        margin-top: 3px;
-        width: 97%;
-        height: auto;
-        border: none;
-    }
-    #noticias #cultos{
-        margin-top: 2px;
-        width: 96%;
-        height: auto;
-    }
-    #noticias #eventos{
-        margin-top: 2px;
-        width: 96%;
-        height: auto;
-    }
-    #noticias ul li{
-        font-size: 12px;
-        width: 96%;
-    }
-    #noticias #localizacao{
-        margin-top: 2px;
-        width: 96%;
-        height: auto;
-    }
-    #menu-opcoes{
-        display: none;
-    }
-    .social ul{
-        display: flex;
-        width: auto;
-        margin: 2rem;
-        padding: -2px;
-    }
-}
+-------------------------------------------------------------------
 */
-@media screen and (min-width: 320px) and (max-width: 768px) {
-
-    label[for="btn_menu"]{
+@media screen and (min-width: 678px) and (max-width: 992px){
+ label[for="btn_menu"]{
         display: block;
        margin: 5px;
     }
@@ -311,7 +111,8 @@ Grandes telas: acima d 1200px
     }
     #titulo #logo2{
         margin: auto;
-        margin-top: -15px;
+        margin-top: 10px;
+        width: 10vw;
         height: 10vh;
     }
     #titulo{
@@ -321,9 +122,10 @@ Grandes telas: acima d 1200px
     }
     #titulo #titulo-pg{
         margin: auto;
-        margin-left: -15px;
+        margin-left: -20px;
             font-family: var(--font-cabecalho);
-            font-size: 0.6em;
+            font-size: 0.8em;
+            border: solid 1px var(--cor2);
 
     }
     #titulo .social-menu{
@@ -339,7 +141,7 @@ Grandes telas: acima d 1200px
        
         border: none;
         display: inline-block;
-        margin-left: 8px;
+        margin-left: 5px;
         
     }
     #container .corpo2022 #tpd2022{
@@ -543,6 +345,258 @@ Grandes telas: acima d 1200px
     }
     footer{
         width: 18.5em;
+    }
+    footer #retornar{
+        display: none;
+    }
+}
+/*-----------------------------------------------------------------*/
+@media screen and (min-width: 320px) and (max-width: 678px) {
+
+    label[for="btn_menu"]{
+        display: block;
+       margin: 5px;
+    }
+    #btn_menu:checked ~ .menu{
+     margin-left: 0;
+    }
+    #titulo #logo2{
+        margin: auto;
+        margin-top: -15px;
+        width: 10vw;
+        height: 10vh;
+    }
+    #titulo{
+        margin-top: -60px;
+        margin-bottom: 35px;
+        display: block;
+    }
+    #titulo #titulo-pg{
+        margin: auto;
+        margin-left: -15px;
+            font-family: var(--font-cabecalho);
+            font-size: 0.7em;
+
+    }
+    #titulo .social-menu ul li {
+        margin: 2px;
+        text-indent: 3px;
+        }
+    #titulo .social-menu li a{
+        margin: 2px;
+        margin-top: 3.9em;
+        text-indent: 3px;
+        }
+    body #container{
+        margin-left: 1px;
+        width: 21.5em;
+        
+    }
+    #container .corpo2022{
+        border: none;
+        display: inline-block;
+        width: 21em;
+        margin-left: 1px;
+        
+    }
+    #container .corpo2022 #tpd2022{
+        font-size: 1em;
+        margin: auto;
+        margin-left: 0.1em;
+        width: 17.5em;
+        list-style: none;
+    }
+
+    #container .corpo2022 #licoes2022{
+        margin: 1px;
+        width: 21.2em;
+        border: none;
+        display: inline-block;
+        flex-flow: row wrap;
+      
+    }
+    #container .corpo2022 #licoes2022 .tema2022 .tt-cl{
+        font-size: 0.8em;
+        width: 97%;
+        height: 3vh;
+        padding-top: 1px;
+    }
+
+    #container .corpo2022 #licoes2022 .tema2022{
+        margin: auto;
+        width: 10.2em;
+        height: 29.5vh;
+        display: inline-block;
+    }
+    #container .corpo2022 #licoes2022 .img{
+        margin-top: 2px;
+        margin-left: 2px;
+        width: 9.8em;
+        height: 5em;
+       
+    }
+/*--------------2023----------------------*/
+    body #container2023{
+        margin-left: 1px;
+        width: 21.5em;
+    }
+
+    #container2023 .corpo2023{
+        width: 21em;
+        border: none;
+        display: inline-block;
+        margin-left: 8px;
+        border-radius: 3px;
+        
+    }
+    #container2023 .corpo2023 #tpd2023{
+        font-size: 1em;
+        width: 17.5em;
+        list-style: none;
+    }
+    #container2023 .corpo2023 #licoes2023{
+        margin: 1px;
+        width: 21em;
+        height: a;
+        border: none;
+        display: inline-block;
+        flex-flow: row wrap;
+        justify-content: space-between;
+
+
+    }
+    #container2023 .corpo2023 #licoes2023 .tema2023 .tt-cl2023{
+        font-size: 0.8em;
+        width: 12.3em;
+        height: 3vh;
+        padding-top: 1px;
+    }
+    #container2023 .corpo2023 #licoes2023 .tema2023{
+       padding: 1px;
+        width: 9.8em;
+        height: 31.2vh;
+        margin: auto;
+        display: inline-block;
+
+    }
+    #container2023 .corpo2023 #licoes2023 .img{
+        margin-top: 2px;
+        margin-left: 2px;
+        width: 9.7em;
+        height: 6em;
+       
+    }
+    /*--------------------estudos---------------*/
+    #lateral #estudos{
+        width: 30em;
+        height: auto;
+        margin-top: 0.2em;
+        margin-left: 0.1em;
+        font-size: 12px;
+    }
+    #lateral #estudos #tt-est{
+        margin-top: 0;
+        font-size: 15px;
+        width: 95%;
+    }
+    #lateral #estudos .est-lat{
+        width: 95%;
+        margin-left: 0.2em;
+    }
+    #lateral #estudos .titulo-lateral{
+        color: var(--cor0);
+        font-family: var(--fonte-padrao);
+        font-weight: bold;
+        font-size: 12px;
+        width: 98%;
+        list-style: none;
+        background: linear-gradient(45deg, var(--cor3) 10%, var(--cor9));
+        text-indent: 8px;
+        text-align: center;
+        margin-left: 5px;
+        margin-bottom: 2px;
+        border-radius: 2px;
+    }
+    #lateral #estudos ul li a{
+        font-size: 10px;
+        margin-left: 5px;
+    }
+    #estudos #biblioteca{
+        width: 99%;
+    }
+    #lateral #estudos ul li a:hover{
+        background-color: var(--cor1);
+        font-size: 12px;
+        color: var(--cor12);
+        font-style: italic;
+    }
+    /*-------------------videos--------------------*/
+    #videos #tituloOn{
+        font-size: 15px;
+        width: 23em;
+        list-style: none;
+        margin-top: 1px;
+        margin-left: 5px;
+        border-radius: 3px;
+    }
+    #videos{
+        margin-top: 25.9em;
+        margin-left: 1px;
+        width: 19rem;
+        height: 90vh;
+    }
+     #videos iframe{
+        margin-top: 5px;
+        margin-left: 5px;
+        display: block;
+        width: 91vw;
+        height: 38.2vh;
+
+     }
+    #temas-video-aulas{
+        margin: auto;
+        margin-top: 0.1em;
+        margin-left: 1px;
+        width: 22.2em;
+    }
+    #temas-video-aulas ol{
+        font-size: 12px;
+        margin-left: 3px;
+    
+    }
+    #temas-video-aulas ol li a{
+        font-size: 12px;
+    }
+    /*----------------noticias-----------------*/
+    #noticias{
+        display: block;
+        margin-left: 4.9em;
+        margin-top: 4.5em;
+        width: 22em;
+        height: auto;
+        border: none;
+    }
+    #noticias #cultos{
+        margin-top: 2px;
+        width: 96%;
+        height: auto;
+    }
+    #noticias #eventos{
+        margin-top: 2px;
+        width: 96%;
+        height: auto;
+    }
+    #noticias ul li{
+        font-size: 12px;
+        width: 96%;
+    }
+    #noticias #localizacao{
+        margin-top: 2px;
+        width: 96%;
+        height: auto;
+    }
+    footer{
+        width: 22em;
     }
     footer #retornar{
         display: none;
