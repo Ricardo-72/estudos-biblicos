@@ -533,6 +533,7 @@ Grandes telas: acima d 1200px
     }
     #estudos #biblioteca{
         width: 99%;
+        height: auto;
     }
     #lateral #estudos ul li a:hover{
         background-color: var(--cor1);
@@ -543,10 +544,10 @@ Grandes telas: acima d 1200px
     /*-------------------videos--------------------*/
     
     #videos{
-        margin-top: 30em;
+        margin-top: 3px;
         margin-left: 1px;
-        width: 19rem;
-        height: 90vh;
+        width: 340px;
+        height: 250px;
     }
     #videos #tituloOn{
         font-size: 15px;
@@ -560,12 +561,12 @@ Grandes telas: acima d 1200px
         margin-top: 5px;
         margin-left: 5px;
         display: block;
-        width: 91vw;
-        height: 38.2vh;
+       width: 320px;
+        height: 213px;
 
      }
     #temas-video-aulas{
-        margin-top: 0.1em;
+        margin-top: 5px;
         margin-bottom: 5px;
         margin-left: 1px;
         width: 20.2em;
@@ -581,7 +582,7 @@ Grandes telas: acima d 1200px
     /*----------------noticias-----------------*/
     #noticias{
         display: block;
-        margin-top: 95px;
+        margin-top: 630px;
         margin-right: 27px;
         margin-left: 1px;
         width: 20em;
@@ -611,6 +612,7 @@ Grandes telas: acima d 1200px
         height: auto;
     }
     footer{
+        margin-top: 250px;
         width: 22em;
     }
     footer #retornar{
