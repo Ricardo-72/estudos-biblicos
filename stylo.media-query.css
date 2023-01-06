@@ -410,6 +410,7 @@ Grandes telas: acima d 1200px
     #container .corpo2022 #licoes2022{
         margin: 1px;
         width: 21.2em;
+        height: auto;
         border: none;
         display: inline-block;
         flex-flow: row wrap;
@@ -424,6 +425,7 @@ Grandes telas: acima d 1200px
 
     #container .corpo2022 #licoes2022 .tema2022{
         margin: auto;
+        margin-bottom: 2px;
         width: 10.2em;
         height: 31.2vh;
         display: inline-block;
@@ -457,7 +459,7 @@ Grandes telas: acima d 1200px
     #container2023 .corpo2023 #licoes2023{
         margin: 1px;
         width: 21em;
-        height: a;
+        height: auto;
         border: none;
         display: inline-block;
         flex-flow: row wrap;
@@ -476,6 +478,7 @@ Grandes telas: acima d 1200px
         width: 9.8em;
         height: 32.5vh;
         margin: auto;
+        margin-bottom: 2px;
         display: inline-block;
 
     }
