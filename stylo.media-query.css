@@ -368,7 +368,7 @@ Grandes telas: acima d 1200px
 
     #container .corpo2022 #licoes2022 .tema2022{
         padding: 1px;
-        width: 8em;
+        width: 8.3em;
         height: 35vh;
         margin: auto;
         display: inline-block;
@@ -416,7 +416,7 @@ Grandes telas: acima d 1200px
     }
     #container2023 .corpo2023 #licoes2023 .tema2023{
        padding: 1px;
-        width: 8em;
+        width: 8.3em;
         height: 35vh;
         margin: auto;
         display: inline-block;
@@ -434,7 +434,7 @@ Grandes telas: acima d 1200px
         width: 25em;
         height: auto;
         margin-top: 0;
-        margin-left: 5em;
+        margin-left: 0.1em;
         font-size: 12px;
     }
     #lateral #estudos #tt-est{
@@ -502,8 +502,8 @@ Grandes telas: acima d 1200px
     #temas-video-aulas{
         margin: auto;
         margin-top: 0.1em;
-        margin-left: 4px;
-        width: 18.5em;
+        margin-left: 1px;
+        width: 18.2em;
     }
     #temas-video-aulas ol{
         font-size: 12px;
@@ -516,9 +516,9 @@ Grandes telas: acima d 1200px
     /*----------------noticias-----------------*/
     #noticias{
         display: block;
-        margin-left: 0em;
+        margin-left: -0.2em;
         margin-top: 33.4em;
-        width: 18.7em;
+        width: 18.5em;
         height: auto;
         border: none;
     }
