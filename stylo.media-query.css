@@ -312,7 +312,6 @@ Grandes telas: acima d 1200px
     #titulo #logo2{
         margin: auto;
         margin-top: -15px;
-        width: 2em;
         height: 10vh;
     }
     #titulo{
@@ -321,18 +320,23 @@ Grandes telas: acima d 1200px
         display: block;
     }
     #titulo #titulo-pg{
+        margin: auto;
         margin-left: -15px;
             font-family: var(--font-cabecalho);
-            font-size: 1em;
+            font-size: 0.6em;
 
     }
+    #titulo .social-menu{
+        margin: auto;
+        margin-top: 1.2em;
+        text-indent: 2px;
+        }
     body #container{
-        width: 26em;
         margin-left: 1px;
         
     }
     #container .corpo2022{
-        width: 25.3em;
+       
         border: none;
         display: inline-block;
         margin-left: 8px;
@@ -340,13 +344,15 @@ Grandes telas: acima d 1200px
     }
     #container .corpo2022 #tpd2022{
         font-size: 1em;
-        width: 23em;
+        margin: auto;
+        margin-left: 0.1em;
+        width: 17.5em;
         list-style: none;
     }
 
     #container .corpo2022 #licoes2022{
         margin: 1px;
-        width: 26em;
+        width: 19em;
         border: none;
         display: inline-block;
         flex-flow: row wrap;
@@ -362,7 +368,7 @@ Grandes telas: acima d 1200px
 
     #container .corpo2022 #licoes2022 .tema2022{
         padding: 1px;
-        width: 12em;
+        width: 8em;
         height: 35vh;
         margin: auto;
         display: inline-block;
@@ -370,18 +376,17 @@ Grandes telas: acima d 1200px
     #container .corpo2022 #licoes2022 .img{
         margin-top: 2px;
         margin-left: 2px;
-        width: 11.8em;
-        height: 7em;
+        width: 8em;
+        height: 5em;
        
     }
 /*--------------2023----------------------*/
     body #container2023{
-        width: 26em;
         margin-left: 1px;
     }
 
     #container2023 .corpo2023{
-        width: 25.3em;
+    
         border: none;
         display: inline-block;
         margin-left: 8px;
@@ -390,12 +395,13 @@ Grandes telas: acima d 1200px
     }
     #container2023 .corpo2023 #tpd2023{
         font-size: 1em;
-        width: 23em;
+        width: 17.5em;
         list-style: none;
     }
     #container2023 .corpo2023 #licoes2023{
         margin: 1px;
-        width: 26em;
+        width: 19em;
+        height: a;
         border: none;
         display: inline-block;
         flex-flow: row wrap;
@@ -409,8 +415,8 @@ Grandes telas: acima d 1200px
         padding-top: 1px;
     }
     #container2023 .corpo2023 #licoes2023 .tema2023{
-        padding: 1px;
-        width: 12em;
+       padding: 1px;
+        width: 8em;
         height: 35vh;
         margin: auto;
         display: inline-block;
@@ -419,16 +425,16 @@ Grandes telas: acima d 1200px
     #container2023 .corpo2023 #licoes2023 .img{
         margin-top: 2px;
         margin-left: 2px;
-        width: 11.8em;
-        height: 7em;
+        width: 8em;
+        height: 5em;
        
     }
     /*--------------------estudos---------------*/
     #lateral #estudos{
-        width: 36em;
+        width: 25em;
         height: auto;
         margin-top: 0;
-        margin-left: 2px;
+        margin-left: 5em;
         font-size: 12px;
     }
     #lateral #estudos #tt-est{
@@ -482,7 +488,7 @@ Grandes telas: acima d 1200px
     #videos h4{
         margin-top: 1px;
         margin-left: 2px;
-        width: 99%;
+ 
         border-radius: 3px;
     }
      #videos iframe{
@@ -497,7 +503,7 @@ Grandes telas: acima d 1200px
         margin: auto;
         margin-top: 0.1em;
         margin-left: 4px;
-        width: 26em;
+        width: 18.5em;
     }
     #temas-video-aulas ol{
         font-size: 12px;
@@ -510,9 +516,9 @@ Grandes telas: acima d 1200px
     /*----------------noticias-----------------*/
     #noticias{
         display: block;
-        margin-left: 0px;
-        margin-top: 28em;
-        width: 27em;
+        margin-left: 0em;
+        margin-top: 33.4em;
+        width: 18.7em;
         height: auto;
         border: none;
     }
@@ -536,7 +542,7 @@ Grandes telas: acima d 1200px
         height: auto;
     }
     footer{
-        width: 26.8em;
+        width: 18.5em;
     }
     footer #retornar{
         display: none;
