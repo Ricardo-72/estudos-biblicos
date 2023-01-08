@@ -352,6 +352,9 @@ Grandes telas: acima d 1200px
 }
 /*-------------------------375 a 667 pxs----------------------------------------*/
 @media screen and (min-width: 320px) and (max-width: 678px) {
+    body{
+        overflow-x: hidden;
+    }
 
     label[for="btn_menu"]{
         display: block;
@@ -393,7 +396,7 @@ Grandes telas: acima d 1200px
         width: 21.5em;
         
     }
-    /*linha marrrom*/
+    
     #container .corpo2022{
         border: none;
         display: inline-block;
@@ -409,7 +412,7 @@ Grandes telas: acima d 1200px
         width: 19.8em;
         list-style: none;
     }
-/*linha amarela*/
+
     #container .corpo2022 #licoes2022{
         margin: 1px;
         width: 21em;
@@ -500,21 +503,23 @@ Grandes telas: acima d 1200px
     }
     /*--------------------estudos---------------*/
     #lateral #estudos{
-        width: 28.5em;
+        width: 27.5em;
         height: auto;
         margin-top: 0.2em;
         margin-right: 10px;
-        margin-left: 0px;
+        margin-left: -1px;
         font-size: 12px;
         }
     #lateral #estudos #tt-est{
-        margin-top: 0;
+        display: none;
+        margin-top: 5px;
         font-size: 15px;
-        width: 90%;
+        width: 99%;
+        border:  solid 2px var(--cor10);
     }
     #lateral #estudos .est-lat{
-        width: 95%;
-        margin-left: 0.2em;
+        width: 99%;
+        
     }
     #lateral #estudos .titulo-lateral{
         color: var(--cor0);
@@ -617,7 +622,7 @@ Grandes telas: acima d 1200px
     }
     footer{
         margin-top: 250px;
-        width: 21em;
+        width: 21.6em;
     }
     footer #retornar{
         display: none;
