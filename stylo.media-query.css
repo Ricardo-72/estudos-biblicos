@@ -507,15 +507,15 @@ Grandes telas: acima d 1200px
         height: auto;
         margin-top: 0.2em;
         margin-right: 10px;
-        margin-left: -1px;
+        margin-left: 15px;
         font-size: 12px;
         }
+    
     #lateral #estudos #tt-est{
-        display: none;
+        display:flex;
         margin-top: 5px;
         font-size: 15px;
         width: 99%;
-        border:  solid 2px var(--cor10);
     }
     #lateral #estudos .est-lat{
         width: 99%;
@@ -553,7 +553,7 @@ Grandes telas: acima d 1200px
     
     #videos{
         margin-top: 3px;
-        margin-left: 1px;
+        margin-left: 15px;
         width: 350px;
         height: 250px;
     }
