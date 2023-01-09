@@ -83,7 +83,7 @@ body #container{
     display: flex;
     margin: auto;
     width: 165%;
-    border: solid var(--cor8);
+
 
 }
 
@@ -141,6 +141,7 @@ body #container{
 /*--------------temas 2023--------------------------------*/
 
 body #container2023{
+    margin: auto;
     margin-top: 5px;
     margin-left: 20px;
     width: 97%;
@@ -171,7 +172,7 @@ body #container2023{
     display: flex;
     margin: auto;
     width: 165%;
-    border: solid var(--cor8);
+
 
 }
 
@@ -222,11 +223,11 @@ body #container2023{
 #lateral #videos{
     display: block;
     border-radius: 2px;
-    width: 29%;
+    width: 15vw;
     height: 40vh;
     text-indent: 5px;
     margin-top: 2px;
-    margin-left: 22px;
+    margin-left: 1px;
  }
  #videos #tituloOn{
     background: linear-gradient(90deg, var(--cor5) 0%, var(--cor2) 35%, var(--cor7) 100%);
@@ -242,7 +243,7 @@ body #container2023{
     width: 29vw;
     height: 37vh;
     margin: auto;
-    margin-left: 10px;
+    margin-left: 1px;
  }
 
 
@@ -286,6 +287,11 @@ body #container2023{
 }
 
 /*------------------------estudos--------------------------------*/
+#lateral{
+    margin: auto;
+    width: 81.9em;
+    height: 50em;
+}
 #lateral #estudos #tt-est{
     margin-top: 190px;
     margin-left: 5px;
@@ -334,10 +340,10 @@ body #container2023{
 
 #noticias{
     display: flex;
-    margin-top: 0.8em;
-    margin-right: 0.2em;
+    margin-top: -13.8em;
+    margin-right: 1.5em;
     float: right;
-    width: 68.4%;
+    width: 66.2%;
     border: solid 2px var(--cor1);
 
 }

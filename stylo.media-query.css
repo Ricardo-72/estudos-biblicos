@@ -52,7 +52,8 @@ Desktop: 768 até 1200px;
 Grandes telas: acima d 1200px  
 */
 /*-----------375 a 667 pxs----------------------*/
-@media screen and (min-width: 320px) and (max-width: 678px) {
+    
+@media screen and (min-width: 320px) and (max-width: 768px) {
     body{
         overflow-x: hidden;
     }
@@ -68,23 +69,21 @@ Grandes telas: acima d 1200px
      display: block;
  }
     #titulo{
-        width: auto;
+        width: 9em;
         height: 1em;
     }
     #titulo #logo2{
         margin: auto;
         margin-top: -55px;
-        margin-left: 140px;
+        margin-left: 130px;
         width: 16w;
         height: 10vh;
     }
-
-    
     #titulo #titulo-pg{
         margin-top: 10px;
         margin-bottom: 3px;
-        margin-left: -195px;
-        margin-right: 50px;
+        margin-left: -150px;
+        margin-right: 65px;
         font-family: var(--font-cabecalho);
         font-size: 0.7em;
 
@@ -103,7 +102,7 @@ Grandes telas: acima d 1200px
     .menu ul{
         width: 100%;
         margin-left: -155%;
-        display: block;
+        display: none;
         position: relative;
         padding: 0;
         margin-left: 0px;
@@ -114,7 +113,7 @@ Grandes telas: acima d 1200px
         float: none;
     }
     .menu ul ul {
-        display: block;
+        display: none;
         width: 100%;
         position:   static;
         overflow: hidden;
@@ -124,7 +123,7 @@ Grandes telas: acima d 1200px
     }
     #titulo .social-menu ul{
         float: left;
-        margin-top: -55px;
+        margin-top: -10px;
         width: 50%;
         padding: 0px;
         margin-left: -5px;
@@ -255,6 +254,7 @@ Grandes telas: acima d 1200px
         font-size: 0.5em;
     }
     /*--------------------estudos---------------*/
+
     #lateral #estudos{
         width: 27.5em;
         height: auto;
@@ -345,10 +345,9 @@ Grandes telas: acima d 1200px
     
     #noticias{
         display: block;
-        margin-top: 630px;
-        margin-right: 19px;
-        margin-left: 1px;
-        width: 20.7em;
+        margin: 3px;
+        margin-top: -170px;
+        width: 21.9em;
         height: auto;
         border: none;
     }
@@ -375,7 +374,7 @@ Grandes telas: acima d 1200px
         height: auto;
     }
     footer{
-        margin-top: 250px;
+        margin-top: 2px;
         width: 21.6em;
     }
     footer #retornar{
@@ -402,5 +401,386 @@ Grandes telas: acima d 1200px
         width: auto;
         margin: 2rem;
         padding: -2px;
+    }
 }
+
+@media screen and (min-width: 768px) and (max-width: 900px) {
+
+    #titulo{
+        display: flex;
+    }
+    #titulo .social-menu ul li {
+        margin: 2px;
+        text-indent: 3px;
+        }
+    #titulo .social-menu li a{
+        margin-left: 0em;
+        margin-top: 5.3em;
+        text-indent: 3px;
+        }
+    .menu{
+        margin: auto;
+        display: flex;
+        width: 100%;
+        height: 50px;
+        background-color: var(--cor7);
+        font-family: var(--fonte-cabecalho);
+        text-shadow: 1px 2px 0px var(--cor9);
+        font-weight: bold;
+        border-radius: 5px;
+    }
+    .menu ul{
+        margin: auto;
+        margin-left: 30px;
+        display: flex;
+        width: 100%;
+        position: relative;
+        list-style: none;
+        
+    }
+    menu ul li{
+        margin: auto;
+        width: 100%;
+        padding: 1px;
+        text-align: center;
+    }
+    .menu ul li a{
+        width: 100%;
+        font-size: 1rem;
+        padding: 1px;
+        display: block;
+        text-decoration: none;
+        text-align: center;
+        background-color: var(--cor4);
+        color: var(--cor0);
+        font-style: italic;
+    }
+    .menu ul ul{
+        margin-left: -25px;
+        width: 20%;
+        display: block;
+        position: absolute;
+        visibility: hidden;
+    }
+    .menu ul li:hover ul{
+        visibility: visible;
+        color: var(--cor6);
+    }
+    .menu a:hover{
+        width: 100%;
+        background-color: var(--cor2);
+        color: var(--cor0);
+    
+        border-radius: 3px;
+        transition: all 1s;
+    }
+    .menu ul li ul{
+        float: none;
+        border-bottom: solid 1px var(--cor1);
+        color: var(--cor9);
+        
+    }
+    .menu ul ul li a{
+        color: var(--cor9);
+        border: solid 1px var(--cor4);
+        font-size: 1.1rem;
+        width: 80%;
+        margin: 2px;
+        background: var(--cor3);
+        
+    }
+    
+    .menu ul li ul li:hover{
+        width: 100%;
+        border: solid 1px var(--cor0);
+        border-radius: 5px;
+        font-size: 25px;
+    }
+    /*--------corpo------------*/
+    body #container{
+        margin:auto;
+        width: 42em;
+        
+    }
+    #container .corpo2022{
+        border: none;
+        display: inline-block;
+        width: 46em;
+        margin-left: 1px;
+
+     
+        
+    }
+    #container .corpo2022 #tpd2022{
+        font-size: 1.5em;
+        margin: auto;
+        margin-left: 0.1em;
+        width: 27.1em;
+        list-style: none;
+    }
+
+    #container .corpo2022 #licoes2022{
+        margin: 1px;
+        width: 41.9em;
+        height: auto;
+        display: inline-block;
+        flex-flow: row wrap;
+        border: none;
+      
+      
+    }
+    #container .corpo2022 #licoes2022 .tema2022 .tt-cl{
+        font-size: 0.8em;
+        width: 97%;
+        height: 3vh;
+        padding-top: 1px;
+    }
+
+    #container .corpo2022 #licoes2022 .tema2022{
+        margin: auto;
+        margin-bottom: 2px;
+        width: 13.5em;
+        height: 13em;
+        display: inline-block;
+    }
+    #container .corpo2022 #licoes2022 .img{
+        margin-top: 2px;
+        margin-left: 2px;
+        width: 12.9em;
+        height: 7em;
+       
+    }
+    #container .corpo2022 #licoes2022 .tema2022 ul li{
+        font-size: 0.5em;
+    }
+    body #container2023{
+        margin: auto;
+        width: 42em;
+    }
+
+    #container2023 .corpo2023{
+        border: none;
+        display: inline-block;
+        width: 40em;
+        margin-left: 1px;
+        
+    }
+    #container2023 .corpo2023 #tpd2023{
+        font-size: 1.5em;
+        margin: auto;
+        margin-left: 0.1em;
+        width: 27.8em;
+        list-style: none;
+    }
+    #container2023 .corpo2023 #licoes2023{
+        margin: 1px;
+        width: 41.9em;
+        height: auto;
+        display: inline-block;
+        flex-flow: row wrap;
+        border: none;
+    }
+    #container2023 .corpo2023 #licoes2023 .tema2023 .tt-cl2023{
+        font-size: 0.8em;
+        width: 12em;
+        height: 3vh;
+        padding-top: 1px;
+    }
+    #container2023 .corpo2023 #licoes2023 .tema2023{
+        margin: auto;
+        margin-bottom: 2px;
+        width: 13.5em;
+        height: 13em;
+        display: inline-block;
+
+    }
+    #container2023 .corpo2023 #licoes2023 .img{
+        margin-top: 2px;
+        margin-left: 2px;
+        width: 13.2em;
+        height: 7em;
+       
+    }
+    #container2023 .corpo2023 #licoes2023 .tema2023 ul li{
+        font-size: 0.5em;
+    }
+    /*--------------------estudos---------------*/
+    #lateral{
+        height: 40em;
+        width: 42.2em;
+        margin: auto;
+    }
+    #lateral #estudos{
+        width: 29.5em;
+        height: auto;
+        margin-top: 0.2em;
+        margin-left: 5px;
+        font-size: 12px;
+        }
+    
+    #lateral #estudos #tt-est{
+        display:flexe;
+        margin-top: 2px;
+        font-size: 15px;
+        width: 95.8%;
+    }
+    #lateral #estudos .est-lat{
+        width: 99%;
+        
+    }
+    #lateral #estudos .titulo-lateral{
+        color: var(--cor0);
+        font-family: var(--fonte-padrao);
+        font-weight: bold;
+        font-size: 12px;
+        width: 98%;
+        list-style: none;
+        background: linear-gradient(45deg, var(--cor3) 10%, var(--cor9));
+        text-indent: 8px;
+        text-align: center;
+        margin-left: 5px;
+        margin-bottom: 2px;
+        border-radius: 2px;
+    }
+    #lateral #estudos ul li a{
+        font-size: 12px;
+        margin-left: 5px;
+    }
+    #estudos #biblioteca{
+        width: 99%;
+        height: auto;
+    }
+    #lateral #estudos ul li a:hover{
+        background-color: var(--cor1);
+        font-size: 12px;
+        color: var(--cor12);
+        font-style: italic;
+    }
+    /*-------------------videos--------------------*/
+    
+    #videos{
+        margin-top: 3px;
+        margin-left: 1px;
+        width: 330px;
+        height: 250px;
+    }
+    #videos #tituloOn{
+        font-size: 15px;
+        width: 20em;
+        list-style: none;
+        margin-top: 1px;
+        margin-left: -12px;
+        border-radius: 3px;
+    }
+    #titulo-tematicos{
+        width: 19.8em;
+        margin: auto;
+
+    }
+     #videos iframe{
+        margin-top: 5px;
+        margin-left: -20px;
+        display: block;
+       width: 315px;
+        height: 213px;
+
+     }
+    #temas-video-aulas{
+        margin: auto;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        margin-left: -25px;
+        width: 20em;
+    }
+    #temas-video-aulas ol{
+        font-size: 12px;
+        margin-left: 3px;
+    
+    }
+    #temas-video-aulas ol li a{
+        font-size: 12px;
+    }
+    /*----------------noticias-----------------*/
+    #informacao{
+        width: 22em;
+        height: 20em;
+        margin: auto;
+        margin-left: 22.5em;
+        margin-top: -13.9em;
+    }
+    #noticias{
+        display: block;
+       margin: auto;
+        width: 21.7em;
+        height: auto;
+    }
+    #noticias #cultos{
+        margin-top: 2px;
+        width: 21.7;
+        height: auto;
+    }
+    #noticias #cultos ul li{
+        margin-top: 2px;
+    }
+    #noticias #eventos{
+        margin-top: 2px;
+        width: 921.7;
+        height: auto;
+    }
+    #noticias ul li{
+        font-size: 12px;
+        width: 96%;
+    }
+    #noticias #localizacao{
+        margin-top: 2px;
+        width: 96%;
+        height: auto;
+    }
+    footer{
+        margin-top: 1px;
+        width: 46.8em;
+        height: 1em;
+        border: none;
+    }
+    footer #retornar{
+        display: inline;
+        margin-top: 15em;
+        margin-left: -90px;
+        margin-right: 15px;
+        width: 30em;
+        font-size: 8px;
+    }
+    .menu{
+        display: flex;
+    }
+    #menu-opcoes{
+        margin-top: 1.5em;
+        display: flex;
+    }
+    .menu ul li{
+        font-style: italic;
+    }
+    .menu ul li ul li{
+        display: block;
+        font-style: italic;
+        font-style: normal;
+        width: 100%;
+        text-decoration: none;
+    }
+    #logo-rodape{
+        margin-top: 1em;
+    }
+    .social ul{
+        display: flex;
+        width: auto;
+        margin-top: 2rem;
+        padding: -1px;
+    }
+    #rodape{
+        display: inline;
+        margin-top: 1px;
+        margin-left: 15px;
+        width: 30em;
+        font-size: 8px;
+    }
 }
