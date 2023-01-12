@@ -52,6 +52,7 @@ body {
     color: var(--cor0);
     min-width: 300px;
     max-width: 790vh;
+    height: 220vh;
    
 }
 body #container{
@@ -175,7 +176,6 @@ body #container2023{
 
 
 }
-
 #tpd2023{
     font-size: 1.8rem;
     margin: 3px 3px;
@@ -219,7 +219,6 @@ body #container2023{
     width: auto;
  }
 /*-----------------------------------video----------------------------------------------------*/
-
 #lateral #videos{
     display: block;
     border-radius: 2px;
@@ -264,7 +263,6 @@ body #container2023{
     font-style: italic;
     font-size: 1rem;
     text-align: center;
-    border: solid 2px var(--cor2);
  }
 #temas-video-aulas ol li{
     list-style-position: inside;
@@ -340,11 +338,12 @@ body #container2023{
 
 #noticias{
     display: flex;
-    margin-top: -13.8em;
-    margin-right: 1.5em;
+    margin-top: 310px;
+    margin-left: 50px;
+    margin-right: 0.5em;
     float: right;
-    width: 66.2%;
-    border: solid 2px var(--cor1);
+    width: 68%;
+    border: solid 2px var(--cor2);
 
 }
 #noticias #cultos {
