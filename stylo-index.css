@@ -43,19 +43,26 @@
 }
 
 *{
-    margin: 0px;
-    padding: 0px;
+        margin:0;
+        padding:0;
+        border:0;
 }
+html, body {
+    margin: 0px !important;
+    padding: 0px !important;
+  }
 body {
-    background-color: var(--cor4);
+    width: 99%;
+    background-color: var(--cor1);
     font-family: var(--fonte-padrao);
     color: var(--cor0);
-    min-width: 300px;
-    max-width: 790vh;
-    height: 220vh;
    
 }
-body #container{
+#titulo{
+    width: 90%;
+}
+#container{
+    margin: auto;
     margin-top: 5px;
     margin-left: 20px;
     width: 97%;
@@ -65,12 +72,15 @@ body #container{
     font-family: var(--fonte-texto-novo);
     border: solid 3px var(--cor2);
     border-radius: 5px;
+    background: var(--cor19);
+    padding: 0px;
 }
 .corpo2022{
     margin: 3px;
     width: 60%;
     height: 50%;
     display: block;
+    padding: 0%;
 }
 .corpo2022 ul li a:hover{
     font-size: 15px;
@@ -83,7 +93,8 @@ body #container{
 #licoes2022{
     display: flex;
     margin: auto;
-    width: 165%;
+    width: 99%;
+    padding: 0%;
 
 
 }
@@ -93,7 +104,7 @@ body #container{
     margin: 3px 3px;
     text-align: center;
     background-color: var(--cor2);
-    padding: 1px;
+    padding: 0px;
     border-radius: 0.3rem;
     width: 165.2%;
     font-style: italic;
@@ -123,6 +134,7 @@ body #container{
     margin: 3px 5px;
     width: 190px;
     height: 115px;
+    padding: 0%;
 }
 .tema2022 ul li {
     list-style-type: '\2714\00a0\00a0';
@@ -135,7 +147,7 @@ body #container{
     text-decoration: none;
 }
 .tt-cl{
-    padding-top: 5px;
+    padding-top: 0px;
     background: linear-gradient(90deg, var(--cor5) 0%, var(--cor2) 35%, var(--cor7) 100%);
     width: auto;
  }
@@ -153,7 +165,7 @@ body #container2023{
     border: solid 3px var(--cor2);
     border-radius: 5px;
     background: var(--cor19);
-}
+    padding: 0px;}
 #container2023 .corpo2023{
     margin: 3px;
     width: 60%;
@@ -172,16 +184,14 @@ body #container2023{
 #container2023 #licoes2023{
     display: flex;
     margin: auto;
-    width: 165%;
-
-
+    width: 99%;
 }
 #tpd2023{
     font-size: 1.8rem;
     margin: 3px 3px;
     text-align: center;
     background-color: var(--cor10);
-    padding: 1px;
+    padding: 0px;
     border-radius: 0.3rem;
     width: 165.2%;      
     font-style: italic;
@@ -214,11 +224,11 @@ body #container2023{
     text-decoration: none;
 }
 .tema2023 .tt-cl2023{
-    padding-top: 5px;
+    padding-top: 0px;
     background: linear-gradient(90deg, var(--cor10) 0%, var(--cor11) 35%, var(--cor10) 100%);
     width: auto;
  }
-/*-----------------------------------video----------------------------------------------------*/
+/*-----------video--------------------*/
 #lateral #videos{
     display: block;
     border-radius: 2px;
@@ -256,7 +266,7 @@ body #container2023{
 }
 
 #titulo-tematicos{
-    padding-top: 5px;
+    padding-top: 0px;
     background: linear-gradient(90deg, var(--cor5) 0%, var(--cor2) 35%, var(--cor7) 100%);
     text-shadow: 1px 1px 3px var(--cor9), 0 0 25px var(--cor1), 0 0 5px var(--cor8);
     width: 99%;
@@ -302,7 +312,7 @@ body #container2023{
 }
 #lateral #estudos{
     float: right;
-    margin-top: -183px;
+    margin-top: 3px;
     margin-right: 0px;
     width: 69%;
     height: 47vh;
@@ -394,4 +404,22 @@ body #container2023{
     text-align: right;
     background: linear-gradient(90deg, var(--cor5) 0%, var(--cor2) 35%, var(--cor7) 100%);
 }
+footer{
+    width: 99%;
+    border: solid 2px var(--cor11);
+    margin: auto;
+}
+footer .social{
+    margin: auto;
+   margin-top: -50px;
+   margin-left: 10px;
+   display: flex;
+  
+}
 
+.social a{
+    font-size: 10px;
+    width: 5vw;
+    margin-left: 5px;
+
+}
