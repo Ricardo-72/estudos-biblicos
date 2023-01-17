@@ -65,7 +65,7 @@ body {
     margin: auto;
     margin-top: 5px;
     margin-left: 20px;
-    width: 97%;
+    width: 99%;
     height: auto;
     display: block;
     color: var(--cor0);
@@ -77,7 +77,7 @@ body {
 }
 .corpo2022{
     margin: 3px;
-    width: 60%;
+    width: 99%;
     height: 50%;
     display: block;
     padding: 0%;
@@ -105,8 +105,8 @@ body {
     text-align: center;
     background-color: var(--cor2);
     padding: 0px;
-    border-radius: 0.3rem;
-    width: 165.2%;
+    border-radius: 3px;
+    width: 99%;
     font-style: italic;
     background: linear-gradient(90deg, var(--cor5) 0%, var(--cor2) 35%, var(--cor7) 100%);
     text-shadow: 1px 1px 3px var(--cor9), 0 0 25px var(--cor1), 0 0 5px var(--cor8);
@@ -115,7 +115,7 @@ body {
    display: block;
    margin: 0.1rem;
    border-radius: 2px;
-   width: 35%;
+   width: 99%;
    height: 15rem;
    padding: 0px;
    text-indent: 5px;
@@ -228,80 +228,15 @@ body #container2023{
     background: linear-gradient(90deg, var(--cor10) 0%, var(--cor11) 35%, var(--cor10) 100%);
     width: auto;
  }
-/*-----------video--------------------*/
-#lateral #videos{
-    display: block;
-    border-radius: 2px;
-    width: 15vw;
-    height: 40vh;
-    text-indent: 5px;
-    margin-top: 2px;
-    margin-left: 1px;
- }
- #videos #tituloOn{
-    background: linear-gradient(90deg, var(--cor5) 0%, var(--cor2) 35%, var(--cor7) 100%);
-    text-shadow: 1px 1px 3px var(--cor9), 0 0 25px var(--cor1), 0 0 5px var(--cor8);
-    width: 29.8%;
-    height: 20px;
-    font-style: italic;
-    margin-top: 5px;
-    margin-left: 12px;
-    border-radius: 5px;
- }
-#videos  iframe{
-    width: 29vw;
-    height: 37vh;
-    margin: auto;
-    margin-left: 1px;
- }
 
-
-#temas-video-aulas{
-    margin-top: 0.1em;
-    margin-left: 2px;
-    width: 25em;
-    height: 18em;
-    font-style: italic;
-    border-radius: 3px;
-}
-
-#titulo-tematicos{
-    padding-top: 0px;
-    background: linear-gradient(90deg, var(--cor5) 0%, var(--cor2) 35%, var(--cor7) 100%);
-    text-shadow: 1px 1px 3px var(--cor9), 0 0 25px var(--cor1), 0 0 5px var(--cor8);
-    width: 99%;
-    font-style: italic;
-    font-size: 1rem;
-    text-align: center;
- }
-#temas-video-aulas ol li{
-    list-style-position: inside;
-    margin: 3px 2px;
-    border: solid 2px var(--cor2);
-}
-#temas-video-aulas ol li a {
-    color: var(--cor0);
-    text-decoration: none;
-    font-size: 0.9rem;
-    margin: auto;
-}
-#temas-video-aulas ol li a:hover{
-    font-size: 15px;
-    cursor: pointer;
-    background: var(--cor1);
-    color: var(--cor9);
-    border-radius: 3px;
-    transition: all 1s;
-}
-
-/*------------------------estudos--------------------------------*/
+ /*------------------------estudos--------------------------------*/
 #lateral{
     margin: auto;
-    width: 81.9em;
-    height: 50em;
+    width: 95%;
+    height: auto;
 }
 #lateral #estudos #tt-est{
-    margin-top: 190px;
+    margin-top: 1px;
     margin-left: 5px;
     margin-bottom: 2px;
     background: linear-gradient(90deg, var(--cor5) 0%, var(--cor2) 35%, var(--cor7) 95%);
@@ -343,13 +278,68 @@ body #container2023{
     text-align: center;
     font-style: italic;
 }
+/*-----------video--------------------*/
+#lateral #videos{
+    display: block;
+    border-radius: 5px;
+    width: 75vw;
+    height: 40vh;
+    text-indent: 5px;
+    margin-top: 2px;
+    margin-left: 1px;
+ }
+
+#lateral #videos  iframe{
+    width: 92vw;
+    height: 37vh;
+    margin: auto;
+    margin-left: 1px;
+ }
+
+
+#temas-video-aulas{
+    margin: auto;
+    width: 100%;
+    height: 18em;
+    font-style: italic;
+    border-radius: 3px;
+}
+
+#titulo-tematicos{
+    padding-top: 0px;
+    background: linear-gradient(90deg, var(--cor5) 0%, var(--cor2) 35%, var(--cor7) 100%);
+    text-shadow: 1px 1px 3px var(--cor9), 0 0 25px var(--cor1), 0 0 5px var(--cor8);
+    width: 99%;
+    font-style: italic;
+    font-size: 1rem;
+    text-align: center;
+ }
+#temas-video-aulas ol li{
+    list-style-position: inside;
+    margin: 3px 2px;
+    border: solid 2px var(--cor2);
+}
+#temas-video-aulas ol li a {
+    color: var(--cor0);
+    text-decoration: none;
+    font-size: 0.9rem;
+    margin: auto;
+}
+#temas-video-aulas ol li a:hover{
+    font-size: 15px;
+    cursor: pointer;
+    background: var(--cor1);
+    color: var(--cor9);
+    border-radius: 3px;
+    transition: all 1s;
+}
 
 /*----------------------------Lateral-------------------------------------*/
 
 #noticias{
     display: flex;
-    margin-top: 310px;
-    margin-left: 50px;
+    margin-top: 10px;
+    margin-left: 2px;
     margin-right: 0.5em;
     float: right;
     width: 68%;
@@ -411,7 +401,7 @@ footer{
 }
 footer .social{
     margin: auto;
-   margin-top: -50px;
+   margin-top: 2px;
    margin-left: 10px;
    display: flex;
   
