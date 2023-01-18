@@ -373,15 +373,15 @@ Grandes telas: acima d 1200px
 }
 @media screen and (min-width: 568px) and (max-width: 769px) {
     html{
-        width: 90%;
+        width: 99%;
         margin: auto;
-        padding: 2px;
+        padding: 0px;
     }
     body{
-        background-color: #facad8;
+        background-color: hsl(120, 29%, 20%);
         margin: auto;
-        width: 98%;
-        padding: 2px;
+        width: 99%;
+        padding: 0px;
     }
     #titulo{
         display: flex;
@@ -392,17 +392,18 @@ Grandes telas: acima d 1200px
     
         }
     #titulo .social-menu li a{
-        margin-left: -2em;
-        margin-top: 4em;
-        text-indent: 3px;
-        width: 4em;
+        margin: auto;
+        margin-top: 182px;
+        padding: 15px;
+        text-indent: 5px;
+        width: 100%;
         background-repeat: no-repeat;
         }
     .menu{
         margin: auto;
         margin-top: 30px;
         display: flex;
-        width: 100%;
+        width: 99%;
         height: 50px;
         background-color: var(--cor7);
         font-family: var(--fonte-cabecalho);
@@ -412,7 +413,6 @@ Grandes telas: acima d 1200px
     }
     .menu ul{
         margin: auto;
-        margin-left: 7px;
         display: flex;
         width: 99%;
         position: relative;
@@ -437,7 +437,7 @@ Grandes telas: acima d 1200px
         font-style: italic;
     }
     .menu ul ul{
-        margin-left: -25px;
+        margin-left: -2px;
         width: 20%;
         display: block;
         position: absolute;
@@ -445,7 +445,7 @@ Grandes telas: acima d 1200px
     }
     .menu ul li:hover ul{
         visibility: visible;
-        color: var(--cor6);
+        color: var(--cor2);
     }
     .menu a:hover{
         width: 100%;
@@ -473,36 +473,36 @@ Grandes telas: acima d 1200px
         width: 100%;
         border: solid 1px var(--cor0);
         border-radius: 5px;
-        font-size: 25px;
+        font-size: 15px;
     }
     /*--------corpo------------*/
-    body #container{
-        margin:auto;
-        width: 42em;
+    #container{
+        margin: auto;
+        width: 90%;
+        height: auto;
+        padding: 10px;
     }
     #container .corpo2022{
         border: none;
         display: inline-block;
-        width: 46em;
-        margin-left: 1px;  
+        width: 98%;
+        margin: auto;
+      
     }
     #container .corpo2022 #tpd2022{
         font-size: 1.5em;
         margin: auto;
-        margin-left: 0.1em;
-        width: 27.1em;
+        width: 95%;
         list-style: none;
     }
     #container .corpo2022 #licoes2022{
-        margin: 1px;
-        width: 41.9em;
+        margin: auto;
+        width: 99%;
         height: auto;
-        display: inline-block;
-        flex-flow: row wrap;
-        border: none; 
+        display: inline-block; 
     }
     #container .corpo2022 #licoes2022 .tema2022 .tt-cl{
-        font-size: 0.8em;
+        font-size: 0.7em;
         width: 97%;
         height: 3vh;
         padding-top: 1px;
@@ -510,84 +510,77 @@ Grandes telas: acima d 1200px
     #container .corpo2022 #licoes2022 .tema2022{
         margin: auto;
         margin-bottom: 2px;
-        width: 13.5em;
-        height: 13em;
+        width: 30%;
+        height: auto;
         display: inline-block;
     }
     #container .corpo2022 #licoes2022 .img{
         margin-top: 2px;
         margin-left: 2px;
-        width: 12.9em;
+        width: 99%;
         height: 7em;  
     }
     #container .corpo2022 #licoes2022 .tema2022 ul li{
         font-size: 0.5em;
     }
-    body #container2023{
-        margin: auto;
-        width: 42em;
-    }
-    #container2023 .corpo2023{
+    #container .corpo2023{
         border: none;
         display: inline-block;
-        width: 40em;
+        width: 99%;
         margin-left: 1px;   
     }
-    #container2023 .corpo2023 #tpd2023{
+    #container .corpo2023 #tpd2023{
         font-size: 1.5em;
         margin: auto;
         margin-left: 0.1em;
-        width: 27.8em;
+        width: 99%;
         list-style: none;
     }
-    #container2023 .corpo2023 #licoes2023{
-        margin: 1px;
-        width: 41.9em;
+    #container .corpo2023 #licoes2023{
+        margin: auto;
+        width: 99%;
         height: auto;
         display: inline-block;
-        flex-flow: row wrap;
-        border: none;
     }
-    #container2023 .corpo2023 #licoes2023 .tema2023 .tt-cl2023{
+    #container.corpo2023 #licoes2023 .tema2023 .tt-cl2023{
         font-size: 0.8em;
-        width: 12em;
+        width: 98%;
         height: 3vh;
         padding-top: 1px;
     }
-    #container2023 .corpo2023 #licoes2023 .tema2023{
+    #container .corpo2023 #licoes2023 .tema2023{
         margin: auto;
         margin-bottom: 2px;
-        width: 13.5em;
-        height: 13em;
+        width: 30%;
+        height: auto;
         display: inline-block;
     }
-    #container2023 .corpo2023 #licoes2023 .img{
+    #container .corpo2023 #licoes2023 .img{
         margin-top: 2px;
         margin-left: 2px;
-        width: 13.2em;
-        height: 7em;
+        width: 99%;
+        height: 7em;  
     }
-    #container2023 .corpo2023 #licoes2023 .tema2023 ul li{
+    #container.corpo2023 #licoes2023 .tema2023 ul li{
         font-size: 0.5em;
     }
     /*--------------------estudos---------------*/
     #lateral{
-        width: 42.2em;
-        height: 40em;
+        width: 95%;
+        height: auto;
         margin: auto;
     }
     #lateral #estudos{
-        width: 30.9em;
+        width: 99%;
         height: auto;
-        margin-top: 0.2em;
-        margin-left: 5px;
+        margin: auto;
         font-size: 12px;
         }
     #lateral #estudos #tt-est{
         display:flexe;
         margin-top: 2px;
         font-size: 15px;
-        width: 95.8%;
+        width: 95%;
     }
     #lateral #estudos .est-lat{
         width: 99%;
@@ -602,8 +595,7 @@ Grandes telas: acima d 1200px
         background: linear-gradient(45deg, var(--cor3) 10%, var(--cor9));
         text-indent: 8px;
         text-align: center;
-        margin-left: 5px;
-        margin-bottom: 2px;
+        margin: auto;
         border-radius: 2px;
     }
     #lateral #estudos ul li a{
@@ -623,36 +615,23 @@ Grandes telas: acima d 1200px
     /*-------------------videos--------------------*/
     
     #videos{
-        margin-top: 3px;
-        margin-left: 1px;
-        width: 330px;
-        height: 250px;
+        width: 98%;
+        height: auto;
 
     }
-    #videos #tituloOn{
-        font-size: 15px;
-        width: 20em;
-        list-style: none;
-        margin-top: 1px;
-        margin-left: 0px;
-        border-radius: 3px;
-    }
+
     #titulo-tematicos{
-        width: 15.8em;
+        width: 95%;
         margin: auto;
     }
      #videos iframe{
-        margin-top: 5px;
-        margin-left: 0px;
-        display: block;
-       width: 299px;
-        height: 213px;
+        margin: auto;
+        width: 95%;
+        height: auto;
      }
     #temas-video-aulas{
         margin: auto;
-        margin-top: 5px;
-        margin-bottom: 5px;
-        width: 19em;
+        width: 99%;
     }
     #temas-video-aulas ol{
         font-size: 12px;
@@ -662,18 +641,10 @@ Grandes telas: acima d 1200px
         font-size: 12px;
     }
     /*----------------noticias-----------------*/
-    #informacao{
-       width: 70%;
-        height: 22em;
-        margin: auto;
-        margin-top: -300px;
-        margin-left: 200px;
- 
-    }
     #noticias{
         display: block;
         margin: auto;
-        width: 76%;
+        width: 99%;
         height: auto;
       
     }
@@ -700,9 +671,8 @@ Grandes telas: acima d 1200px
         height: auto;
     }
     footer{
-        margin-top: 1px;
         width: 99%;
-        height: 1em;
+        height: auto;
         border: none;
     }
     footer #retornar{
@@ -734,8 +704,8 @@ Grandes telas: acima d 1200px
     .social ul{
         display: flex;
         width: auto;
-        margin-top: 2rem;
-        padding: -1px;
+
+        padding: 1px;
     }
     #rodape{
         display: inline;
