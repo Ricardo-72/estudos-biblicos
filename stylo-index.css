@@ -53,19 +53,23 @@ html, body {
   }
 body {
     width: 99%;
-    background-color: var(--cor1);
+    background-color: var(--cor3);
     font-family: var(--fonte-padrao);
-    color: var(--cor0);
-   
+    color: var(--cor5);
+    margin: auto;
 }
 #titulo{
-    width: 90%;
+    width: 99%;
+    display: inline-flex;
+    margin: auto;
+    justify-content: center;
+}
+#titulo-pg{
+    display: flex;
 }
 #container{
     margin: auto;
-    margin-top: 5px;
-    margin-left: 20px;
-    width: 99%;
+    width: 95%;
     height: auto;
     display: block;
     color: var(--cor0);
@@ -80,14 +84,14 @@ body {
     width: 99%;
     height: 50%;
     display: block;
-    padding: 0%;
+    padding: 0px;
 }
 .corpo2022 ul li a:hover{
     font-size: 15px;
     cursor: pointer;
     background: var(--cor1);
     color: var(--cor9);
-    border-radius: 3px;
+    border-radius: 5px;
     transition: all 1s;
 }
 #licoes2022{
@@ -95,17 +99,14 @@ body {
     margin: auto;
     width: 99%;
     padding: 0%;
-
-
 }
-
 .corpo2022  #tpd2022{
     font-size: 1.8rem;
     margin: 3px 3px;
     text-align: center;
     background-color: var(--cor2);
     padding: 0px;
-    border-radius: 3px;
+    border-radius: 5px;
     width: 99%;
     font-style: italic;
     background: linear-gradient(90deg, var(--cor5) 0%, var(--cor2) 35%, var(--cor7) 100%);
@@ -113,7 +114,7 @@ body {
 }
 .tema2022{
    display: block;
-   margin: 0.1rem;
+   margin: auto;
    border-radius: 2px;
    width: 99%;
    height: 15rem;
@@ -127,13 +128,13 @@ body {
     height: 1.5rem;
     font-style: italic;
     text-align: center;
-    border-radius: 2px;
+    border-radius: 5px;
     margin-left: 1px; 
 }
 .tema2022 img{
-    margin: 3px 5px;
-    width: 190px;
-    height: 115px;
+    margin: auto;
+    width: 99%;
+    height: auto;
     padding: 0%;
 }
 .tema2022 ul li {
@@ -143,35 +144,21 @@ body {
 .tema2022 ul li a{
     font-size: 12px;
     color: var(--cor0);
-    margin: 0;
+    margin: auto;
     text-decoration: none;
 }
 .tt-cl{
-    padding-top: 0px;
+    padding: 0px;
     background: linear-gradient(90deg, var(--cor5) 0%, var(--cor2) 35%, var(--cor7) 100%);
-    width: auto;
+    width: 99%;
  }
 /*--------------temas 2023--------------------------------*/
-
-body #container2023{
-    margin: auto;
-    margin-top: 5px;
-    margin-left: 20px;
-    width: 97%;
-    height: auto;
-    display: block;
-    color: var(--cor0);
-    font-family: var(--fonte-texto-novo);
-    border: solid 3px var(--cor2);
-    border-radius: 5px;
-    background: var(--cor19);
-    padding: 0px;}
-#container2023 .corpo2023{
+.corpo2023{
     margin: 3px;
-    width: 60%;
+    width: 99%;
     height: 50%;
     display: block;
-    background: var(--cor19);
+    padding: 0px;
 }
 .corpo2023 ul li a:hover{
     font-size: 15px;
@@ -181,7 +168,7 @@ body #container2023{
     border-radius: 3px;
     transition: all 1s;
 }
-#container2023 #licoes2023{
+#container #licoes2023{
     display: flex;
     margin: auto;
     width: 99%;
@@ -193,7 +180,7 @@ body #container2023{
     background-color: var(--cor10);
     padding: 0px;
     border-radius: 0.3rem;
-    width: 165.2%;      
+    width: 99%;      
     font-style: italic;
     background: linear-gradient(90deg, var(--cor11) 0%, var(--cor10) 35%, var(--cor11) 100%);
     text-shadow: 1px 1px 3px var(--cor12), 0 0 25px var(--cor12), 0 0 5px var(--cor12);
@@ -210,7 +197,7 @@ body #container2023{
 }
 .corpo2023 .tema2023 .img{
     margin: 3px 5px;
-    width: 190px;
+    width: 99%;
     height: 115px;
 }
 .tema2023 ul li {
@@ -231,25 +218,30 @@ body #container2023{
 
  /*------------------------estudos--------------------------------*/
 #lateral{
-    margin: auto;
-    width: 95%;
-    height: auto;
+    margin: 0;
+    margin-right: 30px;
+    margin-bottom: 18px;
+    width: 54.4%;
+    height: 100vh;
+    float: right;
+
 }
 #lateral #estudos #tt-est{
     margin-top: 1px;
-    margin-left: 5px;
+
+    margin-left: 1px;
     margin-bottom: 2px;
     background: linear-gradient(90deg, var(--cor5) 0%, var(--cor2) 35%, var(--cor7) 95%);
     text-align: center;
     font-style: italic;
-    border-radius: 3px;
-    width: 98%;
+    border-radius: 5px;
+    width: 95%;
 }
 #lateral #estudos{
     float: right;
     margin-top: 3px;
     margin-right: 0px;
-    width: 69%;
+    width: 100%;
     height: 47vh;
     
 }
@@ -259,11 +251,30 @@ body #container2023{
 #lateral #estudos ul li{
     list-style-type: '\2714\00a0\00a0';
     list-style-position: inside;
+    color: var(--cor0);
 }
 #lateral #estudos ul li a{
     color: var(--cor0);
     text-decoration: none;
     font-size: 0.8rem;
+}
+#lateral #estudos ul li a:hover{
+    color: var(--cor9);
+    background-color: var(--cor2);
+    text-decoration: none;
+    font-size: 0.9rem;
+    border-radius: 3px;
+    transition: all 1s;
+}
+#lateral #estudos ul li:hover{
+    list-style-type: '\27F6\00a0\00a0';
+    list-style-position: inside;
+    color: var(--cor9);
+    transition: all 2s;
+    font-size: 1em;
+    font-weight: bold;
+    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    font-style: italic;
 }
 #lateral .est-lat {
     width: 99%;
@@ -279,32 +290,30 @@ body #container2023{
     font-style: italic;
 }
 /*-----------video--------------------*/
-#lateral #videos{
-    display: block;
-    border-radius: 5px;
-    width: 75vw;
-    height: 40vh;
-    text-indent: 5px;
-    margin-top: 2px;
-    margin-left: 1px;
+#temas-videos iframe{
+    margin-top: 1px;
+   width: 26vw;
+   height: 33.7vh;
  }
 
-#lateral #videos  iframe{
-    width: 92vw;
-    height: 37vh;
-    margin: auto;
-    margin-left: 1px;
+ #temas-videos{
+    width: 39vw;
+    height: 69vh;
+    margin-left: 30px;
+    margin-right: 0px;
+    float: left;
+
+
  }
-
-
 #temas-video-aulas{
-    margin: auto;
-    width: 100%;
-    height: 18em;
+    margin-top: 5px;
+    margin-left: 1px;
+    width: 99%;
+    height: 66.8vh;
     font-style: italic;
-    border-radius: 3px;
+    border-radius: 5px;
+    float: left;
 }
-
 #titulo-tematicos{
     padding-top: 0px;
     background: linear-gradient(90deg, var(--cor5) 0%, var(--cor2) 35%, var(--cor7) 100%);
@@ -334,16 +343,17 @@ body #container2023{
     transition: all 1s;
 }
 
-/*----------------------------Lateral-------------------------------------*/
+/*------------------Lateral---------------------------*/
 
 #noticias{
     display: flex;
-    margin-top: 10px;
-    margin-left: 2px;
-    margin-right: 0.5em;
-    float: right;
-    width: 68%;
-    border: solid 2px var(--cor2);
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    width: 95%;
+    border: solid 2px var(--cor9);
+    border-radius: 5px;
+    color: var(--cor0);
 
 }
 #noticias #cultos {
@@ -395,21 +405,17 @@ body #container2023{
     background: linear-gradient(90deg, var(--cor5) 0%, var(--cor2) 35%, var(--cor7) 100%);
 }
 footer{
-    width: 99%;
-    border: solid 2px var(--cor11);
+    width: 100%;
     margin: auto;
 }
 footer .social{
     margin: auto;
-   margin-top: 2px;
-   margin-left: 10px;
+   margin-top: 1px;
+   margin-left: 1px;
    display: flex;
-  
 }
-
 .social a{
     font-size: 10px;
-    width: 5vw;
-    margin-left: 5px;
-
+    width: 10%;
+    margin-left: 0px;
 }
