@@ -55,13 +55,12 @@ Grandes telas: acima d 1200px
     
 @media screen and (min-width: 320px) and (max-width: 568px) {
     html{
-        width: 99%;
+   
         height: auto;
         margin: auto;
         padding: 2px;
     }
     body{
-        width: 99%;
         height: auto;
         background-color: #545818;
         margin: auto;
@@ -79,20 +78,28 @@ Grandes telas: acima d 1200px
      display: block;
  }
     #titulo{
-        width: 99%;
-        height: 1em;
+        width: 98%;
+        height: 35vh;
         margin: auto;
     }
-    #titulo #logo2{
+    #logo2{
         margin-top: -60px;
-        margin-left: 5px;
+        margin-left: 125px;
+        margin-bottom: 2px;
         width: 16vw;
         height: 10vh;
+
     }
     #titulo-pg{
         font-family: var(--font-cabecalho);
         font-size: 0.4em;
+        width: 90%;
+    }
+    #tt-pg{
+        font-size: 0.6em;
         width: 99%;
+        height: 15vh;
+        margin-top: 1px;
     }
     .menu{
         margin-top: 1px;
@@ -122,12 +129,19 @@ Grandes telas: acima d 1200px
         max-height: 0px;
         transition: all .4s;
     }
+    #titulo h1{
+        width: 90%;
+        margin-left: -200px;
+        margin-right: 30px;
+
+    }
     #titulo .social-menu ul{
         float: left;
-        margin-top: -15px;
+        margin-top: 3px;
         width: 60%;
-        padding: 0px;
-        margin-left: -7px;
+        height: 10vh;
+        margin-top: -50px;
+        margin-left: -90px;
         display: flex;
     }
     .menu ul li:hover ul{
@@ -147,12 +161,13 @@ Grandes telas: acima d 1200px
         /*linha verde*/
     #container{
         margin: auto;
-        width: 98%;
+        margin-top: -189px;
+        width: 99%;
     }
     #container .corpo2022{
         margin: auto;
         display: inline-block;
-        width: 100%;
+        width: 97%;
         padding: 10px;
     }
     #container .corpo2022 #tpd2022{
@@ -233,26 +248,29 @@ Grandes telas: acima d 1200px
     /*--------------------estudos---------------*/
     #lateral{
         margin: auto;
-        padding: 2px;
-        width: 99%;
-        height: 65vh;
-        border: solid 2px var(--cor2);
+        width: 100%;
+        height: 73vh;
+        border: none;
     }
     #lateral #estudos{
-        width: 99%;
-        height: auto;
-        margin-top: 1px;
-        font-size: 12px;
+        width: 100%;
+        height: 35vh;
+        font-size: 10px;
+        border: none;
+        margin-left: 2px;
+        margin-right: 2px;
+        margin-bottom: 1px;
         }
     #lateral #estudos .est-lat{
         width: 99%;
+        margin: auto;
     }
     #lateral #estudos .titulo-lateral{
         color: var(--cor0);
         font-family: var(--fonte-padrao);
         font-weight: bold;
         font-size: 12px;
-        width: 99%;
+        width: 95%;
         list-style: none;
         background: linear-gradient(45deg, var(--cor3) 10%, var(--cor9));
         text-align: center;
@@ -261,8 +279,11 @@ Grandes telas: acima d 1200px
         font-size: 12px;
         margin-left: 2px;
     }
+    #lateral #estudos ul li{
+        margin-left: 5px;
+    }
     #estudos #biblioteca{
-        width: 99%;
+        width: 95%;
         height: auto;
     }
     #lateral #estudos ul li a:hover{
@@ -272,25 +293,29 @@ Grandes telas: acima d 1200px
         font-style: italic;
     }
     /*-------------------videos--------------------*/
-    #videos{
-        margin: auto;   
-        padding: 3px; 
+    #temas-videos{
+        margin: auto; 
+        margin-top: 1px;  
+        padding: 1px; 
         width: 99%;
+        height: 90vh;
     }
-     #videos iframe{
+    #titulo-tematicos{
+        width: 95%;
         margin: auto;
-        display: block;
-       width: 340px;
-        height: 213px;
+    }
+    #temas-videos iframe{
+        margin-left: 10px;
+       width: 89vw;
+        height: 35.8vh;
      }
     #temas-video-aulas{
-      margin: auto;
-        width: 99%;
+        width: 98%;
         height: auto;
     }
     #temas-video-aulas ol{
         font-size: 12px;
-        margin-left: 3px;
+        margin-left: 1px;
     }
     #temas-video-aulas ol li a{
         font-size: 12px;
@@ -298,9 +323,8 @@ Grandes telas: acima d 1200px
     /*----------------noticias-----------------*/
     #noticias{
         display: block;
-       margin: auto;
         width: 99%;
-        height: auto;
+        height: 15vh;
         border-radius: 5px;
     }
     #noticias #cultos{
@@ -326,11 +350,13 @@ Grandes telas: acima d 1200px
         height: auto;
     }
     footer{
-        margin-top: 1px;
+        margin-top: 10px;
         width: 99%;
     }
-    footer #retornar{
+    #retornar{
         display: block;
+        font-size: 0.7em;
+        float: right;
     }
     .menu{
         display: flex;
@@ -366,7 +392,7 @@ Grandes telas: acima d 1200px
         width: 100%;
     }
     body{
-        background-color: hsl(120, 29%, 20%);
+        background-color: hsl(120, 6%, 48%);
         margin: auto;
         padding: 0px;
         width: 100%;
@@ -381,7 +407,7 @@ Grandes telas: acima d 1200px
         }
     #titulo .social-menu li a{
         margin: auto;
-        margin-top: 100px;
+        margin-top: 63px;
         padding: 15px;
         text-indent: 5px;
         width: 100%;
@@ -405,7 +431,6 @@ Grandes telas: acima d 1200px
         width: 99%;
         position: relative;
         list-style: none;
-        
     }
     menu ul li{
         margin: auto;
@@ -465,7 +490,7 @@ Grandes telas: acima d 1200px
     /*--------corpo------------*/
     #container{
         margin: auto;
-        width: 100%;
+        width: 95%;
         height: auto;
         padding: 10px;
     }
@@ -473,7 +498,6 @@ Grandes telas: acima d 1200px
         display: inline-block;
         width: 100%;
         margin: auto;
-      
     }
     #container .corpo2022 #tpd2022{
         font-size: 1.5em;
@@ -558,12 +582,11 @@ Grandes telas: acima d 1200px
     #lateral #estudos{
         width: 99%;
         height: auto;
-        margin: auto;
         font-size: 12px;
         }
     #lateral #estudos #tt-est{
         display:flexe;
-        margin-top: 2px;
+        margin:auto;
         font-size: 15px;
         width: 95%;
     }
@@ -575,7 +598,7 @@ Grandes telas: acima d 1200px
         font-family: var(--fonte-padrao);
         font-weight: bold;
         font-size: 12px;
-        width: 98%;
+        width: 95%;
         list-style: none;
         background: linear-gradient(45deg, var(--cor3) 10%, var(--cor9));
         text-indent: 8px;
@@ -598,23 +621,22 @@ Grandes telas: acima d 1200px
         font-style: italic;
     }
     /*-------------------videos--------------------*/
-    
-    #videos{
-        width: 100%;
-        height: auto;
+    #temas-videos{
+        width: 95%;
+        height: 95vh;
     }
     #titulo-tematicos{
         width: 95%;
         margin: auto;
-    }
-     #videos iframe{
         margin: auto;
-        width: 90%;
-        height: 40vh;
+    }
+    #temas-videos iframe{
+        width: 60%;
+        height: 34vh;
      }
     #temas-video-aulas{
         margin: auto;
-        width: 99%;
+        width: 95%;
     }
     #temas-video-aulas ol{
         font-size: 12px;
