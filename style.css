@@ -44,7 +44,7 @@
 body{
     width: 100vw;
     height: 100vh;
-    background-color: var(--cor4);
+    background-color: var(--cor8);
     color: var(--cor0);
 }
 main{

@@ -54,16 +54,11 @@ Grandes telas: acima d 1200px
 /*-----------375 a 667 pxs----------------------*/
     
 @media screen and (min-width: 320px) and (max-width: 568px) {
-    html{
-   
-        height: auto;
-        margin: auto;
-        padding: 2px;
-    }
     body{
-        height: auto;
         background-color: #545818;
         margin: auto;
+        width: 99%;
+        height: 420vh;
         padding: 2px;
     }
     label[for="btn_menu"]{
@@ -100,6 +95,7 @@ Grandes telas: acima d 1200px
         width: 99%;
         height: 15vh;
         margin-top: 1px;
+
     }
     .menu{
         margin-top: 1px;
@@ -109,6 +105,8 @@ Grandes telas: acima d 1200px
         transition: all .4s;
         position: relative;
         border-bottom: solid 1px var(--cor1);
+        margin-top: 1px;
+
     }
     .menu ul{
         display: none;
@@ -118,22 +116,24 @@ Grandes telas: acima d 1200px
         float: left;
     }
     .menu ul li{
-     
         float: none;
     }
     .menu ul ul {
         display: none;
-        width: 50%;
-        position:   static;
-        overflow: hidden;
+        width: 100%;
+        position: static;
+        width: 100%;
         max-height: 0px;
         transition: all .4s;
+        border: solid 2px var(--cor8);
+    }
+    nav ul li{
+        width: 100%;
     }
     #titulo h1{
         width: 90%;
-        margin-left: -200px;
+        margin-left: -180px;
         margin-right: 30px;
-
     }
     #titulo .social-menu ul{
         float: left;
@@ -145,8 +145,10 @@ Grandes telas: acima d 1200px
         display: flex;
     }
     .menu ul li:hover ul{
+        width: 100%;
         height: auto;
         max-height: 200px;
+        background-color: var(--cor3);
     }
     #titulo .social-menu ul li {
         margin: 2px;
@@ -158,17 +160,19 @@ Grandes telas: acima d 1200px
         text-indent: 3px;
         }
 
-        /*linha verde*/
     #container{
         margin: auto;
-        margin-top: -189px;
-        width: 99%;
+        margin-top: -270px;
+        display: inline-block;
+        width: 96%;
+        height: 350vh;
+        padding: 5px;
     }
     #container .corpo2022{
         margin: auto;
         display: inline-block;
-        width: 97%;
-        padding: 10px;
+        width: 100%;
+        padding: 5px;
     }
     #container .corpo2022 #tpd2022{
         font-size: 1em;
@@ -184,7 +188,7 @@ Grandes telas: acima d 1200px
     }
     #container .corpo2022 #licoes2022 .tema2022 .tt-cl{
         font-size: 0.8em;
-        width: 97%;
+        width: 99%;
         height: 3vh;
         padding-top: 1px;
     }
@@ -207,25 +211,26 @@ Grandes telas: acima d 1200px
 /*--------------2023----------------------*/
     #container .corpo2023{
         margin: auto;
+        margin-top: -570px;
         display: inline-block;
         width: 100%;
-        padding: 10px;
+        padding: 5px;
     }
     #container .corpo2023 #tpd2023{
         font-size: 1em;
         padding: 5px;
-        width: 90%;
+        width: 87%;
     }
     #container .corpo2023 #licoes2023{
         margin: 1px;
-        width: 100%;
+        width: 99%;
         height: auto;
         display: inline-block;
         border: none
     }
     #container .corpo2023 #licoes2023 .tema2023 .tt-cl2023{
         font-size: 0.8em;
-        width: 100%;
+        width: 99%;
         height: 3vh;
         padding-top: 1px;
     }
@@ -247,32 +252,30 @@ Grandes telas: acima d 1200px
     }
     /*--------------------estudos---------------*/
     #lateral{
+        background-color: var();
         margin: auto;
+        margin-top: -560px;
         width: 100%;
-        height: 73vh;
-        border: none;
+        height: 65vh;
+        background: linear-gradient(45deg, var(--cor3) 10%, var(--cor9));
     }
     #lateral #estudos{
         width: 100%;
-        height: 35vh;
+        height: 35.8vh;
         font-size: 10px;
-        border: none;
-        margin-left: 2px;
-        margin-right: 2px;
-        margin-bottom: 1px;
+        margin: auto;
         }
     #lateral #estudos .est-lat{
-        width: 99%;
-        margin: auto;
+        width: 98%;
+        margin: 2px 5px;
     }
     #lateral #estudos .titulo-lateral{
         color: var(--cor0);
         font-family: var(--fonte-padrao);
         font-weight: bold;
         font-size: 12px;
-        width: 95%;
+        width: 99%;
         list-style: none;
-        background: linear-gradient(45deg, var(--cor3) 10%, var(--cor9));
         text-align: center;
     }
     #lateral #estudos ul li a{
@@ -294,24 +297,28 @@ Grandes telas: acima d 1200px
     }
     /*-------------------videos--------------------*/
     #temas-videos{
-        margin: auto; 
-        margin-top: 1px;  
+        margin: 5px; 
         padding: 1px; 
         width: 99%;
-        height: 90vh;
+        height: 98vh;
+        border: solid 2px var(--cor8);
+        margin-bottom: 25px;
     }
     #titulo-tematicos{
-        width: 95%;
-        margin: auto;
+        width: 99%;
+        height: 3vh;
+        margin-top: 2px;
+        border: solid 2px var(--cor8);
     }
     #temas-videos iframe{
-        margin-left: 10px;
-       width: 89vw;
-        height: 35.8vh;
+        margin-left: 65px;
+       width: 70vw;
+        height: 34.9vh;
+        border: solid 2px var(--cor8);
      }
     #temas-video-aulas{
-        width: 98%;
-        height: auto;
+        width: 99%;
+        height: 59vh;
     }
     #temas-video-aulas ol{
         font-size: 12px;
@@ -323,13 +330,16 @@ Grandes telas: acima d 1200px
     /*----------------noticias-----------------*/
     #noticias{
         display: block;
-        width: 99%;
-        height: 15vh;
+        margin-top: 2px;
+        margin-bottom: 1px;
+        width: 100%;
+        height: 30vh;
         border-radius: 5px;
+
     }
     #noticias #cultos{
         margin-top: 2px;
-        width: 96%;
+        width: 99%;
         height: auto;
     }
     #noticias #cultos ul li{
@@ -337,21 +347,21 @@ Grandes telas: acima d 1200px
     }
     #noticias #eventos{
         margin-top: 2px;
-        width: 96%;
+        width: 99%;
         height: auto;
     }
     #noticias ul li{
         font-size: 12px;
-        width: 96%;
+        width: 99%;
     }
     #noticias #localizacao{
         margin-top: 2px;
-        width: 96%;
+        width: 99%;
         height: auto;
     }
     footer{
-        margin-top: 10px;
-        width: 99%;
+        margin-top: 120px;
+        width: 100%;
     }
     #retornar{
         display: block;
@@ -451,12 +461,13 @@ Grandes telas: acima d 1200px
     }
     .menu ul ul{
         margin-left: 2px;
-        width: 20%;
+        width: 70%;
         display: block;
         position: absolute;
         visibility: hidden;
     }
     .menu ul li:hover ul{
+        width: 100%;
         visibility: visible;
         color: var(--cor2);
     }
@@ -534,7 +545,6 @@ Grandes telas: acima d 1200px
         font-size: 0.5em;
     }
     #container .corpo2023{
-        border: none;
         display: inline-block;
         width: 99%;
         margin-left: 1px;   
@@ -578,6 +588,7 @@ Grandes telas: acima d 1200px
         width: 95%;
         height: auto;
         margin: auto;
+        display: none;
     }
     #lateral #estudos{
         width: 99%;
@@ -622,6 +633,7 @@ Grandes telas: acima d 1200px
     }
     /*-------------------videos--------------------*/
     #temas-videos{
+        margin: auto;
         width: 95%;
         height: 95vh;
     }
@@ -633,6 +645,7 @@ Grandes telas: acima d 1200px
     #temas-videos iframe{
         width: 60%;
         height: 34vh;
+        border: solid 2px var(--cor8)
      }
     #temas-video-aulas{
         margin: auto;
@@ -647,10 +660,10 @@ Grandes telas: acima d 1200px
     }
     /*----------------noticias-----------------*/
     #noticias{
-        display: block;
         margin: auto;
-        width: 99%;
-        height: auto;
+        width: 93%;
+        height: 55vh;
+        border: solid 2px var(--cor8);
     }
     #noticias #cultos{
         margin: auto;
@@ -693,7 +706,7 @@ Grandes telas: acima d 1200px
         font-size: 0.9em;
         padding: 1px;
         height: 25px;
-        margin-top: -5px;
+        margin-top: 2px;
     }
     .menu ul li{
         font-style: italic;
@@ -707,12 +720,12 @@ Grandes telas: acima d 1200px
     }
     #retornar {
         font-size: 10px;
-        margin-left: 400px;
+        margin-left: 390px;
     }
     #logo-rodape{
         margin: auto;
-        margin-top: -15px;
-        margin-left: -19px;
+        margin-top: -10px;
+        margin-left: -35px;
     }
     .social ul{
         display: flex;
@@ -740,10 +753,10 @@ Grandes telas: acima d 1200px
         padding: 2px;
     }
     body{
-        background-color: #b1b3f1;
+        background-color: #767ae4;
         margin: auto;
-        width: 98%;
-        padding: 2px;
+        width: 99%;
+        padding: 1px;
     }
     #titulo{
         display: flex;
@@ -751,7 +764,7 @@ Grandes telas: acima d 1200px
     }
     #titulo .social-menu ul li {
        width: 100%;
-    
+
         }
     #titulo .social-menu li a{
         margin-top: 5.3em;
@@ -834,100 +847,18 @@ Grandes telas: acima d 1200px
         font-size: 25px;
     }
     /*--------corpo------------*/
-    body #container{
+    #container{
         margin:auto;
-        width: 42em;
+        width: 95%;
+        border: solid 2px var(--cor8);
     }
-    #container .corpo2022{
-        border: none;
-        display: inline-block;
-        width: 90%;
-        margin-left: 1px;
+    .corpo2022, .corpo2023{
+    border: solid 2px var(--cor8);
     }
-    #container .corpo2022 #tpd2022{
-        font-size: 1.5em;
-        margin: auto;
-        margin-left: 0.1em;
-        width: 27.1em;
-        list-style: none;
-    }
-    #container .corpo2022 #licoes2022{
-        margin: 1px;
-        width: 41.9em;
-        height: auto;
-        display: inline-block;
-        flex-flow: row wrap;
-        border: none;
-    }
-    #container .corpo2022 #licoes2022 .tema2022 .tt-cl{
-        font-size: 0.8em;
-        width: 97%;
-        height: 3vh;
-        padding-top: 1px;
-    }
-    #container .corpo2022 #licoes2022 .tema2022{
-        margin: auto;
-        margin-bottom: 2px;
-        width: 13.5em;
-        height: 13em;
-        display: inline-block;
-    }
-    #container .corpo2022 #licoes2022 .img{
-        margin-top: 2px;
-        margin-left: 2px;
-        width: 12.9em;
-        height: 7em;
-    }
-    #container .corpo2022 #licoes2022 .tema2022 ul li{
-        font-size: 0.5em;
-    }
-    body #container2023{
-        margin: auto;
-        width: 42em;
-    }
-    #container2023 .corpo2023{
-        border: none;
-        display: inline-block;
-        width: 40em;
-        margin-left: 1px;
-    }
-    #container2023 .corpo2023 #tpd2023{
-        font-size: 1.5em;
-        margin: auto;
-        margin-left: 0.1em;
-        width: 27.8em;
-        list-style: none;
-    }
-    #container2023 .corpo2023 #licoes2023{
-        margin: 1px;
-        width: 41.9em;
-        height: auto;
-        display: inline-block;
-        flex-flow: row wrap;
-        border: none;
-    }
-    #container2023 .corpo2023 #licoes2023 .tema2023 .tt-cl2023{
-        font-size: 0.8em;
-        width: 12em;
-        height: 3vh;
-        padding-top: 1px;
-    }
-    #container2023 .corpo2023 #licoes2023 .tema2023{
-        margin: auto;
-        margin-bottom: 2px;
-        width: 13.5em;
-        height: 13em;
-        display: inline-block;
-    }
-    #container2023 .corpo2023 #licoes2023 .img{
-        margin-top: 2px;
-        margin-left: 2px;
-        width: 13.2em;
-        height: 7em;
-    }
-    #container2023 .corpo2023 #licoes2023 .tema2023 ul li{
-        font-size: 0.5em;
-    }
+    .tema2023 .img{
+        width: 50px;
+        border: solid 2px var(--cor8);
+        }
     /*--------------------estudos---------------*/
     #lateral{
         height: auto;
@@ -978,36 +909,35 @@ Grandes telas: acima d 1200px
     /*-------------------videos--------------------*/
     
     #videos{
-        margin-top: 3px;
+        margin-top: 5px;
         margin-left: 1px;
-        width: 330px;
-        height: 250px;
+        width: 99%;
+        height: 40%;
     }
     #videos #tituloOn{
         font-size: 15px;
-        width: 20em;
+        width: 99%;
         list-style: none;
         margin-top: 1px;
-        margin-left: -12px;
+        margin-left: 2px;
         border-radius: 3px;
     }
     #titulo-tematicos{
-        width: 19.8em;
+        width: 95%;
         margin: auto;
     }
      #videos iframe{
         margin-top: 5px;
-        margin-left: -20px;
+        margin-left: 2px;
         display: block;
-       width: 315px;
+       width: 350px;
         height: 213px;
      }
     #temas-video-aulas{
-        margin: auto;
         margin-top: 5px;
         margin-bottom: 5px;
-        margin-left: -25px;
-        width: 20em;
+        margin-left: 2px;
+        width: 99%;
     }
     #temas-video-aulas ol{
         font-size: 12px;
@@ -1018,21 +948,19 @@ Grandes telas: acima d 1200px
     }
     /*----------------noticias-----------------*/
     #informacao{
-        width: 22em;
-        height: 20em;
+        width: 99%;
+        height: 20vh;
         margin: auto;
-        margin-left: 22.5em;
-        margin-top: -13.9em;
     }
     #noticias{
         display: block;
        margin: auto;
-        width: 21.7em;
+        width: 99%;
         height: auto;
     }
     #noticias #cultos{
         margin-top: 2px;
-        width: 21.7;
+        width: 99%;
         height: auto;
     }
     #noticias #cultos ul li{
@@ -1040,7 +968,7 @@ Grandes telas: acima d 1200px
     }
     #noticias #eventos{
         margin-top: 2px;
-        width: 921.7;
+        width: 99%;
         height: auto;
     }
     #noticias ul li{
@@ -1049,33 +977,29 @@ Grandes telas: acima d 1200px
     }
     #noticias #localizacao{
         margin-top: 2px;
-        width: 96%;
+        width: 99%;
         height: auto;
     }
     footer{
         margin: auto;
         width: 99%;
-        height: auto;
-        border: none;
+        height: 10vh;
     }
     footer #retornar{
         display: inline;
-        margin-top: 30x;
-        margin-left: -90px;
+        margin-top: 3x;
+        margin-left: 90px;
         margin-right: 15px;
         font-size: 8px;
     }
     .menu{
-    
         display: flex;
     }
     #menu-opcoes{
-    
         display: flex;
     }
     .menu ul li{
         font-style: italic;
-
     }
     .menu ul li ul li{
         display: block;
@@ -1084,20 +1008,20 @@ Grandes telas: acima d 1200px
         width: 100%;
         text-decoration: none;
     }
-    #logo-rodape{
-        margin-top: 1em;
+    .social{
+        margin: auto;
     }
     .social ul{
         display: flex;
         width: auto;
-        margin-top: 2rem;
+        margin-top: 0px;
         padding: 0px;
     }
     #rodape{
         display: inline;
         margin-top: 1px;
         margin-left: 15px;
-        width: 30em;
+        width: 99%;
         font-size: 8px;
     }
 }

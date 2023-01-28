@@ -1,3 +1,14 @@
+<?php
+if(isset($_POST['submit']))
+{
+  print_r($_POST['us_nome']);
+  print_r($_POST['us_sobrenome']);
+  print_r($_POST['us_celular']);
+}
+
+
+?>
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -6,8 +17,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="/img/pngwing.com.png">
     <script type="Text/JavaScript" src=js/script.js></script>
-    <link rel="stylesheet" href="stylo_menu.css">
-    <link rel="stylesheet" href="stylo-cad.css">
+    <link rel="stylesheet" href="stylo_menu.css" media="all">
+    <link rel="stylesheet" href="stylo-cad.css" media="all">
+    <link rel="stylesheet" href="stylo.media-query.css" media="all">
     <title>I.A.D - FAMILIA EBD</title>
 </head>
 <body>
@@ -60,22 +72,22 @@
 
             <div>
                 <label for="us_nome" class="inputNome">Nome:</label>
-                <input type="text" id="inputNome" name="us_nome" required maxlength="500" placeholder="Informe seu Nome">
+                <input type="text" id="inputNome" name="us_nome" required maxlength="90" placeholder="Informe seu Nome">
                 <span></span>
             </div>
             <div>
               <label for="us_sobrenome" class="inputSobreNome">Sobre Nome:</label>
-              <input type="text" id="inputSobreNome" name="us_sobrenome" required maxlength="500" placeholder="Informe seu sobrenome">
+              <input type="text" id="inputSobreNome" name="us_sobrenome" required maxlength="90" placeholder="Informe seu sobrenome">
               <span></span>
             </div>
             <div>
-              <label for="us_fone">Fone:</label>
-              <input type="text" id="fone" name="us_fone" required maxlength="16" placeholder="Digite o número do seu celular">
+              <label for="us_celular">Fone:</label>
+              <input type="text" id="fone" name="us_celular" required maxlength="16" placeholder="Digite o número do seu celular">
               <span></span>
             </div>
             <div>
               <label for="us_email">e-mail:</label>
-              <input type="email" id="inputEmail" name="us_email" required maxlength="150" placeholder="Digite seu e-mail">
+              <input type="email" id="inputEmail" name="us_email" required maxlength="90" placeholder="Digite seu e-mail">
               <span></span>
           </div>
             <label for="us_cargo" class="cargo">Cargo:</label>
@@ -88,7 +100,7 @@
             </div>
             <div>
               <label for="us_senha" class="senha">Senha:</label>
-              <input type="password" id="senha" name="us_senha" placeholder="Mínimo de seis dígitos" required maxlength="8" minlength="6">
+              <input type="password" id="senha" name="us_senha" required maxlength="8" minlength="6" placeholder="Mínimo de seis dígitos" >
               <span></span>
             </div>
             <button id="btn">
