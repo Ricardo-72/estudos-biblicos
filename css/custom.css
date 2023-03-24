@@ -1,0 +1,72 @@
+:root {
+    --cor0: #ebe5c5;
+    --cor1: #83e1ad;
+    --cor2: #3ddc84;
+    --cor3: #2fa865;
+    --cor4: #1a5c37;
+    --cor5: #063d1e;
+    --cor7: #0e2b03;
+    --cor9: #022702;
+    --cor6: #F2181F;
+    --cor8: #E9F500;
+
+    --font-cabecalho: Comic, Sans MS;
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque:'Bebas Neue', cursive;
+    --fonte-android: 'Android', cursive; 
+}
+.card .img-fit{
+    aspect-ratio: 10 / 6;
+    object-fit: cover;
+}
+
+.card {
+    height: 100%;
+}
+
+.card-body{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+}
+
+.card-ol{
+    font-size: 12px;
+    text-decoration: none;
+}
+.card-text{
+    flex-grow: 1;
+}
+.h100{
+    height: 100px;
+}
+.card-img{
+    width: 90px;
+    height: 90px;
+}
+.img{
+  width: 80px;
+    height: 70px;
+}
+.h700{
+    height: 700px;
+}
+.hauto{
+    height: auto;
+}
+.capa{
+    width: 300px;
+    height: 130px;
+}
+.w700{
+    width: 700px;
+}
+.h450{
+    height: 450px;
+}
+@media (max-widht: 767.98) {
+    .card .img-fit{
+        aspect-ratio: 1.45 / 1;
+    }
+    
+}

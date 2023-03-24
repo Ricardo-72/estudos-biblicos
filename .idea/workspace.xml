@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ee308018-a5ab-4fd1-a0f5-5ecd07a65d9d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adolescentes/trimestre3/img/Logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adolescentes/trimestre3/img/Logo2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adolescentes/trimestre3/img/ampulheta.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adolescentes/trimestre3/img/biblia3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adolescentes/trimestre3/img/capa-licao-3-jovens.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adolescentes/trimestre3/img/centro-do-alvo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adolescentes/trimestre3/img/crianças.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adolescentes/trimestre3/img/ebd1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adolescentes/trimestre3/img/facebook.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adolescentes/trimestre3/img/fig-lic-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adolescentes/trimestre3/img/footer-icone-facebook.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adolescentes/trimestre3/img/footer-icone-instagram.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adolescentes/trimestre3/img/footer-icone-youtube.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adolescentes/trimestre3/img/fundo-rodape.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adolescentes/trimestre3/img/googleplus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adolescentes/trimestre3/img/icone-android-logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adolescentes/trimestre3/img/icone-apple-logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adolescentes/trimestre3/img/icone-youtube.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adolescentes/trimestre3/img/lendo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adolescentes/trimestre3/img/logo-cpad.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adolescentes/trimestre3/img/logo-maringa.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adolescentes/trimestre3/img/logo1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adolescentes/trimestre3/img/lupa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adolescentes/trimestre3/img/mulheres.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adolescentes/trimestre3/img/objetivo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adolescentes/trimestre3/img/pergaminho.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adolescentes/trimestre3/img/pngwing.com.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adolescentes/trimestre3/img/twitter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adolescentes/trimestre3/licao 01.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adolescentes/trimestre3/licao-3-tri-adolescentes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adolescentes/trimestre3/plano-de-aula/plano-de-aula-lc3-1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adulto_trimestre3/img/3trim-licao 01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adulto_trimestre3/img/3trim-licao 02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adulto_trimestre3/img/3trim-licao 03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adulto_trimestre3/img/3trim-licao 04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adulto_trimestre3/img/3trim-licao 05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adulto_trimestre3/img/3trim-licao 06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adulto_trimestre3/img/3trim-licao 07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adulto_trimestre3/img/3trim-licao 08.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adulto_trimestre3/img/3trim-licao 09.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adulto_trimestre3/img/3trim-licao 10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adulto_trimestre3/img/3trim-licao 11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adulto_trimestre3/img/3trim-licao 12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adulto_trimestre3/img/3trim-licao 13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adulto_trimestre3/img/Logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adulto_trimestre3/img/Logo2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adulto_trimestre3/img/ampulheta.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adulto_trimestre3/img/biblia3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adulto_trimestre3/img/capa 3 semestre.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adulto_trimestre3/img/capa 3 semestre1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adulto_trimestre3/img/centro-do-alvo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adulto_trimestre3/img/crianças.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adulto_trimestre3/img/ebd1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adulto_trimestre3/img/facebook.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adulto_trimestre3/img/footer-icone-facebook.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adulto_trimestre3/img/footer-icone-instagram.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adulto_trimestre3/img/footer-icone-youtube.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adulto_trimestre3/img/fundo-rodape.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adulto_trimestre3/img/googleplus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adulto_trimestre3/img/icone-android-logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adulto_trimestre3/img/icone-apple-logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adulto_trimestre3/img/icone-youtube.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adulto_trimestre3/img/lendo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adulto_trimestre3/img/logo-maringa.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adulto_trimestre3/img/logo1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adulto_trimestre3/img/lupa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adulto_trimestre3/img/mulheres.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adulto_trimestre3/img/objetivo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adulto_trimestre3/img/pastor1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adulto_trimestre3/img/pergaminho.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adulto_trimestre3/img/pngwing.com.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adulto_trimestre3/img/twitter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adulto_trimestre3/licao-01-as-sutileza-de-satanas-contra-a-igreja-de-cristo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adulto_trimestre3/licao-02-a-sutileza-da-banalizacao-da-graca.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adulto_trimestre3/licao-03-a-sutileza-da-imoralidade-sexual.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adulto_trimestre3/licao-04-a-sutileza-da-normalizacao-do-divorcio.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adulto_trimestre3/licao-05-a-sutileza-do-materialismo-e-do-ateismo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adulto_trimestre3/licao-06-a-sutileza-das-ideologias-contrarias-a-familia.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adulto_trimestre3/licao-07-a-sutileza-da-relativizacao-da-biblia.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adulto_trimestre3/licao-08-a-sutileza-do-enfraquecimento-da-identidade-pentecostal.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adulto_trimestre3/licao-09-a-sutileza-do-movimento-dos-desigrejados.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adulto_trimestre3/licao-10-a-sutileza-contra-a-pratica-da-mordomia-crista.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adulto_trimestre3/licao-11-a-sutileza-das-midias-sociais.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adulto_trimestre3/licao-12-a-sutileza-da-espiritualidade-holistica.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adulto_trimestre3/licao-13-resistindo-as-sutilezas-de-satanas.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adulto_trimestre3/plano-de-aula/ampliando-conhecimento lc3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adulto_trimestre3/plano-de-aula/plano-de-aula-lc3-1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adulto_trimestre3/plano-de-aula/plano-de-aula-lc3-10.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adulto_trimestre3/plano-de-aula/plano-de-aula-lc3-11.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adulto_trimestre3/plano-de-aula/plano-de-aula-lc3-12.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adulto_trimestre3/plano-de-aula/plano-de-aula-lc3-13.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adulto_trimestre3/plano-de-aula/plano-de-aula-lc3-2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adulto_trimestre3/plano-de-aula/plano-de-aula-lc3-3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adulto_trimestre3/plano-de-aula/plano-de-aula-lc3-4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adulto_trimestre3/plano-de-aula/plano-de-aula-lc3-5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adulto_trimestre3/plano-de-aula/plano-de-aula-lc3-6.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adulto_trimestre3/plano-de-aula/plano-de-aula-lc3-7.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adulto_trimestre3/plano-de-aula/plano-de-aula-lc3-8.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adulto_trimestre3/plano-de-aula/plano-de-aula-lc3-9.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adulto_trimestre4/img/4-trim-licao-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adulto_trimestre4/img/4trim-licao-10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adulto_trimestre4/img/4trim-licao-11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adulto_trimestre4/img/4trim-licao-12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adulto_trimestre4/img/4trim-licao-13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adulto_trimestre4/img/4trim-licao-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adulto_trimestre4/img/4trim-licao-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adulto_trimestre4/img/4trim-licao-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adulto_trimestre4/img/4trim-licao-5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adulto_trimestre4/img/4trim-licao-6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adulto_trimestre4/img/4trim-licao-7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adulto_trimestre4/img/4trim-licao-8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adulto_trimestre4/img/4trim-licao-9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adulto_trimestre4/img/Logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adulto_trimestre4/img/Logo2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adulto_trimestre4/img/ampulheta.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adulto_trimestre4/img/biblia3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adulto_trimestre4/img/capa-revista-4-trimestre.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adulto_trimestre4/img/centro-do-alvo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adulto_trimestre4/img/crianças.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adulto_trimestre4/img/ebd1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adulto_trimestre4/img/facebook.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adulto_trimestre4/img/footer-icone-facebook.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adulto_trimestre4/img/footer-icone-instagram.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adulto_trimestre4/img/footer-icone-youtube.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adulto_trimestre4/img/fundo-rodape.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adulto_trimestre4/img/googleplus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adulto_trimestre4/img/icone-android-logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adulto_trimestre4/img/icone-apple-logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adulto_trimestre4/img/icone-youtube.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adulto_trimestre4/img/lendo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adulto_trimestre4/img/logo-maringa.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adulto_trimestre4/img/logo1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adulto_trimestre4/img/lupa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adulto_trimestre4/img/mulheres.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adulto_trimestre4/img/objetivo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adulto_trimestre4/img/pastor1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adulto_trimestre4/img/pergaminho.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adulto_trimestre4/img/pngwing.com.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adulto_trimestre4/img/twitter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adulto_trimestre4/plano-de-aula/plano-de-aula-lc4-1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adulto_trimestre4/plano-de-aula/plano-de-aula-lc4-10.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adulto_trimestre4/plano-de-aula/plano-de-aula-lc4-11.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adulto_trimestre4/plano-de-aula/plano-de-aula-lc4-12.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adulto_trimestre4/plano-de-aula/plano-de-aula-lc4-13.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adulto_trimestre4/plano-de-aula/plano-de-aula-lc4-2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adulto_trimestre4/plano-de-aula/plano-de-aula-lc4-3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adulto_trimestre4/plano-de-aula/plano-de-aula-lc4-4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adulto_trimestre4/plano-de-aula/plano-de-aula-lc4-9.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adulto_trimestre4/plano-de-aula/subsidio-licao-lc4-1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/biblioteca/COMPLETO Adolescentes Professor.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/biblioteca/Juniores-Prof-3⁰Trim-2022.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/biblioteca/Juvenis - Professor.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/biblioteca/REVISTA_JUSTIÇA_DIVINA_PROF_4_TRIMESTRE_CPAD_ADULTOS_2022_OK.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/biblioteca/Revista Adulto-Professor.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cadastro.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/conexao.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Logo2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/ampulheta.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/biblia3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/centro-do-alvo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/ebd1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/facebook.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/fundo-rodape.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/googleplus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/instagram.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/lendo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/logo-maringa.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/logo1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/mulheres.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/objetivo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/pastor1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/pergaminho.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/twitter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/whasApp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index-licao-ad-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/index-licao-ad-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index_infantil.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index_quiz.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/indexteste.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jovens/trimestre3/licao-jovens.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/licao-3-01-as-sutileza-de-satanas-contra-a-igreja-de-cristo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/licao-3-02-a-sutileza-da-banalizacao-da-graca.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/licao-3-03-a-sutileza-da-imoralidade-sexual.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/licao-3-04-a-sutileza-da-normalizacao-do-divorcio.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/licao-3-05-a-sutileza-do-materialismo-e-do-ateismo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/licao-3-06-a-sutileza-das-ideologias-contrarias-a-familia.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/licao-3-07-a-sutileza-da-relativizacao-da-biblia.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/licao-3-08-a-sutileza-do-enfraquecimento-da-identidade-pentecostal.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/licao-3-09-a-sutileza-do-movimento-dos-desigrejados.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/licao-3-10-a-sutileza-contra-a-pratica-da-mordomia-crista.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/licao-3-11-a-sutileza-das-midias-sociais.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/licao-3-12-a-sutileza-da-espiritualidade-holistica.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/licao-3-13-resistindo-as-sutilezas-de-satanas.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/licao-4-01-ezequiel-o-atalaia-de-deus.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/licao-4-02-o-fim-vem.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/licao-4-03-as-abominacoes-do-templo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/licao-4-04-quando-a-gloria-de-deus-se-vai.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/licao-4-05-contra-os-falsos-profetas.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/licao-4-06-a-justica-de-deus.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/licao-4-07-a-responsbilivdade-e-individual.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/licao-4-08-o-bom-pastor-e-os-pastores-infieis.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/licao-4-09-gogue-e-magogue–um-dia-de-juizo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/licao-4-10-a-restauracao-nacional-e-espiritual-de-israel.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/licao-4-11-a-visao-do-templo-e-o-milenio.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/licao-4-12-imersos-no-espírito-nos-ultimos-dias.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/licao-4-13-o-senhor-esta-ali.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/licoes-23/ampl-conh-deus-n-indef.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/licoes-23/ampl-conh-estevao.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/licoes-23/ampl-conh-pent.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/licoes-23/ampl-conhec-batismo ES.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/licoes-23/ampl-conhecimento.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/licoes-23/ampli-conh-dai-nos.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/licoes-23/ampliando-conhecimento-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/licoes-23/capa-2023.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/licoes-23/index-licao-ad-23-1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/licoes-23/licao-1-1-o-avivamento-espiritual.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/licoes-23/licao-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/licoes-23/licao-10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/licoes-23/licao-11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/licoes-23/licao-12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/licoes-23/licao-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/licoes-23/licao-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/licoes-23/licao-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/licoes-23/licao-5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/licoes-23/licao-6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/licoes-23/licao-7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/licoes-23/licao-8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/licoes-23/licao-9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/licoes-23/licoa-13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/licoes-23/plano-de-aula-lc-1-1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/licoes-23/stylo-index-2023.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/licoes-23/stylo_menu-2023.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/licoes-23/video1-2023.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processa.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz-1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz-2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz-2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz-3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz-3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz-4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz-4.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz-5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz-5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz-qst.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz_adulto.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz_obreiros.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style_triMestre.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stylo-cad.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stylo-index-trimestre.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stylo-index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stylo-principal.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stylo.media-query.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stylo_menu.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stylos4trim.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/teste-form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/video1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/video2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/video3.html" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2NTLbi3W9qRbycdSeKRp7SIVngB" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ee308018-a5ab-4fd1-a0f5-5ecd07a65d9d" name="Changes" comment="" />
+      <created>1679683199046</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1679683199046</updated>
+      <workItem from="1679683201306" duration="33000" />
+    </task>
+    <servers />
+  </component>
+</project>

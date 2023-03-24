@@ -5,6 +5,7 @@
             "mysqlOptions": {
                 "authProtocol": "default"
             },
+            "liveServer.settings.port": 5501,
             "previewLimit": 50,
             "server": "localhost",
             "port": 3306,
